@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ModelDownloader.urlSession(_:task:didCompleteWithError:):ModelDownloader.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "modelDownloadTask">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ModelDownloader.start():ModelDownloader.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "requiredDownloads">
+            </PersistentString>
+            <PersistentString
+               value = "textureDownloadTasks">
+            </PersistentString>
+            <PersistentString
+               value = "modelDownloadTask">
+            </PersistentString>
+            <PersistentString
+               value = "textureTaskToTextureName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ModelDownloader.urlSession(_:downloadTask:didFinishDownloadingTo:):ModelDownloader.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "modelDownloadTask">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ModelDownloader.init(model:):ModelDownloader.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "requiredDownloads">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

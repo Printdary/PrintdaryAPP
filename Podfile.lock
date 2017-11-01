@@ -1,0 +1,20 @@
+PODS:
+  - JGProgressHUD (1.4)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SSZipArchive (2.0.1)
+
+DEPENDENCIES:
+  - JGProgressHUD
+  - SDWebImage (~> 4.0)
+  - SSZipArchive
+
+SPEC CHECKSUMS:
+  JGProgressHUD: 1617b0940cf80bb53e8f7d6f0fd69252ea45d6d4
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SSZipArchive: 6678776f378494909195d3f1b3f00d91e76084f9
+
+PODFILE CHECKSUM: 519fbe24c64e404be5c18c83532cc215c7fb69cc
+
+COCOAPODS: 1.2.1

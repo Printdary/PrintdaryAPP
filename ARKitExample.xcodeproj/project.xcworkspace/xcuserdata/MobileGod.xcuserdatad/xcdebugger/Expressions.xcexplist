@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ViewController.virtualObjectSelectionViewController(_:didSelectObjectAt:):ViewController+ObjectSelection.swift">
+      </ContextState>
+      <ContextState
+         contextName = "SearchTableViewController.tableView(_:didSelectRowAt:):SearchTableViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ModelDownloader.start():ModelDownloader.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.requiredDownloads">
+            </PersistentString>
+            <PersistentString
+               value = "model.audioUrl">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.didSelectModel(model:):ViewController+Actions.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ModelDownloader.urlSession(_:downloadTask:didFinishDownloadingTo:):ModelDownloader.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "textureUrl.appendingPathComponent(textureFileName!)">
+            </PersistentString>
+            <PersistentString
+               value = "model.uploadId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VirtualObject.init(url:):VirtualObject.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,146 @@
+Pods/Manifest.lock
+Pods/JGProgressHUD/LICENSE.txt
+Pods/JGProgressHUD/README.md
+Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUD-Defines.h
+Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUD.h
+Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUD.m
+Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDAnimation.h
+Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDAnimation.m
+Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDErrorIndicatorView.h
+Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDErrorIndicatorView.m
+Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDFadeAnimation.h
+Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDFadeAnimation.m
+Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDFadeZoomAnimation.h
+Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDFadeZoomAnimation.m
+Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDImageIndicatorView.h
+Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDImageIndicatorView.m
+Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDIndeterminateIndicatorView.h
+Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDIndeterminateIndicatorView.m
+Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDIndicatorView.h
+Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDIndicatorView.m
+Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDPieIndicatorView.h
+Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDPieIndicatorView.m
+Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDRingIndicatorView.h
+Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDRingIndicatorView.m
+Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDSuccessIndicatorView.h
+Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDSuccessIndicatorView.m
+Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUD Resources.bundle/jg_hud_error.png
+Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUD Resources.bundle/jg_hud_error@2x.png
+Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUD Resources.bundle/jg_hud_error@3x.png
+Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUD Resources.bundle/jg_hud_success.png
+Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUD Resources.bundle/jg_hud_success@2x.png
+Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUD Resources.bundle/jg_hud_success@3x.png
+Pods/Pods.xcodeproj/project.pbxproj
+Pods/Pods.xcodeproj/xcuserdata/MobileGod.xcuserdatad/xcschemes/Pods-ARKitExample.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/MobileGod.xcuserdatad/xcschemes/SSZipArchive.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/MobileGod.xcuserdatad/xcschemes/xcschememanagement.plist
+Pods/Pods.xcodeproj/xcuserdata/Wang.xcuserdatad/xcschemes/JGProgressHUD.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/Wang.xcuserdatad/xcschemes/Pods-ARKitExample.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/Wang.xcuserdatad/xcschemes/SDWebImage.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/Wang.xcuserdatad/xcschemes/SSZipArchive.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/Wang.xcuserdatad/xcschemes/xcschememanagement.plist
+Pods/SDWebImage/LICENSE
+Pods/SDWebImage/README.md
+Pods/SDWebImage/SDWebImage/NSData+ImageContentType.h
+Pods/SDWebImage/SDWebImage/NSData+ImageContentType.m
+Pods/SDWebImage/SDWebImage/NSImage+WebCache.h
+Pods/SDWebImage/SDWebImage/NSImage+WebCache.m
+Pods/SDWebImage/SDWebImage/SDImageCache.h
+Pods/SDWebImage/SDWebImage/SDImageCache.m
+Pods/SDWebImage/SDWebImage/SDImageCacheConfig.h
+Pods/SDWebImage/SDWebImage/SDImageCacheConfig.m
+Pods/SDWebImage/SDWebImage/SDWebImageCompat.h
+Pods/SDWebImage/SDWebImage/SDWebImageCompat.m
+Pods/SDWebImage/SDWebImage/SDWebImageDecoder.h
+Pods/SDWebImage/SDWebImage/SDWebImageDecoder.m
+Pods/SDWebImage/SDWebImage/SDWebImageDownloader.h
+Pods/SDWebImage/SDWebImage/SDWebImageDownloader.m
+Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.h
+Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.m
+Pods/SDWebImage/SDWebImage/SDWebImageManager.h
+Pods/SDWebImage/SDWebImage/SDWebImageManager.m
+Pods/SDWebImage/SDWebImage/SDWebImageOperation.h
+Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.h
+Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.m
+Pods/SDWebImage/SDWebImage/UIButton+WebCache.h
+Pods/SDWebImage/SDWebImage/UIButton+WebCache.m
+Pods/SDWebImage/SDWebImage/UIImage+GIF.h
+Pods/SDWebImage/SDWebImage/UIImage+GIF.m
+Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.h
+Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.m
+Pods/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.h
+Pods/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.m
+Pods/SDWebImage/SDWebImage/UIImageView+WebCache.h
+Pods/SDWebImage/SDWebImage/UIImageView+WebCache.m
+Pods/SDWebImage/SDWebImage/UIView+WebCache.h
+Pods/SDWebImage/SDWebImage/UIView+WebCache.m
+Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.h
+Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.m
+Pods/SSZipArchive/LICENSE.txt
+Pods/SSZipArchive/README.md
+Pods/SSZipArchive/SSZipArchive/SSZipArchive.h
+Pods/SSZipArchive/SSZipArchive/SSZipArchive.m
+Pods/SSZipArchive/SSZipArchive/SSZipCommon.h
+Pods/SSZipArchive/SSZipArchive/ZipArchive.h
+Pods/SSZipArchive/SSZipArchive/minizip/crypt.c
+Pods/SSZipArchive/SSZipArchive/minizip/crypt.h
+Pods/SSZipArchive/SSZipArchive/minizip/ioapi.c
+Pods/SSZipArchive/SSZipArchive/minizip/ioapi.h
+Pods/SSZipArchive/SSZipArchive/minizip/ioapi_buf.c
+Pods/SSZipArchive/SSZipArchive/minizip/ioapi_buf.h
+Pods/SSZipArchive/SSZipArchive/minizip/ioapi_mem.c
+Pods/SSZipArchive/SSZipArchive/minizip/ioapi_mem.h
+Pods/SSZipArchive/SSZipArchive/minizip/minishared.c
+Pods/SSZipArchive/SSZipArchive/minizip/minishared.h
+Pods/SSZipArchive/SSZipArchive/minizip/unzip.c
+Pods/SSZipArchive/SSZipArchive/minizip/unzip.h
+Pods/SSZipArchive/SSZipArchive/minizip/zip.c
+Pods/SSZipArchive/SSZipArchive/minizip/zip.h
+Pods/SSZipArchive/SSZipArchive/minizip/aes/aes.h
+Pods/SSZipArchive/SSZipArchive/minizip/aes/aes_ni.c
+Pods/SSZipArchive/SSZipArchive/minizip/aes/aes_ni.h
+Pods/SSZipArchive/SSZipArchive/minizip/aes/aescrypt.c
+Pods/SSZipArchive/SSZipArchive/minizip/aes/aeskey.c
+Pods/SSZipArchive/SSZipArchive/minizip/aes/aesopt.h
+Pods/SSZipArchive/SSZipArchive/minizip/aes/aestab.c
+Pods/SSZipArchive/SSZipArchive/minizip/aes/aestab.h
+Pods/SSZipArchive/SSZipArchive/minizip/aes/brg_endian.h
+Pods/SSZipArchive/SSZipArchive/minizip/aes/brg_types.h
+Pods/SSZipArchive/SSZipArchive/minizip/aes/fileenc.c
+Pods/SSZipArchive/SSZipArchive/minizip/aes/fileenc.h
+Pods/SSZipArchive/SSZipArchive/minizip/aes/hmac.c
+Pods/SSZipArchive/SSZipArchive/minizip/aes/hmac.h
+Pods/SSZipArchive/SSZipArchive/minizip/aes/prng.c
+Pods/SSZipArchive/SSZipArchive/minizip/aes/prng.h
+Pods/SSZipArchive/SSZipArchive/minizip/aes/pwd2key.c
+Pods/SSZipArchive/SSZipArchive/minizip/aes/pwd2key.h
+Pods/SSZipArchive/SSZipArchive/minizip/aes/sha1.c
+Pods/SSZipArchive/SSZipArchive/minizip/aes/sha1.h
+Pods/Target Support Files/JGProgressHUD/Info.plist
+Pods/Target Support Files/JGProgressHUD/JGProgressHUD-dummy.m
+Pods/Target Support Files/JGProgressHUD/JGProgressHUD-prefix.pch
+Pods/Target Support Files/JGProgressHUD/JGProgressHUD-umbrella.h
+Pods/Target Support Files/JGProgressHUD/JGProgressHUD.modulemap
+Pods/Target Support Files/JGProgressHUD/JGProgressHUD.xcconfig
+Pods/Target Support Files/Pods-ARKitExample/Info.plist
+Pods/Target Support Files/Pods-ARKitExample/Pods-ARKitExample-acknowledgements.markdown
+Pods/Target Support Files/Pods-ARKitExample/Pods-ARKitExample-acknowledgements.plist
+Pods/Target Support Files/Pods-ARKitExample/Pods-ARKitExample-dummy.m
+Pods/Target Support Files/Pods-ARKitExample/Pods-ARKitExample-frameworks.sh
+Pods/Target Support Files/Pods-ARKitExample/Pods-ARKitExample-resources.sh
+Pods/Target Support Files/Pods-ARKitExample/Pods-ARKitExample-umbrella.h
+Pods/Target Support Files/Pods-ARKitExample/Pods-ARKitExample.debug.xcconfig
+Pods/Target Support Files/Pods-ARKitExample/Pods-ARKitExample.modulemap
+Pods/Target Support Files/Pods-ARKitExample/Pods-ARKitExample.release.xcconfig
+Pods/Target Support Files/SDWebImage/Info.plist
+Pods/Target Support Files/SDWebImage/SDWebImage-dummy.m
+Pods/Target Support Files/SDWebImage/SDWebImage-prefix.pch
+Pods/Target Support Files/SDWebImage/SDWebImage-umbrella.h
+Pods/Target Support Files/SDWebImage/SDWebImage.modulemap
+Pods/Target Support Files/SDWebImage/SDWebImage.xcconfig
+Pods/Target Support Files/SSZipArchive/Info.plist
+Pods/Target Support Files/SSZipArchive/SSZipArchive-dummy.m
+Pods/Target Support Files/SSZipArchive/SSZipArchive-prefix.pch
+Pods/Target Support Files/SSZipArchive/SSZipArchive-umbrella.h
+Pods/Target Support Files/SSZipArchive/SSZipArchive.modulemap
+Pods/Target Support Files/SSZipArchive/SSZipArchive.xcconfig
