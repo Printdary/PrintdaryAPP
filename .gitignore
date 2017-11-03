@@ -31,13 +31,11 @@ Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUD Resources.bundle/jg
 Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUD Resources.bundle/jg_hud_success@2x.png
 Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUD Resources.bundle/jg_hud_success@3x.png
 Pods/Pods.xcodeproj/project.pbxproj
-Pods/Pods.xcodeproj/xcuserdata/MobileGod.xcuserdatad/xcschemes/Pods-ARKitExample.xcscheme
-Pods/Pods.xcodeproj/xcuserdata/MobileGod.xcuserdatad/xcschemes/SSZipArchive.xcscheme
-Pods/Pods.xcodeproj/xcuserdata/MobileGod.xcuserdatad/xcschemes/xcschememanagement.plist
-Pods/Pods.xcodeproj/xcuserdata/Wang.xcuserdatad/xcschemes/JGProgressHUD.xcscheme
-Pods/Pods.xcodeproj/xcuserdata/Wang.xcuserdatad/xcschemes/Pods-ARKitExample.xcscheme
-Pods/Pods.xcodeproj/xcuserdata/Wang.xcuserdatad/xcschemes/SDWebImage.xcscheme
-Pods/Pods.xcodeproj/xcuserdata/Wang.xcuserdatad/xcschemes/SSZipArchive.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/mcnels.xcuserdatad/xcschemes/JGProgressHUD.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/mcnels.xcuserdatad/xcschemes/Pods-Printdary.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/mcnels.xcuserdatad/xcschemes/SDWebImage.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/mcnels.xcuserdatad/xcschemes/SSZipArchive.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/mcnels.xcuserdatad/xcschemes/xcschememanagement.plist
 Pods/Pods.xcodeproj/xcuserdata/Wang.xcuserdatad/xcschemes/xcschememanagement.plist
 Pods/SDWebImage/LICENSE
 Pods/SDWebImage/README.md
@@ -122,16 +120,16 @@ Pods/Target Support Files/JGProgressHUD/JGProgressHUD-prefix.pch
 Pods/Target Support Files/JGProgressHUD/JGProgressHUD-umbrella.h
 Pods/Target Support Files/JGProgressHUD/JGProgressHUD.modulemap
 Pods/Target Support Files/JGProgressHUD/JGProgressHUD.xcconfig
-Pods/Target Support Files/Pods-ARKitExample/Info.plist
-Pods/Target Support Files/Pods-ARKitExample/Pods-ARKitExample-acknowledgements.markdown
-Pods/Target Support Files/Pods-ARKitExample/Pods-ARKitExample-acknowledgements.plist
-Pods/Target Support Files/Pods-ARKitExample/Pods-ARKitExample-dummy.m
-Pods/Target Support Files/Pods-ARKitExample/Pods-ARKitExample-frameworks.sh
-Pods/Target Support Files/Pods-ARKitExample/Pods-ARKitExample-resources.sh
-Pods/Target Support Files/Pods-ARKitExample/Pods-ARKitExample-umbrella.h
-Pods/Target Support Files/Pods-ARKitExample/Pods-ARKitExample.debug.xcconfig
-Pods/Target Support Files/Pods-ARKitExample/Pods-ARKitExample.modulemap
-Pods/Target Support Files/Pods-ARKitExample/Pods-ARKitExample.release.xcconfig
+Pods/Target Support Files/Pods-Printdary/Info.plist
+Pods/Target Support Files/Pods-Printdary/Pods-Printdary-acknowledgements.markdown
+Pods/Target Support Files/Pods-Printdary/Pods-Printdary-acknowledgements.plist
+Pods/Target Support Files/Pods-Printdary/Pods-Printdary-dummy.m
+Pods/Target Support Files/Pods-Printdary/Pods-Printdary-frameworks.sh
+Pods/Target Support Files/Pods-Printdary/Pods-Printdary-resources.sh
+Pods/Target Support Files/Pods-Printdary/Pods-Printdary-umbrella.h
+Pods/Target Support Files/Pods-Printdary/Pods-Printdary.debug.xcconfig
+Pods/Target Support Files/Pods-Printdary/Pods-Printdary.modulemap
+Pods/Target Support Files/Pods-Printdary/Pods-Printdary.release.xcconfig
 Pods/Target Support Files/SDWebImage/Info.plist
 Pods/Target Support Files/SDWebImage/SDWebImage-dummy.m
 Pods/Target Support Files/SDWebImage/SDWebImage-prefix.pch

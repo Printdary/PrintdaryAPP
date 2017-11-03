@@ -1,6 +1,4 @@
-# PrintdaryAPP
-
-## Placing Virtual Objects in Augmented Reality
+# Placing Virtual Objects in Augmented Reality
 
 Follow best practices for visual feedback, gesture interactions, and realistic rendering in AR experiences.
 
