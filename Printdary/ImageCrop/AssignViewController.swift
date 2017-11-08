@@ -151,6 +151,7 @@ extension AssignViewController: UINavigationControllerDelegate, UIImagePickerCon
         } else if picker.sourceType == .camera {
             if let pickedImage = info[UIImagePickerControllerEditedImage] as? UIImage {
                 self.textureImage = pickedImage
+                UIImageWriteToSavedPhotosAlbum(pickedImage, self, nil, nil)
             }
         }
         
