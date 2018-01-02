@@ -25,13 +25,13 @@ class ModelDownloader: NSObject, URLSessionDownloadDelegate {
     private var downloadsCompleted = 0
 	private var audioDownloadTask: URLSessionDownloadTask?
 	private var zipDownloadTask: URLSessionDownloadTask?
-
+    private var mtlDownloadTask: URLSessionDownloadTask?
     private var textureTaskToTextureName = [URLSessionDownloadTask: String]()
 
     init(model: Model) {
         self.model = model
         let configuration = URLSessionConfiguration.default
-        requiredDownloads = (model.modelUrl != nil ? 1 : 0) + (model.audioUrl != nil ? 1 : 0)// + (model.textures?.count ?? 0)
+        requiredDownloads = (model.modelUrl != nil ? 1 : 0) + (model.audioUrl != nil ? 1 : 0) + (model.mtlUrl != nil ? 1 : 0) //+ (model.textures?.count ?? 0)
         super.init()
         session = URLSession(configuration: configuration, delegate: self, delegateQueue: OperationQueue())
     }
@@ -48,6 +48,12 @@ class ModelDownloader: NSObject, URLSessionDownloadDelegate {
 		}
 		
 		audioDownloadTask?.resume()
+        
+        if let mtlURLString = model.mtlUrl, let mtlURL = URL(string: mtlURLString) {
+            mtlDownloadTask = session.downloadTask(with: mtlURL)
+        }
+        
+        mtlDownloadTask?.resume()
     }
 
     func urlSession(_ session: URLSession, downloadTask: URLSessionDownloadTask, didFinishDownloadingTo location: URL) {
@@ -58,9 +64,11 @@ class ModelDownloader: NSObject, URLSessionDownloadDelegate {
         let path = paths[0]
         let directory = path + "/" + model.uploadId! + "/"
 		let audioPath = directory + "audio.mp3"
+        let mtlPath = directory + "model.mtl"
 
 		let directoryUrl = URL(fileURLWithPath: directory, isDirectory: true)
 		let audioUrl = URL(fileURLWithPath: audioPath, isDirectory: true)
+        let mtlUrl = URL(fileURLWithPath: mtlPath, isDirectory: true)
 
 		try? fileManager.createDirectory(atPath: directory + "textures/", withIntermediateDirectories: true, attributes: nil)
 				
@@ -97,6 +105,16 @@ class ModelDownloader: NSObject, URLSessionDownloadDelegate {
 				print(error.localizedDescription)
 			}
 			checkAllDownloaded()
+        } else if downloadTask == mtlDownloadTask {
+            // mtl
+            do {
+                try fileManager.copyItem(at: location, to: mtlUrl)
+                print("✔︎ MTL File Downloaded To - \(mtlUrl)")
+            }
+            catch {
+                print(error.localizedDescription)
+            }
+            checkAllDownloaded()
         }
     }
 	
