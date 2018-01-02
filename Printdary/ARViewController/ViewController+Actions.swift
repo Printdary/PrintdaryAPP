@@ -100,6 +100,12 @@ extension ViewController: UIPopoverPresentationControllerDelegate, ModelSelectio
         let path = paths[0]
 		
 		let objectPath = path + "/" + model.uploadId! + "/model.scnassets/model.dae"
+//        fileManager = FileManager.default
+//        if fileManager.fileExists(atPath: objectPath) {
+//            print("FILE AVAILABLE")
+//        } else {
+//            let objectPath = path + "/" + model.uploadId! + "/model.scnassets/model.obj"
+//        }
 		let objectUrl = URL(fileURLWithPath: objectPath)
 		let object = VirtualObject(url: objectUrl)
 		let position = focusSquare?.lastPosition ?? float3(0)
@@ -108,6 +114,11 @@ extension ViewController: UIPopoverPresentationControllerDelegate, ModelSelectio
 		let audioPath =  path + "/" + model.uploadId! + "/audio.mp3"
 		let audioUrl = model.audioUrl != nil ? URL(fileURLWithPath: audioPath) : nil
 		object.audioURL = audioUrl
+        
+        // mtl
+        let mtlPath =  path + "/" + model.uploadId! + "/model.mtl"
+        let mtlUrl = model.mtlUrl != nil ? URL(fileURLWithPath: mtlPath) : nil
+        object.mtlURL = mtlUrl
 		
 		virtualObjectManager.loadVirtualObject(object, to: position, cameraTransform: cameraTransform)
 		if object.parent == nil {
