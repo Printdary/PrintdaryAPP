@@ -33,6 +33,7 @@ class VirtualObject: SCNReferenceNode, ReactsToScale {
     let definition: VirtualObjectDefinition
 	var textures: [String] = []
 	var audioURL: URL? = nil
+    var mtlURL: URL? = nil
     
     init(definition: VirtualObjectDefinition) {
         self.definition = definition
