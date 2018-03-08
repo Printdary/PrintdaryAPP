@@ -34,9 +34,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3929C4871E89EC2C00E00B60"
-            BuildableName = "Printdary.app"
-            BlueprintName = "Printdary"
-            ReferencedContainer = "container:Printdary.xcodeproj">
+            BuildableName = "ARKitExample.app"
+            BlueprintName = "ARKitExample"
+            ReferencedContainer = "container:ARKitExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>

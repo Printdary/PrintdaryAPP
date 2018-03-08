@@ -1,9 +1,9 @@
 /*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-Manages single finger gesture interactions with the AR scene.
-*/
+ See LICENSE folder for this sample’s licensing information.
+ 
+ Abstract:
+ Manages single finger gesture interactions with the AR scene.
+ */
 
 import ARKit
 import SceneKit
@@ -16,7 +16,7 @@ class SingleFingerGesture: Gesture {
     var latestTouchLocation = CGPoint()
     
     var firstTouchedObject: VirtualObject?
-
+    
     let translationThreshold: CGFloat = 30
     var translationThresholdPassed = false
     var hasMovedObject = false

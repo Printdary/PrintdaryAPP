@@ -33,7 +33,6 @@ class VirtualObject: SCNReferenceNode, ReactsToScale {
     let definition: VirtualObjectDefinition
 	var textures: [String] = []
 	var audioURL: URL? = nil
-    var mtlURL: URL? = nil
     
     init(definition: VirtualObjectDefinition) {
         self.definition = definition
@@ -43,6 +42,8 @@ class VirtualObject: SCNReferenceNode, ReactsToScale {
             super.init(url: url)!
         } else if let url = Bundle.main.url(forResource: "Models.scnassets/\(definition.modelName)/\(definition.modelName)", withExtension: "obj") {
             super.init(url: url)!
+        } else if let url = Bundle.main.url(forResource: "Models.scnassets/\(definition.modelName)/\(definition.modelName)", withExtension: "abc") {
+            super.init(url: url)!
         } else {
             fatalError("can't find expected virtual object bundle resources")
         }
@@ -51,7 +52,7 @@ class VirtualObject: SCNReferenceNode, ReactsToScale {
     override init(url: URL) {
         definition = VirtualObjectDefinition(modelName: "", displayName: "")
         super.init(url: url)!
-		self.scale = SCNVector3(0.0002, 0.0002, 0.0002)
+		self.scale = SCNVector3(0.0015, 0.0015, 0.0015)
     }
     
     required init?(coder aDecoder: NSCoder) {
