@@ -196,7 +196,6 @@ struct Model {
     var viewCount: String?
     var modelUrl: String?
     var audioUrl: String?
-    var mtlUrl: String?
     var imageUrl: String?
     var textures: [Texture]?
     
@@ -207,7 +206,6 @@ struct Model {
         viewCount = jsonDic["viewCount"] as? String
         modelUrl = jsonDic["3Dmodel"] as? String
         audioUrl = jsonDic["audio"] as? String
-        mtlUrl = jsonDic["mtl"] as? String
         imageUrl = jsonDic["image"] as? String
         if let texturesArray = jsonDic["textures"] as? [String] {
             var textures = [Texture]()

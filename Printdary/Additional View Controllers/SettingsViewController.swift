@@ -25,6 +25,12 @@ extension UserDefaults {
     func set(_ bool: Bool, for setting: Setting) {
         set(bool, forKey: setting.rawValue)
     }
+    func integer(for setting: Setting) -> Int {
+        return integer(forKey: setting.rawValue)
+    }
+    func set(_ integer: Int, for setting: Setting) {
+        set(integer, forKey: setting.rawValue)
+    }
 }
 
 class SettingsViewController: UITableViewController {
@@ -43,10 +49,10 @@ class SettingsViewController: UITableViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
-        let defaults = UserDefaults.standard
-        scaleWithPinchGestureSwitch.isOn = defaults.bool(for: .scaleWithPinchGesture)
-        dragOnInfinitePlanesSwitch.isOn = defaults.bool(for: .dragOnInfinitePlanes)
+        populateSettings()
+        //let defaults = UserDefaults.standard
+//        scaleWithPinchGestureSwitch.isOn = defaults.bool(for: .scaleWithPinchGesture)
+//        dragOnInfinitePlanesSwitch.isOn = defaults.bool(for: .dragOnInfinitePlanes)
     }
     
     override func viewWillLayoutSubviews() {

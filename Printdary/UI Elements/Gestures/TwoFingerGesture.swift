@@ -1,9 +1,9 @@
 /*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-Manages two finger gesture interactions with the AR scene.
-*/
+ See LICENSE folder for this sample’s licensing information.
+ 
+ Abstract:
+ Manages two finger gesture interactions with the AR scene.
+ */
 
 import ARKit
 import SceneKit
@@ -72,7 +72,7 @@ class TwoFingerGesture: Gesture {
         let allPoints = [firstTouchPoint, secondTouchPoint, thirdCorner, fourthCorner, initialMidPoint] + midPoints
         firstTouchedObject = allPoints.lazy.flatMap { point in
             return self.virtualObject(at: point)
-        }.first
+            }.first
         if let virtualObject = firstTouchedObject {
             objectBaseScale = virtualObject.scale.x
             
@@ -120,19 +120,19 @@ class TwoFingerGesture: Gesture {
             // 1. Translation using the midpoint between the two fingers.
             updateTranslation(of: virtualObject, midpoint: loc1.midpoint(loc2))
         }
-		
-		let spanBetweenTouches = loc1 - loc2
+        
+        let spanBetweenTouches = loc1 - loc2
         if allowRotation {
             // 2. Rotation based on the relative rotation of the fingers on a unit circle.
             updateRotation(of: virtualObject, span: spanBetweenTouches)
         }
-	
-		if allowScaling {
-			// 3. Scaling based on the relative position of the fingers on a unit circles.
-			updateScaling(of: virtualObject, span: spanBetweenTouches)
-		}
-		
-	}
+        
+        if allowScaling {
+            // 3. Scaling based on the relative position of the fingers on a unit circles.
+            updateScaling(of: virtualObject, span: spanBetweenTouches)
+        }
+        
+    }
     
     func updateTranslation(of virtualObject: VirtualObject, midpoint: CGPoint) {
         if !translationThresholdPassed {
@@ -243,4 +243,3 @@ class TwoFingerGesture: Gesture {
         // Nothing to do here for two finger gestures.
     }
 }
-
