@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Mxy-nX-E5j" customClass="AudioPlayerView" customModule="ImageUploader" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="736" height="251"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2lH-St-dbr" customClass="EZAudioPlot">
+                    <rect key="frame" x="118" y="3" width="377.5" height="245"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fZm-8z-qij">
+                    <rect key="frame" x="0.0" y="3" width="118" height="245"/>
+                    <state key="normal" image="play"/>
+                </button>
+                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZUg-M3-xYS">
+                    <rect key="frame" x="496" y="8" width="235" height="235"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="ZUg-M3-xYS" secondAttribute="height" multiplier="1:1" id="DX4-Hc-Mww"/>
+                    </constraints>
+                    <state key="normal" image="delet"/>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ysW-Vl-gzh">
+                    <rect key="frame" x="0.0" y="0.0" width="736" height="2"/>
+                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="ny3-3C-mAY"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="fZm-8z-qij" firstAttribute="top" secondItem="Bb5-um-uso" secondAttribute="top" constant="3" id="151-1W-7xd"/>
+                <constraint firstItem="Bb5-um-uso" firstAttribute="trailing" secondItem="ysW-Vl-gzh" secondAttribute="trailing" id="8Al-E4-Vrz"/>
+                <constraint firstItem="ZUg-M3-xYS" firstAttribute="top" secondItem="Bb5-um-uso" secondAttribute="top" constant="8" id="Blf-jM-k4P"/>
+                <constraint firstItem="ysW-Vl-gzh" firstAttribute="top" secondItem="Bb5-um-uso" secondAttribute="top" id="Elz-L1-ZAO"/>
+                <constraint firstItem="ysW-Vl-gzh" firstAttribute="leading" secondItem="Bb5-um-uso" secondAttribute="leading" id="FvU-Se-K1G"/>
+                <constraint firstItem="2lH-St-dbr" firstAttribute="leading" secondItem="fZm-8z-qij" secondAttribute="trailing" id="LtH-8S-CBc"/>
+                <constraint firstItem="ZUg-M3-xYS" firstAttribute="leading" secondItem="2lH-St-dbr" secondAttribute="trailing" id="P4e-2H-a5C"/>
+                <constraint firstItem="2lH-St-dbr" firstAttribute="height" secondItem="fZm-8z-qij" secondAttribute="height" id="Pgk-Z5-kVY"/>
+                <constraint firstItem="Bb5-um-uso" firstAttribute="bottom" secondItem="ZUg-M3-xYS" secondAttribute="bottom" constant="8" id="QXi-fM-Yok"/>
+                <constraint firstItem="Bb5-um-uso" firstAttribute="bottom" secondItem="fZm-8z-qij" secondAttribute="bottom" constant="3" id="RfM-ei-Aya"/>
+                <constraint firstItem="fZm-8z-qij" firstAttribute="leading" secondItem="Bb5-um-uso" secondAttribute="leading" id="XBX-oo-NR7"/>
+                <constraint firstItem="Bb5-um-uso" firstAttribute="trailing" secondItem="ZUg-M3-xYS" secondAttribute="trailing" constant="5" id="mQ6-oE-S4d"/>
+                <constraint firstItem="2lH-St-dbr" firstAttribute="centerY" secondItem="fZm-8z-qij" secondAttribute="centerY" id="nnA-xL-WM3"/>
+                <constraint firstItem="fZm-8z-qij" firstAttribute="width" secondItem="Mxy-nX-E5j" secondAttribute="width" multiplier="0.16" id="pOT-WZ-8KM"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Bb5-um-uso"/>
+            <connections>
+                <outlet property="audioPlotView" destination="2lH-St-dbr" id="5Z0-65-czM"/>
+            </connections>
+            <point key="canvasLocation" x="270" y="-230.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="delet" width="256" height="256"/>
+        <image name="play" width="128" height="128"/>
+    </resources>
+</document>
