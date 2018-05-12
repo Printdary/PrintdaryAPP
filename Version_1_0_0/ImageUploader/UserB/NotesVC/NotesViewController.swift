@@ -66,7 +66,7 @@ class NotesViewController: UIViewController {
         
         self.modelSegmentImageView.isHidden = true
         
-        getModel(modelID: "-LBuBKJgxV7rvgv01gWC")
+        getModel(modelID: "-LCDwpvo1HKFOKWZ6uCi")
         
     }
     @IBAction func videoButtonAction(_ sender: UIButton) {
@@ -126,7 +126,7 @@ class NotesViewController: UIViewController {
              activityIndicatior.startAnimating()
             DispatchQueue.global().async {
                 if let model = UserDefaults.standard.value(forKey: "modelName") as? String{
-                    self.downloadMTLObjectsFrom(url: "http://ec2-18-188-59-112.us-east-2.compute.amazonaws.com/models/\(model)/\(model).mtl")
+                    self.downloadMTLObjectsFrom(url: "http://ec2-18-188-59-112.us-east-2.compute.amazonaws.com/models/\(model)/\(model).jpg")
                 }
             }
             
@@ -204,10 +204,10 @@ class NotesViewController: UIViewController {
         let urlData = NSData(contentsOf: url)
         if urlData != nil {
             let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
-            let filePath = "\(documentsPath)/objexample.mtl"
+            let filePath = "\(documentsPath)/objexample.jpg"
             print("filePath = \(filePath)")
             urlData?.write(toFile: filePath, atomically: true)
-            UserDefaults.standard.set(filePath, forKey: "filePathMtl")
+            UserDefaults.standard.set(filePath, forKey: "filePathMTL")
             if let model = UserDefaults.standard.value(forKey: "modelName") as? String{
                 self.download3DObjectsFrom(url: "http://ec2-18-188-59-112.us-east-2.compute.amazonaws.com/models/\(model)/\(model).obj")
             }

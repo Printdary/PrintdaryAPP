@@ -22,6 +22,16 @@
 		8412C121205ADD2B003DB368 /* LLSimpleCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412C11C205ADD2B003DB368 /* LLSimpleCamera.m */; };
 		8416355A205B22EC006FB2D1 /* ResponseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84163559205B22EC006FB2D1 /* ResponseViewController.m */; };
 		8416355F205B25EF006FB2D1 /* ResivedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8416355E205B25EF006FB2D1 /* ResivedModel.m */; };
+		8417E23820A6C98F0044FD41 /* Wolf_One_obj.obj in Resources */ = {isa = PBXBuildFile; fileRef = 8417E23720A6C98E0044FD41 /* Wolf_One_obj.obj */; };
+		8417E23A20A6C99B0044FD41 /* Wolf_One_obj.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 8417E23920A6C99B0044FD41 /* Wolf_One_obj.mtl */; };
+		8417E24120A6D44D0044FD41 /* Wolf_Body.jpg in Sources */ = {isa = PBXBuildFile; fileRef = 8417E23D20A6D40A0044FD41 /* Wolf_Body.jpg */; };
+		8417E24220A6D44D0044FD41 /* Wolf_Eyes_1.jpg in Sources */ = {isa = PBXBuildFile; fileRef = 8417E23E20A6D40B0044FD41 /* Wolf_Eyes_1.jpg */; };
+		8417E24320A6D44D0044FD41 /* Wolf_Eyes_2.jpg in Sources */ = {isa = PBXBuildFile; fileRef = 8417E23F20A6D40C0044FD41 /* Wolf_Eyes_2.jpg */; };
+		8417E24420A6D44D0044FD41 /* Wolf_Fur.jpg in Sources */ = {isa = PBXBuildFile; fileRef = 8417E24020A6D40D0044FD41 /* Wolf_Fur.jpg */; };
+		8417E24520A6D45F0044FD41 /* Wolf_Body.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8417E23D20A6D40A0044FD41 /* Wolf_Body.jpg */; };
+		8417E24620A6D45F0044FD41 /* Wolf_Eyes_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8417E23E20A6D40B0044FD41 /* Wolf_Eyes_1.jpg */; };
+		8417E24720A6D45F0044FD41 /* Wolf_Eyes_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8417E23F20A6D40C0044FD41 /* Wolf_Eyes_2.jpg */; };
+		8417E24820A6D45F0044FD41 /* Wolf_Fur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8417E24020A6D40D0044FD41 /* Wolf_Fur.jpg */; };
 		842D7B44209E10B3003B3701 /* UserBCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D7B43209E10B3003B3701 /* UserBCameraViewController.swift */; };
 		842D7B47209E146D003B3701 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D7B46209E146D003B3701 /* ResultsViewController.swift */; };
 		842D7B4A209E1B0B003B3701 /* ResultsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D7B49209E1B0B003B3701 /* ResultsCell.swift */; };
@@ -100,6 +110,12 @@
 		84163559205B22EC006FB2D1 /* ResponseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponseViewController.m; sourceTree = "<group>"; };
 		8416355D205B25EF006FB2D1 /* ResivedModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResivedModel.h; sourceTree = "<group>"; };
 		8416355E205B25EF006FB2D1 /* ResivedModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResivedModel.m; sourceTree = "<group>"; };
+		8417E23720A6C98E0044FD41 /* Wolf_One_obj.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Wolf_One_obj.obj; sourceTree = "<group>"; };
+		8417E23920A6C99B0044FD41 /* Wolf_One_obj.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Wolf_One_obj.mtl; sourceTree = "<group>"; };
+		8417E23D20A6D40A0044FD41 /* Wolf_Body.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wolf_Body.jpg; sourceTree = "<group>"; };
+		8417E23E20A6D40B0044FD41 /* Wolf_Eyes_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wolf_Eyes_1.jpg; sourceTree = "<group>"; };
+		8417E23F20A6D40C0044FD41 /* Wolf_Eyes_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wolf_Eyes_2.jpg; sourceTree = "<group>"; };
+		8417E24020A6D40D0044FD41 /* Wolf_Fur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wolf_Fur.jpg; sourceTree = "<group>"; };
 		842D7B43209E10B3003B3701 /* UserBCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBCameraViewController.swift; sourceTree = "<group>"; };
 		842D7B46209E146D003B3701 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		842D7B49209E1B0B003B3701 /* ResultsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsCell.swift; sourceTree = "<group>"; };
@@ -182,6 +198,12 @@
 		8412C0F4205AA519003DB368 /* ImageUploader */ = {
 			isa = PBXGroup;
 			children = (
+				8417E23D20A6D40A0044FD41 /* Wolf_Body.jpg */,
+				8417E23E20A6D40B0044FD41 /* Wolf_Eyes_1.jpg */,
+				8417E23F20A6D40C0044FD41 /* Wolf_Eyes_2.jpg */,
+				8417E24020A6D40D0044FD41 /* Wolf_Fur.jpg */,
+				8417E23720A6C98E0044FD41 /* Wolf_One_obj.obj */,
+				8417E23920A6C99B0044FD41 /* Wolf_One_obj.mtl */,
 				84E12DDE20A0A8A0009EA527 /* ARKitWrapper.h */,
 				84E12DDF20A0A8A0009EA527 /* ARKitWrapper.m */,
 				84E12DC420A0935A009EA527 /* ARKitCameraViewController.swift */,
@@ -454,13 +476,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8417E24520A6D45F0044FD41 /* Wolf_Body.jpg in Resources */,
+				8417E24620A6D45F0044FD41 /* Wolf_Eyes_1.jpg in Resources */,
+				8417E24720A6D45F0044FD41 /* Wolf_Eyes_2.jpg in Resources */,
+				8417E24820A6D45F0044FD41 /* Wolf_Fur.jpg in Resources */,
 				842D7B4C209E1B38003B3701 /* ResultsCell.xib in Resources */,
 				842D7B60209F6B54003B3701 /* SearchTableViewCell.xib in Resources */,
+				8417E23820A6C98F0044FD41 /* Wolf_One_obj.obj in Resources */,
 				842D7B59209F438F003B3701 /* VideoCollectionViewCell.xib in Resources */,
 				8412C100205AA51A003DB368 /* LaunchScreen.storyboard in Resources */,
 				846445EA207945CE00F3F832 /* GoogleService-Info.plist in Resources */,
 				84E12DE520A0CE5A009EA527 /* AudioPlayerView.xib in Resources */,
 				8430A41620972635009A8A0D /* PhotosCollectionViewCell.xib in Resources */,
+				8417E23A20A6C99B0044FD41 /* Wolf_One_obj.mtl in Resources */,
 				8412C0FD205AA51A003DB368 /* Assets.xcassets in Resources */,
 				8412C0FB205AA51A003DB368 /* Main.storyboard in Resources */,
 			);
@@ -547,6 +575,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8417E24120A6D44D0044FD41 /* Wolf_Body.jpg in Sources */,
+				8417E24220A6D44D0044FD41 /* Wolf_Eyes_1.jpg in Sources */,
+				8417E24320A6D44D0044FD41 /* Wolf_Eyes_2.jpg in Sources */,
+				8417E24420A6D44D0044FD41 /* Wolf_Fur.jpg in Sources */,
 				84FE04D92074F1D30046DFE5 /* MSCropView.swift in Sources */,
 				8416355F205B25EF006FB2D1 /* ResivedModel.m in Sources */,
 				8412C121205ADD2B003DB368 /* LLSimpleCamera.m in Sources */,

@@ -7,6 +7,8 @@
 //
 
 #import "ARKitWrapper.h"
+#import <MetalKit/MetalKit.h>
+#import <MetalKit/MTKTextureLoader.h>
 
 
 
@@ -34,7 +36,12 @@
     SCNView *scnView = scnView_m;
     // set the model scene to the view
     scnView.scene = self.scene.modelScene;
-    self.node = [[SCNNode alloc] init];
+    self.node =  [[SCNNode alloc]init];
+    self.node.name = @"Cam";
+    self.node.camera = [[SCNCamera alloc]init];
+    scnView.scene.rootNode.childNodes[0].position = SCNVector3Make(0, 0, 0);
+   // MDLTexture *texture = [textureLoader newTextureWithContentsOfURL:url options:nil error:nil];
+   
     // set the scene to the view
     [scnView.scene.rootNode addChildNode:_node];
     // allows the user to manipulate the camera

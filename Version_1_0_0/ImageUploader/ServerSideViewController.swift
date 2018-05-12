@@ -7,6 +7,7 @@ import SceneKit
 import QuartzCore
 import ModelIO
 import SceneKit.ModelIO
+import MetalKit
 
 
 class ServerSideViewController: UIViewController {
@@ -52,35 +53,53 @@ class ServerSideViewController: UIViewController {
 
         
         let url = URL.init(fileURLWithPath: filePath)
-        
         let asset = MDLAsset(url: url)
-        let object = asset.object(at: 0)
+        guard let object = asset.object(at: 0) as? MDLMesh else {
+            fatalError("Failed to get mesh from asset.")
+        }
         let node = SCNNode(mdlObject: object)
         node.scale = SCNVector3.init(10, 10, 10)
-
         
-        let scene = SCNScene()//try! SCNScene.init(url: url, options: nil)//SCNScene()//try! SCNScene.init(url: url, options: nil)
+        let scene = SCNScene()
+        
         
         self.scnView = self.storyboardSCNView//self.view as? SCNView
         scnView?.scene = scene
         scnView?.backgroundColor = UIColor.clear
         scnView?.autoenablesDefaultLighting = true
+        scnView?.allowsCameraControl = true
+
+        
+//        let scatteringFunction = MDLScatteringFunction()
+//        let material = MDLMaterial(name: "baseMaterial", scatteringFunction: scatteringFunction)
+//        material.setTextureProperties(textures: [
+//            .baseColor:"Wolf_Body.jpg",
+//            .specular:"Wolf_Eyes_2.jpg",
+//            .emission:"Wolf_Fur.jpg"])
+//
+//
+//        for  submesh in object.submeshes!  {
+//            if let submesh = submesh as? MDLSubmesh {
+//                submesh.material = material
+//            }
+//        }
+         scene.rootNode.addChildNode(node)
+        
+        if let model = UserDefaults.standard.value(forKey: "filePathMTL") as? String{
+            let image = UIImage.init(contentsOfFile: model)
+            let material = SCNMaterial()
+            material.diffuse.contents = image
+            scene.rootNode.childNodes[0].geometry?.materials = [material]
+           
+        }
        
 
-        scene.rootNode.addChildNode(node)
-        if let model = UserDefaults.standard.value(forKey: "filePathMtl") as? String{
-            node.geometry?.material(named: model)
-            //scene.rootNode.childNodes[0].geometry?.material(named: model)
-        }
         let cameraNode = SCNNode()
         cameraNode.camera = SCNCamera()
         cameraNode.position = SCNVector3.init(x: 0, y: 5, z: 45)
         scene.rootNode.addChildNode(cameraNode)
         
-        let material = SCNNode()
-        material.geometry?.firstMaterial?.diffuse.contents = UIColor.yellow
-        material.geometry?.firstMaterial?.specular.contents = UIColor.green
-        scene.rootNode.addChildNode(material)
+       
         
         let action = SCNAction.rotate(by: 90 * CGFloat((Double.pi / 180.0)), around: SCNVector3.init(0.0, 1.0, 0.0), duration: 3)
         let repeatAction = SCNAction.repeatForever(action)
@@ -89,7 +108,7 @@ class ServerSideViewController: UIViewController {
  
         
         let panRecognizer = UIPanGestureRecognizer(target: self, action: #selector(panGesture(gestureRecognize:)))
-        scnView?.addGestureRecognizer(panRecognizer)
+      //  scnView?.addGestureRecognizer(panRecognizer)
     }
     
     
@@ -153,3 +172,19 @@ class ServerSideViewController: UIViewController {
     
   
 }
+
+
+extension MDLMaterial {
+    func setTextureProperties(textures: [MDLMaterialSemantic:String]) -> Void {
+        for (key,value) in textures {
+            guard let url = Bundle.main.url(forResource: value, withExtension: "") else {
+                fatalError("Failed to find URL for resource \(value).")
+            }
+            let property = MDLMaterialProperty(name:value, semantic: key, url: url)
+            self.setProperty(property)
+        }
+    }
+}
+
+
+
