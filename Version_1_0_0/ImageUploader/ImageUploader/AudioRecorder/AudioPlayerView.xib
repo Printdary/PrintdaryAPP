@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Mxy-nX-E5j" customClass="AudioPlayerView" customModule="ImageUploader" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="660" height="78"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2lH-St-dbr" customClass="EZAudioPlot">
+                    <rect key="frame" x="115.5" y="3" width="457.5" height="72"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="play" translatesAutoresizingMaskIntoConstraints="NO" id="Pig-uZ-wwX">
+                    <rect key="frame" x="0.0" y="2.5" width="105.5" height="72"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="delet" translatesAutoresizingMaskIntoConstraints="NO" id="AAz-Al-V0e">
+                    <rect key="frame" x="583" y="8" width="62" height="62"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fZm-8z-qij">
+                    <rect key="frame" x="0.0" y="3" width="105.5" height="72"/>
+                    <connections>
+                        <action selector="playButtonAction:" destination="Mxy-nX-E5j" eventType="touchUpInside" id="Yd1-T8-yQF"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZUg-M3-xYS">
+                    <rect key="frame" x="583" y="8" width="62" height="62"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="ZUg-M3-xYS" secondAttribute="height" multiplier="1:1" id="DX4-Hc-Mww"/>
+                        <constraint firstAttribute="width" constant="62" id="uvH-YU-gS5"/>
+                    </constraints>
+                    <connections>
+                        <action selector="deletButtonAction:" destination="Mxy-nX-E5j" eventType="touchUpInside" id="FqK-wH-hQ0"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ysW-Vl-gzh">
+                    <rect key="frame" x="0.0" y="0.0" width="630" height="2"/>
+                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="ny3-3C-mAY"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="fZm-8z-qij" firstAttribute="top" secondItem="Bb5-um-uso" secondAttribute="top" constant="3" id="151-1W-7xd"/>
+                <constraint firstItem="Bb5-um-uso" firstAttribute="trailing" secondItem="ysW-Vl-gzh" secondAttribute="trailing" constant="30" id="8Al-E4-Vrz"/>
+                <constraint firstItem="ZUg-M3-xYS" firstAttribute="top" secondItem="Bb5-um-uso" secondAttribute="top" constant="8" id="Blf-jM-k4P"/>
+                <constraint firstItem="Pig-uZ-wwX" firstAttribute="width" secondItem="fZm-8z-qij" secondAttribute="width" id="Du1-og-7pV"/>
+                <constraint firstItem="AAz-Al-V0e" firstAttribute="height" secondItem="ZUg-M3-xYS" secondAttribute="height" id="EXa-df-IzZ"/>
+                <constraint firstItem="ysW-Vl-gzh" firstAttribute="top" secondItem="Bb5-um-uso" secondAttribute="top" id="Elz-L1-ZAO"/>
+                <constraint firstItem="ysW-Vl-gzh" firstAttribute="leading" secondItem="Bb5-um-uso" secondAttribute="leading" id="FvU-Se-K1G"/>
+                <constraint firstItem="Pig-uZ-wwX" firstAttribute="centerY" secondItem="fZm-8z-qij" secondAttribute="centerY" id="IS7-1w-aP9"/>
+                <constraint firstItem="2lH-St-dbr" firstAttribute="leading" secondItem="fZm-8z-qij" secondAttribute="trailing" constant="10" id="LtH-8S-CBc"/>
+                <constraint firstItem="AAz-Al-V0e" firstAttribute="width" secondItem="ZUg-M3-xYS" secondAttribute="width" id="OHM-M8-NWT"/>
+                <constraint firstItem="ZUg-M3-xYS" firstAttribute="leading" secondItem="2lH-St-dbr" secondAttribute="trailing" constant="10" id="P4e-2H-a5C"/>
+                <constraint firstItem="2lH-St-dbr" firstAttribute="height" secondItem="fZm-8z-qij" secondAttribute="height" id="Pgk-Z5-kVY"/>
+                <constraint firstItem="Bb5-um-uso" firstAttribute="bottom" secondItem="ZUg-M3-xYS" secondAttribute="bottom" constant="8" id="QXi-fM-Yok"/>
+                <constraint firstItem="Bb5-um-uso" firstAttribute="bottom" secondItem="fZm-8z-qij" secondAttribute="bottom" constant="3" id="RfM-ei-Aya"/>
+                <constraint firstItem="fZm-8z-qij" firstAttribute="leading" secondItem="Bb5-um-uso" secondAttribute="leading" id="XBX-oo-NR7"/>
+                <constraint firstItem="AAz-Al-V0e" firstAttribute="centerX" secondItem="ZUg-M3-xYS" secondAttribute="centerX" id="ft9-Se-D1r"/>
+                <constraint firstItem="Pig-uZ-wwX" firstAttribute="centerX" secondItem="fZm-8z-qij" secondAttribute="centerX" id="kLA-K0-pCD"/>
+                <constraint firstItem="Bb5-um-uso" firstAttribute="trailing" secondItem="ZUg-M3-xYS" secondAttribute="trailing" constant="15" id="mQ6-oE-S4d"/>
+                <constraint firstItem="2lH-St-dbr" firstAttribute="centerY" secondItem="fZm-8z-qij" secondAttribute="centerY" id="nnA-xL-WM3"/>
+                <constraint firstItem="fZm-8z-qij" firstAttribute="width" secondItem="Mxy-nX-E5j" secondAttribute="width" multiplier="0.16" id="pOT-WZ-8KM"/>
+                <constraint firstItem="Pig-uZ-wwX" firstAttribute="height" secondItem="fZm-8z-qij" secondAttribute="height" id="zqO-dy-Nyv"/>
+                <constraint firstItem="AAz-Al-V0e" firstAttribute="centerY" secondItem="ZUg-M3-xYS" secondAttribute="centerY" id="zv8-Sf-dXW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Bb5-um-uso"/>
+            <connections>
+                <outlet property="audioPlotView" destination="2lH-St-dbr" id="5Z0-65-czM"/>
+                <outlet property="playButton" destination="fZm-8z-qij" id="t3Z-b9-fme"/>
+                <outlet property="playImageView" destination="Pig-uZ-wwX" id="aBg-o5-Yip"/>
+            </connections>
+            <point key="canvasLocation" x="232" y="-317"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="delet" width="15" height="15"/>
+        <image name="play" width="15" height="15"/>
+    </resources>
+</document>

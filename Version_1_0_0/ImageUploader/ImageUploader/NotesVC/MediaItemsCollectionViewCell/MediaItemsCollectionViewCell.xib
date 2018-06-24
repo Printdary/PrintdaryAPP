@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="dCg-Al-o6e" customClass="MediaItemsCollectionViewCell" customModule="ImageUploader" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="79" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="79" height="75"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mVy-H9-Rl7">
+                        <rect key="frame" x="0.0" y="0.0" width="79" height="75"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="mVy-H9-Rl7" secondAttribute="trailing" id="AWM-ZS-N2t"/>
+                <constraint firstItem="mVy-H9-Rl7" firstAttribute="top" secondItem="dCg-Al-o6e" secondAttribute="top" id="EeG-3Q-Rhg"/>
+                <constraint firstAttribute="bottom" secondItem="mVy-H9-Rl7" secondAttribute="bottom" id="J5I-3M-CCw"/>
+                <constraint firstItem="mVy-H9-Rl7" firstAttribute="leading" secondItem="dCg-Al-o6e" secondAttribute="leading" id="Mnw-UZ-45N"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="eIT-2p-dkr"/>
+            <size key="customSize" width="79" height="75"/>
+            <connections>
+                <outlet property="itemImageView" destination="mVy-H9-Rl7" id="tKC-lo-zLl"/>
+            </connections>
+            <point key="canvasLocation" x="5.5" y="93.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

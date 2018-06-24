@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Cnq-fk-0ro" customClass="ChangeChapterNameAlert" customModule="ImageUploader" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="244"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change Chapter Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rfh-wf-lRw">
+                    <rect key="frame" x="76" y="37.5" width="238" height="22.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="238" id="Gy5-mp-JBC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="18"/>
+                    <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Maximum Characters : 25" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bJK-Fx-4H9">
+                    <rect key="frame" x="34" y="84" width="166" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="166" id="CLr-6S-zbY"/>
+                        <constraint firstAttribute="height" constant="15" id="Goe-oZ-bpJ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="13"/>
+                    <color key="textColor" red="0.81960784310000001" green="0.81960784310000001" blue="0.81960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ud6-ZQ-9QO">
+                    <rect key="frame" x="19.5" y="109.5" width="351" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="rr2-Y6-MPa"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aFc-cu-eA1">
+                    <rect key="frame" x="0.0" y="200" width="195" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="c4c-XD-Bzu"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="yJv-bR-saX"/>
+                    </constraints>
+                    <state key="normal" title="Cancel">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="cancelButton:" destination="Cnq-fk-0ro" eventType="touchUpInside" id="AI6-rS-lr0"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oqR-5p-K6G">
+                    <rect key="frame" x="195" y="200" width="195" height="44"/>
+                    <state key="normal" title="Done">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="doneButton:" destination="Cnq-fk-0ro" eventType="touchUpInside" id="wvA-yV-SNE"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="oqR-5p-K6G" firstAttribute="leading" secondItem="aFc-cu-eA1" secondAttribute="trailing" id="2VU-uB-vaP"/>
+                <constraint firstItem="1H9-UP-47d" firstAttribute="trailing" secondItem="oqR-5p-K6G" secondAttribute="trailing" id="6FS-fZ-Pfa"/>
+                <constraint firstItem="oqR-5p-K6G" firstAttribute="height" secondItem="aFc-cu-eA1" secondAttribute="height" id="DC2-hA-IbB"/>
+                <constraint firstItem="ud6-ZQ-9QO" firstAttribute="width" secondItem="Cnq-fk-0ro" secondAttribute="width" multiplier="0.9" id="EUp-NA-rWb"/>
+                <constraint firstItem="1H9-UP-47d" firstAttribute="bottom" secondItem="aFc-cu-eA1" secondAttribute="bottom" id="JND-Qc-UPs"/>
+                <constraint firstItem="ud6-ZQ-9QO" firstAttribute="centerY" secondItem="Cnq-fk-0ro" secondAttribute="centerY" id="JZV-Xh-gpD"/>
+                <constraint firstItem="aFc-cu-eA1" firstAttribute="leading" secondItem="1H9-UP-47d" secondAttribute="leading" id="LQx-DH-iyt"/>
+                <constraint firstItem="oqR-5p-K6G" firstAttribute="width" secondItem="aFc-cu-eA1" secondAttribute="width" id="Pm7-N4-5Hs"/>
+                <constraint firstItem="bJK-Fx-4H9" firstAttribute="centerX" secondItem="Cnq-fk-0ro" secondAttribute="centerX" multiplier="0.6" id="Sn2-ZN-qXF"/>
+                <constraint firstItem="rfh-wf-lRw" firstAttribute="centerY" secondItem="Cnq-fk-0ro" secondAttribute="centerY" multiplier="0.4" id="Wox-U3-Ua3"/>
+                <constraint firstItem="oqR-5p-K6G" firstAttribute="width" secondItem="aFc-cu-eA1" secondAttribute="width" id="Z8q-Kl-HXX"/>
+                <constraint firstItem="bJK-Fx-4H9" firstAttribute="centerY" secondItem="Cnq-fk-0ro" secondAttribute="centerY" multiplier="0.75" id="Zj0-oX-HaB"/>
+                <constraint firstItem="rfh-wf-lRw" firstAttribute="centerX" secondItem="Cnq-fk-0ro" secondAttribute="centerX" id="a4t-u4-yLh"/>
+                <constraint firstItem="ud6-ZQ-9QO" firstAttribute="centerX" secondItem="Cnq-fk-0ro" secondAttribute="centerX" id="bOv-h2-6iH"/>
+                <constraint firstItem="oqR-5p-K6G" firstAttribute="bottom" secondItem="1H9-UP-47d" secondAttribute="bottom" id="pkD-1x-l0p"/>
+                <constraint firstItem="oqR-5p-K6G" firstAttribute="leading" secondItem="aFc-cu-eA1" secondAttribute="trailing" id="rzf-4v-2YT"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="1H9-UP-47d"/>
+            <connections>
+                <outlet property="cencel" destination="aFc-cu-eA1" id="cHM-KT-tvB"/>
+                <outlet property="doneButton" destination="oqR-5p-K6G" id="r3e-ae-Qbr"/>
+                <outlet property="nameTextField" destination="ud6-ZQ-9QO" id="KH8-Lf-f8V"/>
+                <outlet property="titleLabel" destination="rfh-wf-lRw" id="frb-9C-YKQ"/>
+            </connections>
+            <point key="canvasLocation" x="-46" y="-714"/>
+        </view>
+    </objects>
+</document>

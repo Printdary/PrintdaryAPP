@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ImageUploader' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ImageUploader
+pod 'TOCropViewController'
+pod 'LLSimpleCamera', '~> 4.1'
+pod 'FCAlertView'
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
+pod 'Firebase/DynamicLinks'
+pod 'Firebase/Storage'
+pod 'Firebase/Crash'
+pod 'Firebase/Messaging'
+pod 'FirebaseInstanceID'
+pod 'DisPlayers-Audio-Visualizers', '~> 0.1.1'
+pod 'TPCircularBuffer'
+pod 'GUIPlayerView', '~> 0.0.4'
+pod "AKPickerView"
+pod 'DropDown'
+pod 'FavIcon'
+end

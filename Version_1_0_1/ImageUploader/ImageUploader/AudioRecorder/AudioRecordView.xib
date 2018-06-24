@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="qvL-kT-nwD" customClass="AudioRecordView" customModule="ImageUploader" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="370" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MusicIcon2" translatesAutoresizingMaskIntoConstraints="NO" id="X6v-HM-q03">
+                    <rect key="frame" x="20" y="10" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="377-Hv-aDg"/>
+                        <constraint firstAttribute="height" constant="30" id="CJ8-5U-sJA"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Audio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P8W-8c-Bav">
+                    <rect key="frame" x="52" y="5" width="130" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="MJR-Ka-g30"/>
+                        <constraint firstAttribute="width" constant="130" id="wVb-XX-pXD"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KV9-GK-pQk">
+                    <rect key="frame" x="170" y="10" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="op7-hI-HO5"/>
+                        <constraint firstAttribute="height" constant="30" id="pig-xb-oes"/>
+                    </constraints>
+                    <state key="normal" image="Pause"/>
+                    <connections>
+                        <action selector="playPauseButtonAction:" destination="qvL-kT-nwD" eventType="touchUpInside" id="4hY-rp-wOj"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qi1-6C-88Y">
+                    <rect key="frame" x="202" y="10" width="40" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="8Yv-md-Ct4"/>
+                        <constraint firstAttribute="width" constant="40" id="ZOD-1s-qh9"/>
+                    </constraints>
+                    <state key="normal" title="Stop">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="stopButtonAction:" destination="qvL-kT-nwD" eventType="touchUpInside" id="B3e-dh-qcc"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="timer-1" translatesAutoresizingMaskIntoConstraints="NO" id="BVM-3L-GDt">
+                    <rect key="frame" x="252" y="10.5" width="30" height="30"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="C61-gu-iNV"/>
+                        <constraint firstAttribute="height" constant="30" id="etV-T0-fxU"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LMU-TP-bhs">
+                    <rect key="frame" x="293" y="5.5" width="77" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="xUq-SO-uKD"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="frw-9e-fNu" customClass="EZAudioPlot">
+                    <rect key="frame" x="0.0" y="45" width="370" height="75"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.20784313730000001" green="0.69019607839999997" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="P8W-8c-Bav" firstAttribute="leading" secondItem="X6v-HM-q03" secondAttribute="trailing" constant="2" id="6lf-Wn-qn3"/>
+                <constraint firstItem="KV9-GK-pQk" firstAttribute="centerX" secondItem="qvL-kT-nwD" secondAttribute="centerX" id="DTf-8t-fLK"/>
+                <constraint firstItem="LMU-TP-bhs" firstAttribute="centerY" secondItem="BVM-3L-GDt" secondAttribute="centerY" id="F5Z-xb-XTJ"/>
+                <constraint firstItem="Fbf-sy-HFl" firstAttribute="trailing" secondItem="LMU-TP-bhs" secondAttribute="trailing" id="KKw-rj-G0z"/>
+                <constraint firstItem="Qi1-6C-88Y" firstAttribute="leading" secondItem="KV9-GK-pQk" secondAttribute="trailing" constant="2" id="MwU-1N-5f9"/>
+                <constraint firstItem="BVM-3L-GDt" firstAttribute="leading" secondItem="Qi1-6C-88Y" secondAttribute="trailing" constant="10" id="OWF-Fw-CEw"/>
+                <constraint firstItem="X6v-HM-q03" firstAttribute="top" secondItem="Fbf-sy-HFl" secondAttribute="top" constant="10" id="P8l-wE-c68"/>
+                <constraint firstItem="frw-9e-fNu" firstAttribute="leading" secondItem="Fbf-sy-HFl" secondAttribute="leading" id="RVs-IS-aWt"/>
+                <constraint firstItem="LMU-TP-bhs" firstAttribute="leading" secondItem="BVM-3L-GDt" secondAttribute="trailing" constant="11" id="avG-AS-DhU"/>
+                <constraint firstItem="Qi1-6C-88Y" firstAttribute="centerY" secondItem="KV9-GK-pQk" secondAttribute="centerY" id="bed-GI-B34"/>
+                <constraint firstItem="frw-9e-fNu" firstAttribute="top" secondItem="X6v-HM-q03" secondAttribute="bottom" constant="5" id="eUn-WF-UDI"/>
+                <constraint firstItem="X6v-HM-q03" firstAttribute="leading" secondItem="Fbf-sy-HFl" secondAttribute="leading" constant="20" id="iGk-NF-K52"/>
+                <constraint firstAttribute="bottom" secondItem="frw-9e-fNu" secondAttribute="bottom" id="nPs-pa-lpd"/>
+                <constraint firstItem="P8W-8c-Bav" firstAttribute="centerY" secondItem="X6v-HM-q03" secondAttribute="centerY" id="qKx-V2-Wov"/>
+                <constraint firstItem="KV9-GK-pQk" firstAttribute="centerY" secondItem="P8W-8c-Bav" secondAttribute="centerY" id="tBg-3D-LIQ"/>
+                <constraint firstItem="frw-9e-fNu" firstAttribute="trailing" secondItem="Fbf-sy-HFl" secondAttribute="trailing" id="w4t-bG-Dw6"/>
+                <constraint firstItem="BVM-3L-GDt" firstAttribute="centerY" secondItem="Qi1-6C-88Y" secondAttribute="centerY" id="wo5-WV-9XV"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Fbf-sy-HFl"/>
+            <connections>
+                <outlet property="plotView" destination="frw-9e-fNu" id="06C-TG-6FS"/>
+                <outlet property="timerLabel" destination="LMU-TP-bhs" id="sEz-a3-UnG"/>
+            </connections>
+            <point key="canvasLocation" x="192" y="-112.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="MusicIcon2" width="646" height="647"/>
+        <image name="Pause" width="21" height="21"/>
+        <image name="timer-1" width="256" height="256"/>
+    </resources>
+</document>

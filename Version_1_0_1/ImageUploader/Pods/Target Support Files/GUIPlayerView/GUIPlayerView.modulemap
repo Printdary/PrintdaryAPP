@@ -1,0 +1,6 @@
+framework module GUIPlayerView {
+  umbrella header "GUIPlayerView-umbrella.h"
+
+  export *
+  module * { export * }
+}

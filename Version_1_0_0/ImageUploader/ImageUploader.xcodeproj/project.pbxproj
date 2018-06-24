@@ -1,0 +1,1785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8402C464205D8A0200D7551D /* UploadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8402C463205D8A0200D7551D /* UploadHelper.swift */; };
+		840FC5F920ADB3A1000A31CF /* UrlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840FC5F720ADB3A1000A31CF /* UrlView.swift */; };
+		840FC5FC20ADB7F5000A31CF /* UrlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840FC5FB20ADB7F5000A31CF /* UrlViewController.swift */; };
+		840FC5FE20ADBF59000A31CF /* eUrlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840FC5FD20ADBF59000A31CF /* eUrlView.xib */; };
+		8412C0F6205AA51A003DB368 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412C0F5205AA51A003DB368 /* AppDelegate.swift */; };
+		8412C0F8205AA51A003DB368 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412C0F7205AA51A003DB368 /* ViewController.swift */; };
+		8412C0FB205AA51A003DB368 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8412C0F9205AA51A003DB368 /* Main.storyboard */; };
+		8412C0FD205AA51A003DB368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8412C0FC205AA51A003DB368 /* Assets.xcassets */; };
+		8412C100205AA51A003DB368 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8412C0FE205AA51A003DB368 /* LaunchScreen.storyboard */; };
+		8412C109205AA70B003DB368 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412C108205AA70B003DB368 /* CameraViewController.swift */; };
+		8412C10C205AB7D4003DB368 /* ImageUplader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412C10B205AB7D4003DB368 /* ImageUplader.swift */; };
+		8412C11D205ADD2B003DB368 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412C114205ADD2A003DB368 /* UIImage+FixOrientation.m */; };
+		8412C11E205ADD2B003DB368 /* ViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412C116205ADD2B003DB368 /* ViewUtils.m */; };
+		8412C11F205ADD2B003DB368 /* LLSimpleCamera+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412C117205ADD2B003DB368 /* LLSimpleCamera+Helper.m */; };
+		8412C120205ADD2B003DB368 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412C11A205ADD2B003DB368 /* HomeViewController.m */; };
+		8412C121205ADD2B003DB368 /* LLSimpleCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412C11C205ADD2B003DB368 /* LLSimpleCamera.m */; };
+		8414987320BAEE0800B10910 /* SearchProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414987220BAEE0800B10910 /* SearchProfileView.swift */; };
+		8414987520BAEE1500B10910 /* SearchProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8414987420BAEE1500B10910 /* SearchProfileView.xib */; };
+		8414987920BAF73100B10910 /* SearchTableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414987720BAF73100B10910 /* SearchTableTableViewCell.swift */; };
+		8414987A20BAF73100B10910 /* SearchTableTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8414987820BAF73100B10910 /* SearchTableTableViewCell.xib */; };
+		84150C4D20DA3459006BF9D4 /* CacheHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84150C4C20DA3459006BF9D4 /* CacheHelper.swift */; };
+		84150C4F20DA8734006BF9D4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84150C4E20DA8733006BF9D4 /* GoogleService-Info.plist */; };
+		8415832820B02004009FF98B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8415832720B02004009FF98B /* WebView.swift */; };
+		8415832A20B02013009FF98B /* WebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8415832920B02013009FF98B /* WebView.xib */; };
+		8415832C20B02B0C009FF98B /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8415832B20B02B0C009FF98B /* VideoViewController.swift */; };
+		8416355A205B22EC006FB2D1 /* ResponseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84163559205B22EC006FB2D1 /* ResponseViewController.m */; };
+		8416355F205B25EF006FB2D1 /* ResivedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8416355E205B25EF006FB2D1 /* ResivedModel.m */; };
+		84195DCC20B5509D008AFA38 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84195DCB20B5509D008AFA38 /* ProfileViewController.swift */; };
+		84195DD020B557BB008AFA38 /* ProfileInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84195DCE20B557BB008AFA38 /* ProfileInfoTableViewCell.swift */; };
+		84195DD120B557BB008AFA38 /* ProfileInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84195DCF20B557BB008AFA38 /* ProfileInfoTableViewCell.xib */; };
+		84195DD520B560F1008AFA38 /* GoalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84195DD320B560F1008AFA38 /* GoalTableViewCell.swift */; };
+		84195DD620B560F1008AFA38 /* GoalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84195DD420B560F1008AFA38 /* GoalTableViewCell.xib */; };
+		84195DDA20B579FD008AFA38 /* ImprintTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84195DD820B579FD008AFA38 /* ImprintTableViewCell.swift */; };
+		84195DDB20B579FD008AFA38 /* ImprintTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84195DD920B579FD008AFA38 /* ImprintTableViewCell.xib */; };
+		84195DDF20B5840F008AFA38 /* TopicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84195DDD20B5840F008AFA38 /* TopicTableViewCell.swift */; };
+		84195DE020B5840F008AFA38 /* TopicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84195DDE20B5840F008AFA38 /* TopicTableViewCell.xib */; };
+		84195DE420B5A656008AFA38 /* ChapterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84195DE220B5A656008AFA38 /* ChapterTableViewCell.swift */; };
+		84195DE520B5A656008AFA38 /* ChapterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84195DE320B5A656008AFA38 /* ChapterTableViewCell.xib */; };
+		84199BAC20B8051900411BA7 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84199BAB20B8051900411BA7 /* MenuView.swift */; };
+		84199BAE20B8052A00411BA7 /* MenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84199BAD20B8052A00411BA7 /* MenuView.xib */; };
+		842C85E720BD6DA8007CA018 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842C85E620BD6DA7007CA018 /* ARKit.framework */; };
+		842D7B44209E10B3003B3701 /* UserBCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D7B43209E10B3003B3701 /* UserBCameraViewController.swift */; };
+		842D7B47209E146D003B3701 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D7B46209E146D003B3701 /* ResultsViewController.swift */; };
+		842D7B4A209E1B0B003B3701 /* ResultsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D7B49209E1B0B003B3701 /* ResultsCell.swift */; };
+		842D7B4C209E1B38003B3701 /* ResultsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842D7B4B209E1B38003B3701 /* ResultsCell.xib */; };
+		842D7B4F209E341A003B3701 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D7B4E209E341A003B3701 /* NotesViewController.swift */; };
+		842D7B55209F3DA5003B3701 /* VideoRecording.m in Sources */ = {isa = PBXBuildFile; fileRef = 842D7B54209F3DA5003B3701 /* VideoRecording.m */; };
+		842D7B57209F437E003B3701 /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D7B56209F437E003B3701 /* VideoCollectionViewCell.swift */; };
+		842D7B59209F438F003B3701 /* VideoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842D7B58209F438F003B3701 /* VideoCollectionViewCell.xib */; };
+		842D7B5C209F6B01003B3701 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D7B5B209F6B01003B3701 /* SearchViewController.swift */; };
+		842D7B5F209F6B54003B3701 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D7B5D209F6B54003B3701 /* SearchTableViewCell.swift */; };
+		842D7B60209F6B54003B3701 /* SearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842D7B5E209F6B54003B3701 /* SearchTableViewCell.xib */; };
+		8430A4122096FC2E009A8A0D /* TackePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430A4112096FC2E009A8A0D /* TackePhotoViewController.swift */; };
+		8430A41420972616009A8A0D /* PhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430A41320972616009A8A0D /* PhotosCollectionViewCell.swift */; };
+		8430A41620972635009A8A0D /* PhotosCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8430A41520972635009A8A0D /* PhotosCollectionViewCell.xib */; };
+		8443668A20C3325F00F5CDE9 /* FolowersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443668920C3325F00F5CDE9 /* FolowersView.swift */; };
+		8443668C20C3327100F5CDE9 /* FolowersView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8443668B20C3327100F5CDE9 /* FolowersView.xib */; };
+		8443669020C3341F00F5CDE9 /* FolowersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443668E20C3341F00F5CDE9 /* FolowersTableViewCell.swift */; };
+		8443669120C3341F00F5CDE9 /* FolowersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8443668F20C3341F00F5CDE9 /* FolowersTableViewCell.xib */; };
+		8443669520C339FB00F5CDE9 /* FollowingRequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443669320C339FB00F5CDE9 /* FollowingRequestTableViewCell.swift */; };
+		8443669620C339FB00F5CDE9 /* FollowingRequestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8443669420C339FB00F5CDE9 /* FollowingRequestTableViewCell.xib */; };
+		8443669920C3663200F5CDE9 /* FollowingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443669820C3663100F5CDE9 /* FollowingView.swift */; };
+		8443669B20C3664500F5CDE9 /* FollowingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8443669A20C3664500F5CDE9 /* FollowingView.xib */; };
+		8443669F20C367C900F5CDE9 /* FollowingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443669D20C367C900F5CDE9 /* FollowingTableViewCell.swift */; };
+		844366A020C367C900F5CDE9 /* FollowingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8443669E20C367C900F5CDE9 /* FollowingTableViewCell.xib */; };
+		844366A320C3CEDC00F5CDE9 /* ViewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844366A220C3CEDC00F5CDE9 /* ViewsView.swift */; };
+		844366A520C3CEF800F5CDE9 /* ViewsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844366A420C3CEF800F5CDE9 /* ViewsView.xib */; };
+		844366A920C3CFF500F5CDE9 /* ViewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844366A720C3CFF500F5CDE9 /* ViewsTableViewCell.swift */; };
+		844366AA20C3CFF500F5CDE9 /* ViewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844366A820C3CFF500F5CDE9 /* ViewsTableViewCell.xib */; };
+		845548222089FF50008255D9 /* AudioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845548212089FF50008255D9 /* AudioPlayerView.swift */; };
+		84554826208A20C8008255D9 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84554825208A20C8008255D9 /* CameraVC.swift */; };
+		8455DD2C20888326004489F5 /* AudioRecorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8455DD2B20888326004489F5 /* AudioRecorderViewController.swift */; };
+		8456E33920AC1C52000F475F /* InprintTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456E33820AC1C52000F475F /* InprintTableViewController.swift */; };
+		8456E33D20AC1D3E000F475F /* NotesInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456E33B20AC1D3E000F475F /* NotesInfoTableViewCell.swift */; };
+		8456E33E20AC1D3E000F475F /* NotesInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8456E33C20AC1D3E000F475F /* NotesInfoTableViewCell.xib */; };
+		8456E34220AC2529000F475F /* AudioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456E34020AC2529000F475F /* AudioTableViewCell.swift */; };
+		8456E34320AC2529000F475F /* AudioTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8456E34120AC2529000F475F /* AudioTableViewCell.xib */; };
+		8456E34720AC2657000F475F /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456E34520AC2657000F475F /* ImageTableViewCell.swift */; };
+		8456E34820AC2657000F475F /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8456E34620AC2657000F475F /* ImageTableViewCell.xib */; };
+		8456E34C20AC28D7000F475F /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456E34A20AC28D7000F475F /* VideoTableViewCell.swift */; };
+		8456E34D20AC28D7000F475F /* VideoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8456E34B20AC28D7000F475F /* VideoTableViewCell.xib */; };
+		8456E35120AC2CAA000F475F /* ModelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456E34F20AC2CAA000F475F /* ModelTableViewCell.swift */; };
+		8456E35220AC2CAA000F475F /* ModelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8456E35020AC2CAA000F475F /* ModelTableViewCell.xib */; };
+		8456E35620AC2FEA000F475F /* UrlTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456E35420AC2FEA000F475F /* UrlTableViewCell.swift */; };
+		8456E35720AC2FEA000F475F /* UrlTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8456E35520AC2FEA000F475F /* UrlTableViewCell.xib */; };
+		8456E35B20AC323B000F475F /* PublishTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456E35920AC323B000F475F /* PublishTableViewCell.swift */; };
+		8456E35C20AC323B000F475F /* PublishTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8456E35A20AC323B000F475F /* PublishTableViewCell.xib */; };
+		847E9C9920C00DB500B44EA6 /* DeleteChapterAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E9C9720C00DB400B44EA6 /* DeleteChapterAlertView.swift */; };
+		847E9C9A20C00DB500B44EA6 /* DeleteChapterAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847E9C9820C00DB500B44EA6 /* DeleteChapterAlertView.xib */; };
+		847E9C9C20C00E0300B44EA6 /* DeleteTopicAlertVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E9C9B20C00E0300B44EA6 /* DeleteTopicAlertVIew.swift */; };
+		847E9C9E20C00E3400B44EA6 /* DeleteTopicAlertVIew.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847E9C9D20C00E3400B44EA6 /* DeleteTopicAlertVIew.xib */; };
+		847E9CA220C018CF00B44EA6 /* ChangeChapterNameAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E9CA020C018CF00B44EA6 /* ChangeChapterNameAlert.swift */; };
+		847E9CA320C018CF00B44EA6 /* ChangeChapterNameAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847E9CA120C018CF00B44EA6 /* ChangeChapterNameAlert.xib */; };
+		848EE93E20D29A210028686D /* DetectedUnitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848EE93D20D29A200028686D /* DetectedUnitView.swift */; };
+		848EE94020D29A4E0028686D /* DetectedUnitView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848EE93F20D29A4E0028686D /* DetectedUnitView.xib */; };
+		84A1406020C1691C00BE113A /* Caffeine.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A13FF120C167DA00BE113A /* Caffeine.dae */; };
+		84A1406120C1691C00BE113A /* Isoamyl_acetate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A13FF220C167DC00BE113A /* Isoamyl_acetate.jpg */; };
+		84A1406220C1691C00BE113A /* Urea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A13FF320C167DD00BE113A /* Urea.jpg */; };
+		84A1406320C1691C00BE113A /* Caffeine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A13FF420C167E000BE113A /* Caffeine.jpg */; };
+		84A1406420C1691C00BE113A /* Dimethyl_Sulfoxide.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A13FF520C167E200BE113A /* Dimethyl_Sulfoxide.dae */; };
+		84A1406520C1691C00BE113A /* Ethanamide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A13FF620C167E400BE113A /* Ethanamide.jpg */; };
+		84A1406620C1691C00BE113A /* Dimethyl_sulfoxide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A13FF720C167E500BE113A /* Dimethyl_sulfoxide.jpg */; };
+		84A1406720C1691C00BE113A /* Tetrahydrofuran.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A13FF820C167E700BE113A /* Tetrahydrofuran.jpg */; };
+		84A1406820C1691C00BE113A /* Tetramethyl_ethylene.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A13FF920C167E900BE113A /* Tetramethyl_ethylene.jpg */; };
+		84A1406920C1691C00BE113A /* Acetonitrile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A13FFA20C167EA00BE113A /* Acetonitrile.jpg */; };
+		84A1406A20C1691C00BE113A /* Butane.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A13FFB20C167EC00BE113A /* Butane.dae */; };
+		84A1406B20C1691C00BE113A /* Isopropanol.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A13FFC20C167EE00BE113A /* Isopropanol.dae */; };
+		84A1406C20C1691C00BE113A /* Isopropyl_chloride.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A13FFD20C167F000BE113A /* Isopropyl_chloride.jpg */; };
+		84A1406D20C1691C00BE113A /* Methylammonium_ion.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A13FFE20C167F200BE113A /* Methylammonium_ion.dae */; };
+		84A1406E20C1691C00BE113A /* Propyl_Chloride.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A13FFF20C167F300BE113A /* Propyl_Chloride.dae */; };
+		84A1406F20C1691C00BE113A /* Chloromethane.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1400020C167F500BE113A /* Chloromethane.dae */; };
+		84A1407020C1691C00BE113A /* Lactic_Acid.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1400120C167F700BE113A /* Lactic_Acid.dae */; };
+		84A1407120C1691C00BE113A /* Methylamine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1400220C167F900BE113A /* Methylamine.jpg */; };
+		84A1407220C1691C00BE113A /* Acetonitrile.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1400320C167FB00BE113A /* Acetonitrile.dae */; };
+		84A1407320C1691C00BE113A /* Methane.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1400420C167FD00BE113A /* Methane.dae */; };
+		84A1407420C1691C00BE113A /* Trifluoroethanol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1400520C167FF00BE113A /* Trifluoroethanol.jpg */; };
+		84A1407520C1691C00BE113A /* Saccharine.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1400620C1680000BE113A /* Saccharine.dae */; };
+		84A1407620C1691C00BE113A /* Butylethylene.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1400720C1680200BE113A /* Butylethylene.jpg */; };
+		84A1407720C1691C00BE113A /* Propyl_Chloride.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1400A20C1682900BE113A /* Propyl_Chloride.jpg */; };
+		84A1407820C1691C00BE113A /* Diamond.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1400B20C1682B00BE113A /* Diamond.dae */; };
+		84A1407920C1691C00BE113A /* T_Butyl_Chloride.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1400C20C1682D00BE113A /* T_Butyl_Chloride.dae */; };
+		84A1407A20C1691C00BE113A /* Bisphenol_A.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1400D20C1683100BE113A /* Bisphenol_A.dae */; };
+		84A1407B20C1691C00BE113A /* Isopropanol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1400E20C1683500BE113A /* Isopropanol.jpg */; };
+		84A1407C20C1691C00BE113A /* Bisphenol_A.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1400F20C1683800BE113A /* Bisphenol_A.jpg */; };
+		84A1407D20C1691C00BE113A /* Citric_Acid.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1401020C1683E00BE113A /* Citric_Acid.dae */; };
+		84A1407E20C1691C00BE113A /* Tetramethylsilane.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1401120C1684200BE113A /* Tetramethylsilane.dae */; };
+		84A1407F20C1691C00BE113A /* Butylethylene.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1401220C1684800BE113A /* Butylethylene.dae */; };
+		84A1408020C1691C00BE113A /* Ammonia.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1401320C1684D00BE113A /* Ammonia.dae */; };
+		84A1408120C1691C00BE113A /* Paracetamol.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1401420C1685200BE113A /* Paracetamol.dae */; };
+		84A1408220C1691C00BE113A /* Lactic_acid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1401520C1685700BE113A /* Lactic_acid.jpg */; };
+		84A1408320C1691C00BE113A /* DDT.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1401620C1685E00BE113A /* DDT.dae */; };
+		84A1408420C1691C00BE113A /* Phthalic_acid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1401720C1686300BE113A /* Phthalic_acid.jpg */; };
+		84A1408520C1691C00BE113A /* Putricine.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1401820C1686900BE113A /* Putricine.dae */; };
+		84A1408620C1691C00BE113A /* Cyclopentane.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1401920C1686F00BE113A /* Cyclopentane.dae */; };
+		84A1408720C1691C00BE113A /* Methane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1401A20C1687300BE113A /* Methane.jpg */; };
+		84A1408820C1691C00BE113A /* Benzoic_Acid.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1401B20C1687900BE113A /* Benzoic_Acid.dae */; };
+		84A1408920C1691C00BE113A /* Heptane.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1401C20C1688200BE113A /* Heptane.dae */; };
+		84A1408A20C1691C00BE113A /* Heptane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1401D20C1688800BE113A /* Heptane.jpg */; };
+		84A1408B20C1691C00BE113A /* Isopropyl_chloride.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1401E20C1688A00BE113A /* Isopropyl_chloride.dae */; };
+		84A1408C20C1691C00BE113A /* Ethene.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1401F20C1688C00BE113A /* Ethene.jpg */; };
+		84A1408D20C1691C00BE113A /* Saccharine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1402020C1688E00BE113A /* Saccharine.jpg */; };
+		84A1408E20C1691C00BE113A /* Urea.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1402120C1689000BE113A /* Urea.dae */; };
+		84A1408F20C1691C00BE113A /* Aspartame.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1402220C1689300BE113A /* Aspartame.dae */; };
+		84A1409020C1691C00BE113A /* Dimethylcyclobutane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1402320C1689600BE113A /* Dimethylcyclobutane.jpg */; };
+		84A1409120C1691C00BE113A /* Cyanic_Acid.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1402420C1689700BE113A /* Cyanic_Acid.dae */; };
+		84A1409220C1691C00BE113A /* Cyclobutane.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1402520C1689A00BE113A /* Cyclobutane.dae */; };
+		84A1409320C1691C00BE113A /* Ethanol.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1402620C1689C00BE113A /* Ethanol.dae */; };
+		84A1409420C1691C00BE113A /* Isoamyl_acetate.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1402820C168A100BE113A /* Isoamyl_acetate.dae */; };
+		84A1409520C1691C00BE113A /* Tetrahydrofuran.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1402920C168A300BE113A /* Tetrahydrofuran.dae */; };
+		84A1409620C1691C00BE113A /* Mercuric_Acetate.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1402A20C168A500BE113A /* Mercuric_Acetate.dae */; };
+		84A1409720C1691C00BE113A /* Putricine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1402B20C168A800BE113A /* Putricine.jpg */; };
+		84A1409820C1691C00BE113A /* Octane.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1402C20C168AB00BE113A /* Octane.dae */; };
+		84A1409920C1691C00BE113A /* Trifluoroethanol.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1402D20C168AD00BE113A /* Trifluoroethanol.dae */; };
+		84A1409A20C1691C00BE113A /* Citric_Acid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1402E20C168AF00BE113A /* Citric_Acid.jpg */; };
+		84A1409B20C1691C00BE113A /* Water.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1402F20C168B100BE113A /* Water.jpg */; };
+		84A1409C20C1691C00BE113A /* Aspartame.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1403020C168B300BE113A /* Aspartame.jpg */; };
+		84A1409D20C1691C00BE113A /* Pentane.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1403120C168B600BE113A /* Pentane.dae */; };
+		84A1409E20C1691C00BE113A /* Thalidomide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1403220C168B900BE113A /* Thalidomide.jpg */; };
+		84A1409F20C1691C00BE113A /* Isobutane.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1403320C168BD00BE113A /* Isobutane.dae */; };
+		84A140A020C1691C00BE113A /* Trinitrotoluene.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1403420C168C000BE113A /* Trinitrotoluene.jpg */; };
+		84A140A120C1691C00BE113A /* Cyclopropane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1403520C168C200BE113A /* Cyclopropane.jpg */; };
+		84A140A320C1691C00BE113A /* Isobutane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1403720C168C600BE113A /* Isobutane.jpg */; };
+		84A140A420C1691C00BE113A /* Acetic_Acid.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1403820C168C800BE113A /* Acetic_Acid.dae */; };
+		84A140A520C1691C00BE113A /* Tetramethylsilane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1403920C168C900BE113A /* Tetramethylsilane.jpg */; };
+		84A140A620C1691C00BE113A /* Butane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1403A20C168CE00BE113A /* Butane.jpg */; };
+		84A140A720C1691C00BE113A /* Paracetamol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1403B20C168D000BE113A /* Paracetamol.jpg */; };
+		84A140A820C1691C00BE113A /* Mercuric_acetate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1403C20C168D200BE113A /* Mercuric_acetate.jpg */; };
+		84A140A920C1691C00BE113A /* Ethene.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1403D20C168D400BE113A /* Ethene.dae */; };
+		84A140AA20C1691C00BE113A /* Maleic_acid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1403E20C168D600BE113A /* Maleic_acid.jpg */; };
+		84A140AB20C1691C00BE113A /* Trinitrotoluene.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1403F20C168D900BE113A /* Trinitrotoluene.dae */; };
+		84A140AC20C1691C00BE113A /* Chloromethane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1404020C168DB00BE113A /* Chloromethane.jpg */; };
+		84A140AD20C1691C00BE113A /* Diamond.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1404120C168DD00BE113A /* Diamond.jpg */; };
+		84A140AE20C1691C00BE113A /* DDT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1404220C168DF00BE113A /* DDT.jpg */; };
+		84A140AF20C1691C00BE113A /* Thalidomide.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1404320C168E100BE113A /* Thalidomide.dae */; };
+		84A140B020C1691C00BE113A /* Methylammonium_ion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1404420C168E300BE113A /* Methylammonium_ion.jpg */; };
+		84A140B120C1691C00BE113A /* Dimethylcyclobutane.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1404520C168E600BE113A /* Dimethylcyclobutane.dae */; };
+		84A140B220C1691C00BE113A /* Maleic_Acid.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1404620C168E900BE113A /* Maleic_Acid.dae */; };
+		84A140B320C1691C00BE113A /* Cyclopropane.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1404720C168EA00BE113A /* Cyclopropane.dae */; };
+		84A140B420C1691C00BE113A /* Cyanic_Acid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1404820C168EB00BE113A /* Cyanic_Acid.jpg */; };
+		84A140B520C1691C00BE113A /* Isopentane.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1404920C168ED00BE113A /* Isopentane.dae */; };
+		84A140B620C1691C00BE113A /* Acetone.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1404A20C168EF00BE113A /* Acetone.dae */; };
+		84A140B720C1691C00BE113A /* Acetone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1404B20C168F000BE113A /* Acetone.jpg */; };
+		84A140B820C1691C00BE113A /* Isopentane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1404C20C168F200BE113A /* Isopentane.jpg */; };
+		84A140B920C1691C00BE113A /* Benzoic_Acid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1404D20C168F300BE113A /* Benzoic_Acid.jpg */; };
+		84A140BA20C1691C00BE113A /* Ammonia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1404E20C168F500BE113A /* Ammonia.jpg */; };
+		84A140BB20C1691C00BE113A /* Ethanol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1404F20C168F700BE113A /* Ethanol.jpg */; };
+		84A140BC20C1691C00BE113A /* Pentane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1405020C168F900BE113A /* Pentane.jpg */; };
+		84A140BD20C1691C00BE113A /* Ethanamide.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1405120C168FB00BE113A /* Ethanamide.dae */; };
+		84A140BE20C1691C00BE113A /* Neopentane.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1405220C168FE00BE113A /* Neopentane.dae */; };
+		84A140BF20C1691C00BE113A /* Tetramethyl_ethylene.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1405320C1690000BE113A /* Tetramethyl_ethylene.dae */; };
+		84A140C020C1691D00BE113A /* Phthalic_acid.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1405420C1690200BE113A /* Phthalic_acid.dae */; };
+		84A140C120C1691D00BE113A /* Octane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1405520C1690300BE113A /* Octane.jpg */; };
+		84A140C220C1691D00BE113A /* Disulfiram.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1405620C1690600BE113A /* Disulfiram.dae */; };
+		84A140C320C1691D00BE113A /* Methylamine.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1405720C1690800BE113A /* Methylamine.dae */; };
+		84A140C420C1691D00BE113A /* Cadaverine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1405820C1690900BE113A /* Cadaverine.jpg */; };
+		84A140C520C1691D00BE113A /* Disulfiram.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1405920C1690C00BE113A /* Disulfiram.jpg */; };
+		84A140C620C1691D00BE113A /* Cadaverine.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1405A20C1690F00BE113A /* Cadaverine.dae */; };
+		84A140C720C1691D00BE113A /* Acetic_Acid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1405B20C1691100BE113A /* Acetic_Acid.jpg */; };
+		84A140C820C1691D00BE113A /* T_Butyl_Chloride.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1405C20C1691400BE113A /* T_Butyl_Chloride.jpg */; };
+		84A140C920C1691D00BE113A /* Cyclopentane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1405D20C1691600BE113A /* Cyclopentane.jpg */; };
+		84A140CA20C1691D00BE113A /* Water.dae in Resources */ = {isa = PBXBuildFile; fileRef = 84A1405E20C1691800BE113A /* Water.dae */; };
+		84A140CB20C1691D00BE113A /* Cyclobutane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A1405F20C1691C00BE113A /* Cyclobutane.jpg */; };
+		84A26AAF20DC051100CE67E0 /* MediaItemsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A26AAE20DC051100CE67E0 /* MediaItemsCollectionViewCell.swift */; };
+		84A26AB120DC052700CE67E0 /* MediaItemsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A26AB020DC052700CE67E0 /* MediaItemsCollectionViewCell.xib */; };
+		84C73D5C207642D300270D3E /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C73D5B207642D300270D3E /* Helper.swift */; };
+		84C73D5E2076489C00270D3E /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C73D5D2076489C00270D3E /* SwitchViewController.swift */; };
+		84C73D6020765BE900270D3E /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C73D5F20765BE900270D3E /* UserModel.swift */; };
+		84E12DC320A082ED009EA527 /* ServerSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E12DC220A082EC009EA527 /* ServerSideViewController.swift */; };
+		84E12DC520A0935A009EA527 /* ARKitCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E12DC420A0935A009EA527 /* ARKitCameraViewController.swift */; };
+		84E12DD920A0A445009EA527 /* Pods_ImageUploader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E12DD820A0A445009EA527 /* Pods_ImageUploader.framework */; };
+		84E12DDD20A0A7FF009EA527 /* AssimpKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E12DDC20A0A7FE009EA527 /* AssimpKit.framework */; };
+		84E12DE020A0A8A0009EA527 /* ARKitWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E12DDF20A0A8A0009EA527 /* ARKitWrapper.m */; };
+		84E12DE120A0AD4A009EA527 /* AssimpKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E12DDC20A0A7FE009EA527 /* AssimpKit.framework */; };
+		84E12DE220A0AD4A009EA527 /* AssimpKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84E12DDC20A0A7FE009EA527 /* AssimpKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84E12DE520A0CE5A009EA527 /* AudioPlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E12DE420A0CE5A009EA527 /* AudioPlayerView.xib */; };
+		84FCD9B020CE910F00835D82 /* AudioRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FCD9AF20CE910F00835D82 /* AudioRecordView.swift */; };
+		84FCD9B220CE912100835D82 /* AudioRecordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FCD9B120CE912100835D82 /* AudioRecordView.xib */; };
+		84FE04D02074B01C0046DFE5 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FE04CF2074B01C0046DFE5 /* SignInViewController.swift */; };
+		84FE04D22074C5910046DFE5 /* SignUPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FE04D12074C5910046DFE5 /* SignUPViewController.swift */; };
+		84FE04D42074E5580046DFE5 /* PersonalInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FE04D32074E5580046DFE5 /* PersonalInformationViewController.swift */; };
+		84FE04D72074ED3E0046DFE5 /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FE04D62074ED3E0046DFE5 /* CropViewController.swift */; };
+		84FE04D92074F1D30046DFE5 /* MSCropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FE04D82074F1D20046DFE5 /* MSCropView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84E12DE320A0AD4B009EA527 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				84E12DE220A0AD4A009EA527 /* AssimpKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		05AF1E5B51479F84E25EF0AA /* Pods-ImageUploader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageUploader.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageUploader/Pods-ImageUploader.release.xcconfig"; sourceTree = "<group>"; };
+		8402C463205D8A0200D7551D /* UploadHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadHelper.swift; sourceTree = "<group>"; };
+		840FC5F720ADB3A1000A31CF /* UrlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlView.swift; sourceTree = "<group>"; };
+		840FC5FB20ADB7F5000A31CF /* UrlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlViewController.swift; sourceTree = "<group>"; };
+		840FC5FD20ADBF59000A31CF /* eUrlView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = eUrlView.xib; sourceTree = "<group>"; };
+		8411EE3720BBFED400FC6D24 /* ImageUploader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ImageUploader.entitlements; sourceTree = "<group>"; };
+		8412C0F2205AA519003DB368 /* ImageUploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageUploader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8412C0F5205AA51A003DB368 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8412C0F7205AA51A003DB368 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8412C0FA205AA51A003DB368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8412C0FC205AA51A003DB368 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8412C0FF205AA51A003DB368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8412C101205AA51A003DB368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8412C108205AA70B003DB368 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		8412C10B205AB7D4003DB368 /* ImageUplader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUplader.swift; sourceTree = "<group>"; };
+		8412C112205ADD29003DB368 /* ImageUploader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageUploader-Bridging-Header.h"; sourceTree = "<group>"; };
+		8412C113205ADD2A003DB368 /* LLSimpleCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSimpleCamera.h; sourceTree = "<group>"; };
+		8412C114205ADD2A003DB368 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
+		8412C115205ADD2A003DB368 /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
+		8412C116205ADD2B003DB368 /* ViewUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewUtils.m; sourceTree = "<group>"; };
+		8412C117205ADD2B003DB368 /* LLSimpleCamera+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LLSimpleCamera+Helper.m"; sourceTree = "<group>"; };
+		8412C118205ADD2B003DB368 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		8412C119205ADD2B003DB368 /* LLSimpleCamera+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LLSimpleCamera+Helper.h"; sourceTree = "<group>"; };
+		8412C11A205ADD2B003DB368 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		8412C11B205ADD2B003DB368 /* ViewUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewUtils.h; sourceTree = "<group>"; };
+		8412C11C205ADD2B003DB368 /* LLSimpleCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSimpleCamera.m; sourceTree = "<group>"; };
+		8414987220BAEE0800B10910 /* SearchProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProfileView.swift; sourceTree = "<group>"; };
+		8414987420BAEE1500B10910 /* SearchProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchProfileView.xib; sourceTree = "<group>"; };
+		8414987720BAF73100B10910 /* SearchTableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableTableViewCell.swift; sourceTree = "<group>"; };
+		8414987820BAF73100B10910 /* SearchTableTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTableTableViewCell.xib; sourceTree = "<group>"; };
+		84150C4C20DA3459006BF9D4 /* CacheHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheHelper.swift; sourceTree = "<group>"; };
+		84150C4E20DA8733006BF9D4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8415832720B02004009FF98B /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		8415832920B02013009FF98B /* WebView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebView.xib; sourceTree = "<group>"; };
+		8415832B20B02B0C009FF98B /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		84163558205B22EC006FB2D1 /* ResponseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponseViewController.h; sourceTree = "<group>"; };
+		84163559205B22EC006FB2D1 /* ResponseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponseViewController.m; sourceTree = "<group>"; };
+		8416355D205B25EF006FB2D1 /* ResivedModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResivedModel.h; sourceTree = "<group>"; };
+		8416355E205B25EF006FB2D1 /* ResivedModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResivedModel.m; sourceTree = "<group>"; };
+		84195DCB20B5509D008AFA38 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		84195DCE20B557BB008AFA38 /* ProfileInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoTableViewCell.swift; sourceTree = "<group>"; };
+		84195DCF20B557BB008AFA38 /* ProfileInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileInfoTableViewCell.xib; sourceTree = "<group>"; };
+		84195DD320B560F1008AFA38 /* GoalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalTableViewCell.swift; sourceTree = "<group>"; };
+		84195DD420B560F1008AFA38 /* GoalTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoalTableViewCell.xib; sourceTree = "<group>"; };
+		84195DD820B579FD008AFA38 /* ImprintTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImprintTableViewCell.swift; sourceTree = "<group>"; };
+		84195DD920B579FD008AFA38 /* ImprintTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImprintTableViewCell.xib; sourceTree = "<group>"; };
+		84195DDD20B5840F008AFA38 /* TopicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicTableViewCell.swift; sourceTree = "<group>"; };
+		84195DDE20B5840F008AFA38 /* TopicTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopicTableViewCell.xib; sourceTree = "<group>"; };
+		84195DE220B5A656008AFA38 /* ChapterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterTableViewCell.swift; sourceTree = "<group>"; };
+		84195DE320B5A656008AFA38 /* ChapterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChapterTableViewCell.xib; sourceTree = "<group>"; };
+		84199BAB20B8051900411BA7 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		84199BAD20B8052A00411BA7 /* MenuView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuView.xib; sourceTree = "<group>"; };
+		842C85E620BD6DA7007CA018 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
+		842D7B43209E10B3003B3701 /* UserBCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBCameraViewController.swift; sourceTree = "<group>"; };
+		842D7B46209E146D003B3701 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		842D7B49209E1B0B003B3701 /* ResultsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsCell.swift; sourceTree = "<group>"; };
+		842D7B4B209E1B38003B3701 /* ResultsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultsCell.xib; sourceTree = "<group>"; };
+		842D7B4E209E341A003B3701 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		842D7B53209F3DA5003B3701 /* VideoRecording.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoRecording.h; sourceTree = "<group>"; };
+		842D7B54209F3DA5003B3701 /* VideoRecording.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoRecording.m; sourceTree = "<group>"; };
+		842D7B56209F437E003B3701 /* VideoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewCell.swift; sourceTree = "<group>"; };
+		842D7B58209F438F003B3701 /* VideoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoCollectionViewCell.xib; sourceTree = "<group>"; };
+		842D7B5B209F6B01003B3701 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		842D7B5D209F6B54003B3701 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		842D7B5E209F6B54003B3701 /* SearchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTableViewCell.xib; sourceTree = "<group>"; };
+		8430A4112096FC2E009A8A0D /* TackePhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TackePhotoViewController.swift; sourceTree = "<group>"; };
+		8430A41320972616009A8A0D /* PhotosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewCell.swift; sourceTree = "<group>"; };
+		8430A41520972635009A8A0D /* PhotosCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotosCollectionViewCell.xib; sourceTree = "<group>"; };
+		8443668920C3325F00F5CDE9 /* FolowersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolowersView.swift; sourceTree = "<group>"; };
+		8443668B20C3327100F5CDE9 /* FolowersView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FolowersView.xib; sourceTree = "<group>"; };
+		8443668E20C3341F00F5CDE9 /* FolowersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolowersTableViewCell.swift; sourceTree = "<group>"; };
+		8443668F20C3341F00F5CDE9 /* FolowersTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FolowersTableViewCell.xib; sourceTree = "<group>"; };
+		8443669320C339FB00F5CDE9 /* FollowingRequestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingRequestTableViewCell.swift; sourceTree = "<group>"; };
+		8443669420C339FB00F5CDE9 /* FollowingRequestTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FollowingRequestTableViewCell.xib; sourceTree = "<group>"; };
+		8443669820C3663100F5CDE9 /* FollowingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingView.swift; sourceTree = "<group>"; };
+		8443669A20C3664500F5CDE9 /* FollowingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FollowingView.xib; sourceTree = "<group>"; };
+		8443669D20C367C900F5CDE9 /* FollowingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingTableViewCell.swift; sourceTree = "<group>"; };
+		8443669E20C367C900F5CDE9 /* FollowingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FollowingTableViewCell.xib; sourceTree = "<group>"; };
+		844366A220C3CEDC00F5CDE9 /* ViewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsView.swift; sourceTree = "<group>"; };
+		844366A420C3CEF800F5CDE9 /* ViewsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewsView.xib; sourceTree = "<group>"; };
+		844366A720C3CFF500F5CDE9 /* ViewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsTableViewCell.swift; sourceTree = "<group>"; };
+		844366A820C3CFF500F5CDE9 /* ViewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewsTableViewCell.xib; sourceTree = "<group>"; };
+		845548212089FF50008255D9 /* AudioPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerView.swift; sourceTree = "<group>"; };
+		84554825208A20C8008255D9 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
+		8455DD2B20888326004489F5 /* AudioRecorderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorderViewController.swift; sourceTree = "<group>"; };
+		8456E33820AC1C52000F475F /* InprintTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InprintTableViewController.swift; sourceTree = "<group>"; };
+		8456E33B20AC1D3E000F475F /* NotesInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesInfoTableViewCell.swift; sourceTree = "<group>"; };
+		8456E33C20AC1D3E000F475F /* NotesInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotesInfoTableViewCell.xib; sourceTree = "<group>"; };
+		8456E34020AC2529000F475F /* AudioTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTableViewCell.swift; sourceTree = "<group>"; };
+		8456E34120AC2529000F475F /* AudioTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AudioTableViewCell.xib; sourceTree = "<group>"; };
+		8456E34520AC2657000F475F /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		8456E34620AC2657000F475F /* ImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
+		8456E34A20AC28D7000F475F /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		8456E34B20AC28D7000F475F /* VideoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoTableViewCell.xib; sourceTree = "<group>"; };
+		8456E34F20AC2CAA000F475F /* ModelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTableViewCell.swift; sourceTree = "<group>"; };
+		8456E35020AC2CAA000F475F /* ModelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModelTableViewCell.xib; sourceTree = "<group>"; };
+		8456E35420AC2FEA000F475F /* UrlTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlTableViewCell.swift; sourceTree = "<group>"; };
+		8456E35520AC2FEA000F475F /* UrlTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UrlTableViewCell.xib; sourceTree = "<group>"; };
+		8456E35920AC323B000F475F /* PublishTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishTableViewCell.swift; sourceTree = "<group>"; };
+		8456E35A20AC323B000F475F /* PublishTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PublishTableViewCell.xib; sourceTree = "<group>"; };
+		847E9C9720C00DB400B44EA6 /* DeleteChapterAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteChapterAlertView.swift; sourceTree = "<group>"; };
+		847E9C9820C00DB500B44EA6 /* DeleteChapterAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeleteChapterAlertView.xib; sourceTree = "<group>"; };
+		847E9C9B20C00E0300B44EA6 /* DeleteTopicAlertVIew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteTopicAlertVIew.swift; sourceTree = "<group>"; };
+		847E9C9D20C00E3400B44EA6 /* DeleteTopicAlertVIew.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeleteTopicAlertVIew.xib; sourceTree = "<group>"; };
+		847E9CA020C018CF00B44EA6 /* ChangeChapterNameAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeChapterNameAlert.swift; sourceTree = "<group>"; };
+		847E9CA120C018CF00B44EA6 /* ChangeChapterNameAlert.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangeChapterNameAlert.xib; sourceTree = "<group>"; };
+		848EE93D20D29A200028686D /* DetectedUnitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectedUnitView.swift; sourceTree = "<group>"; };
+		848EE93F20D29A4E0028686D /* DetectedUnitView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetectedUnitView.xib; sourceTree = "<group>"; };
+		84A13FF120C167DA00BE113A /* Caffeine.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Caffeine.dae; sourceTree = "<group>"; };
+		84A13FF220C167DC00BE113A /* Isoamyl_acetate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Isoamyl_acetate.jpg; sourceTree = "<group>"; };
+		84A13FF320C167DD00BE113A /* Urea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Urea.jpg; sourceTree = "<group>"; };
+		84A13FF420C167E000BE113A /* Caffeine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Caffeine.jpg; sourceTree = "<group>"; };
+		84A13FF520C167E200BE113A /* Dimethyl_Sulfoxide.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Dimethyl_Sulfoxide.dae; sourceTree = "<group>"; };
+		84A13FF620C167E400BE113A /* Ethanamide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ethanamide.jpg; sourceTree = "<group>"; };
+		84A13FF720C167E500BE113A /* Dimethyl_sulfoxide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dimethyl_sulfoxide.jpg; sourceTree = "<group>"; };
+		84A13FF820C167E700BE113A /* Tetrahydrofuran.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tetrahydrofuran.jpg; sourceTree = "<group>"; };
+		84A13FF920C167E900BE113A /* Tetramethyl_ethylene.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tetramethyl_ethylene.jpg; sourceTree = "<group>"; };
+		84A13FFA20C167EA00BE113A /* Acetonitrile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Acetonitrile.jpg; sourceTree = "<group>"; };
+		84A13FFB20C167EC00BE113A /* Butane.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Butane.dae; sourceTree = "<group>"; };
+		84A13FFC20C167EE00BE113A /* Isopropanol.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Isopropanol.dae; sourceTree = "<group>"; };
+		84A13FFD20C167F000BE113A /* Isopropyl_chloride.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Isopropyl_chloride.jpg; sourceTree = "<group>"; };
+		84A13FFE20C167F200BE113A /* Methylammonium_ion.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Methylammonium_ion.dae; sourceTree = "<group>"; };
+		84A13FFF20C167F300BE113A /* Propyl_Chloride.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Propyl_Chloride.dae; sourceTree = "<group>"; };
+		84A1400020C167F500BE113A /* Chloromethane.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Chloromethane.dae; sourceTree = "<group>"; };
+		84A1400120C167F700BE113A /* Lactic_Acid.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Lactic_Acid.dae; sourceTree = "<group>"; };
+		84A1400220C167F900BE113A /* Methylamine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Methylamine.jpg; sourceTree = "<group>"; };
+		84A1400320C167FB00BE113A /* Acetonitrile.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Acetonitrile.dae; sourceTree = "<group>"; };
+		84A1400420C167FD00BE113A /* Methane.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Methane.dae; sourceTree = "<group>"; };
+		84A1400520C167FF00BE113A /* Trifluoroethanol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Trifluoroethanol.jpg; sourceTree = "<group>"; };
+		84A1400620C1680000BE113A /* Saccharine.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Saccharine.dae; sourceTree = "<group>"; };
+		84A1400720C1680200BE113A /* Butylethylene.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Butylethylene.jpg; sourceTree = "<group>"; };
+		84A1400A20C1682900BE113A /* Propyl_Chloride.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Propyl_Chloride.jpg; sourceTree = "<group>"; };
+		84A1400B20C1682B00BE113A /* Diamond.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Diamond.dae; sourceTree = "<group>"; };
+		84A1400C20C1682D00BE113A /* T_Butyl_Chloride.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = T_Butyl_Chloride.dae; sourceTree = "<group>"; };
+		84A1400D20C1683100BE113A /* Bisphenol_A.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Bisphenol_A.dae; sourceTree = "<group>"; };
+		84A1400E20C1683500BE113A /* Isopropanol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Isopropanol.jpg; sourceTree = "<group>"; };
+		84A1400F20C1683800BE113A /* Bisphenol_A.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bisphenol_A.jpg; sourceTree = "<group>"; };
+		84A1401020C1683E00BE113A /* Citric_Acid.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Citric_Acid.dae; sourceTree = "<group>"; };
+		84A1401120C1684200BE113A /* Tetramethylsilane.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Tetramethylsilane.dae; sourceTree = "<group>"; };
+		84A1401220C1684800BE113A /* Butylethylene.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Butylethylene.dae; sourceTree = "<group>"; };
+		84A1401320C1684D00BE113A /* Ammonia.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Ammonia.dae; sourceTree = "<group>"; };
+		84A1401420C1685200BE113A /* Paracetamol.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Paracetamol.dae; sourceTree = "<group>"; };
+		84A1401520C1685700BE113A /* Lactic_acid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lactic_acid.jpg; sourceTree = "<group>"; };
+		84A1401620C1685E00BE113A /* DDT.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = DDT.dae; sourceTree = "<group>"; };
+		84A1401720C1686300BE113A /* Phthalic_acid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Phthalic_acid.jpg; sourceTree = "<group>"; };
+		84A1401820C1686900BE113A /* Putricine.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Putricine.dae; sourceTree = "<group>"; };
+		84A1401920C1686F00BE113A /* Cyclopentane.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Cyclopentane.dae; sourceTree = "<group>"; };
+		84A1401A20C1687300BE113A /* Methane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Methane.jpg; sourceTree = "<group>"; };
+		84A1401B20C1687900BE113A /* Benzoic_Acid.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Benzoic_Acid.dae; sourceTree = "<group>"; };
+		84A1401C20C1688200BE113A /* Heptane.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Heptane.dae; sourceTree = "<group>"; };
+		84A1401D20C1688800BE113A /* Heptane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Heptane.jpg; sourceTree = "<group>"; };
+		84A1401E20C1688A00BE113A /* Isopropyl_chloride.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Isopropyl_chloride.dae; sourceTree = "<group>"; };
+		84A1401F20C1688C00BE113A /* Ethene.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ethene.jpg; sourceTree = "<group>"; };
+		84A1402020C1688E00BE113A /* Saccharine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Saccharine.jpg; sourceTree = "<group>"; };
+		84A1402120C1689000BE113A /* Urea.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Urea.dae; sourceTree = "<group>"; };
+		84A1402220C1689300BE113A /* Aspartame.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Aspartame.dae; sourceTree = "<group>"; };
+		84A1402320C1689600BE113A /* Dimethylcyclobutane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dimethylcyclobutane.jpg; sourceTree = "<group>"; };
+		84A1402420C1689700BE113A /* Cyanic_Acid.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Cyanic_Acid.dae; sourceTree = "<group>"; };
+		84A1402520C1689A00BE113A /* Cyclobutane.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Cyclobutane.dae; sourceTree = "<group>"; };
+		84A1402620C1689C00BE113A /* Ethanol.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Ethanol.dae; sourceTree = "<group>"; };
+		84A1402820C168A100BE113A /* Isoamyl_acetate.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Isoamyl_acetate.dae; sourceTree = "<group>"; };
+		84A1402920C168A300BE113A /* Tetrahydrofuran.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Tetrahydrofuran.dae; sourceTree = "<group>"; };
+		84A1402A20C168A500BE113A /* Mercuric_Acetate.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Mercuric_Acetate.dae; sourceTree = "<group>"; };
+		84A1402B20C168A800BE113A /* Putricine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Putricine.jpg; sourceTree = "<group>"; };
+		84A1402C20C168AB00BE113A /* Octane.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Octane.dae; sourceTree = "<group>"; };
+		84A1402D20C168AD00BE113A /* Trifluoroethanol.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Trifluoroethanol.dae; sourceTree = "<group>"; };
+		84A1402E20C168AF00BE113A /* Citric_Acid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Citric_Acid.jpg; sourceTree = "<group>"; };
+		84A1402F20C168B100BE113A /* Water.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Water.jpg; sourceTree = "<group>"; };
+		84A1403020C168B300BE113A /* Aspartame.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aspartame.jpg; sourceTree = "<group>"; };
+		84A1403120C168B600BE113A /* Pentane.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Pentane.dae; sourceTree = "<group>"; };
+		84A1403220C168B900BE113A /* Thalidomide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Thalidomide.jpg; sourceTree = "<group>"; };
+		84A1403320C168BD00BE113A /* Isobutane.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Isobutane.dae; sourceTree = "<group>"; };
+		84A1403420C168C000BE113A /* Trinitrotoluene.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Trinitrotoluene.jpg; sourceTree = "<group>"; };
+		84A1403520C168C200BE113A /* Cyclopropane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cyclopropane.jpg; sourceTree = "<group>"; };
+		84A1403720C168C600BE113A /* Isobutane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Isobutane.jpg; sourceTree = "<group>"; };
+		84A1403820C168C800BE113A /* Acetic_Acid.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Acetic_Acid.dae; sourceTree = "<group>"; };
+		84A1403920C168C900BE113A /* Tetramethylsilane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tetramethylsilane.jpg; sourceTree = "<group>"; };
+		84A1403A20C168CE00BE113A /* Butane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Butane.jpg; sourceTree = "<group>"; };
+		84A1403B20C168D000BE113A /* Paracetamol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Paracetamol.jpg; sourceTree = "<group>"; };
+		84A1403C20C168D200BE113A /* Mercuric_acetate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mercuric_acetate.jpg; sourceTree = "<group>"; };
+		84A1403D20C168D400BE113A /* Ethene.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Ethene.dae; sourceTree = "<group>"; };
+		84A1403E20C168D600BE113A /* Maleic_acid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Maleic_acid.jpg; sourceTree = "<group>"; };
+		84A1403F20C168D900BE113A /* Trinitrotoluene.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Trinitrotoluene.dae; sourceTree = "<group>"; };
+		84A1404020C168DB00BE113A /* Chloromethane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chloromethane.jpg; sourceTree = "<group>"; };
+		84A1404120C168DD00BE113A /* Diamond.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Diamond.jpg; sourceTree = "<group>"; };
+		84A1404220C168DF00BE113A /* DDT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DDT.jpg; sourceTree = "<group>"; };
+		84A1404320C168E100BE113A /* Thalidomide.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Thalidomide.dae; sourceTree = "<group>"; };
+		84A1404420C168E300BE113A /* Methylammonium_ion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Methylammonium_ion.jpg; sourceTree = "<group>"; };
+		84A1404520C168E600BE113A /* Dimethylcyclobutane.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Dimethylcyclobutane.dae; sourceTree = "<group>"; };
+		84A1404620C168E900BE113A /* Maleic_Acid.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Maleic_Acid.dae; sourceTree = "<group>"; };
+		84A1404720C168EA00BE113A /* Cyclopropane.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Cyclopropane.dae; sourceTree = "<group>"; };
+		84A1404820C168EB00BE113A /* Cyanic_Acid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cyanic_Acid.jpg; sourceTree = "<group>"; };
+		84A1404920C168ED00BE113A /* Isopentane.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Isopentane.dae; sourceTree = "<group>"; };
+		84A1404A20C168EF00BE113A /* Acetone.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Acetone.dae; sourceTree = "<group>"; };
+		84A1404B20C168F000BE113A /* Acetone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Acetone.jpg; sourceTree = "<group>"; };
+		84A1404C20C168F200BE113A /* Isopentane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Isopentane.jpg; sourceTree = "<group>"; };
+		84A1404D20C168F300BE113A /* Benzoic_Acid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Benzoic_Acid.jpg; sourceTree = "<group>"; };
+		84A1404E20C168F500BE113A /* Ammonia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ammonia.jpg; sourceTree = "<group>"; };
+		84A1404F20C168F700BE113A /* Ethanol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ethanol.jpg; sourceTree = "<group>"; };
+		84A1405020C168F900BE113A /* Pentane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pentane.jpg; sourceTree = "<group>"; };
+		84A1405120C168FB00BE113A /* Ethanamide.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Ethanamide.dae; sourceTree = "<group>"; };
+		84A1405220C168FE00BE113A /* Neopentane.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Neopentane.dae; sourceTree = "<group>"; };
+		84A1405320C1690000BE113A /* Tetramethyl_ethylene.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Tetramethyl_ethylene.dae; sourceTree = "<group>"; };
+		84A1405420C1690200BE113A /* Phthalic_acid.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Phthalic_acid.dae; sourceTree = "<group>"; };
+		84A1405520C1690300BE113A /* Octane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Octane.jpg; sourceTree = "<group>"; };
+		84A1405620C1690600BE113A /* Disulfiram.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Disulfiram.dae; sourceTree = "<group>"; };
+		84A1405720C1690800BE113A /* Methylamine.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Methylamine.dae; sourceTree = "<group>"; };
+		84A1405820C1690900BE113A /* Cadaverine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cadaverine.jpg; sourceTree = "<group>"; };
+		84A1405920C1690C00BE113A /* Disulfiram.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Disulfiram.jpg; sourceTree = "<group>"; };
+		84A1405A20C1690F00BE113A /* Cadaverine.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Cadaverine.dae; sourceTree = "<group>"; };
+		84A1405B20C1691100BE113A /* Acetic_Acid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Acetic_Acid.jpg; sourceTree = "<group>"; };
+		84A1405C20C1691400BE113A /* T_Butyl_Chloride.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = T_Butyl_Chloride.jpg; sourceTree = "<group>"; };
+		84A1405D20C1691600BE113A /* Cyclopentane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cyclopentane.jpg; sourceTree = "<group>"; };
+		84A1405E20C1691800BE113A /* Water.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Water.dae; sourceTree = "<group>"; };
+		84A1405F20C1691C00BE113A /* Cyclobutane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cyclobutane.jpg; sourceTree = "<group>"; };
+		84A26AAE20DC051100CE67E0 /* MediaItemsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaItemsCollectionViewCell.swift; sourceTree = "<group>"; };
+		84A26AB020DC052700CE67E0 /* MediaItemsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MediaItemsCollectionViewCell.xib; sourceTree = "<group>"; };
+		84C73D5B207642D300270D3E /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		84C73D5D2076489C00270D3E /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
+		84C73D5F20765BE900270D3E /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		84E12DC120A05446009EA527 /* ImageUploader-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageUploader-Swift.h"; sourceTree = "<group>"; };
+		84E12DC220A082EC009EA527 /* ServerSideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerSideViewController.swift; sourceTree = "<group>"; };
+		84E12DC420A0935A009EA527 /* ARKitCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitCameraViewController.swift; sourceTree = "<group>"; };
+		84E12DD820A0A445009EA527 /* Pods_ImageUploader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_ImageUploader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E12DDC20A0A7FE009EA527 /* AssimpKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssimpKit.framework; path = Carthage/Build/iOS/AssimpKit.framework; sourceTree = "<group>"; };
+		84E12DDE20A0A8A0009EA527 /* ARKitWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARKitWrapper.h; sourceTree = "<group>"; };
+		84E12DDF20A0A8A0009EA527 /* ARKitWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARKitWrapper.m; sourceTree = "<group>"; };
+		84E12DE420A0CE5A009EA527 /* AudioPlayerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AudioPlayerView.xib; sourceTree = "<group>"; };
+		84FCD9AF20CE910F00835D82 /* AudioRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecordView.swift; sourceTree = "<group>"; };
+		84FCD9B120CE912100835D82 /* AudioRecordView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AudioRecordView.xib; sourceTree = "<group>"; };
+		84FE04CF2074B01C0046DFE5 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		84FE04D12074C5910046DFE5 /* SignUPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUPViewController.swift; sourceTree = "<group>"; };
+		84FE04D32074E5580046DFE5 /* PersonalInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInformationViewController.swift; sourceTree = "<group>"; };
+		84FE04D62074ED3E0046DFE5 /* CropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropViewController.swift; sourceTree = "<group>"; };
+		84FE04D82074F1D20046DFE5 /* MSCropView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSCropView.swift; sourceTree = "<group>"; };
+		EF4DBD1AF09F19E41138BC07 /* Pods-ImageUploader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageUploader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageUploader/Pods-ImageUploader.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8412C0EF205AA519003DB368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842C85E720BD6DA8007CA018 /* ARKit.framework in Frameworks */,
+				84E12DDD20A0A7FF009EA527 /* AssimpKit.framework in Frameworks */,
+				84E12DD920A0A445009EA527 /* Pods_ImageUploader.framework in Frameworks */,
+				84E12DE120A0AD4A009EA527 /* AssimpKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8402C462205D89E000D7551D /* UploadHelper */ = {
+			isa = PBXGroup;
+			children = (
+				8402C463205D8A0200D7551D /* UploadHelper.swift */,
+			);
+			path = UploadHelper;
+			sourceTree = "<group>";
+		};
+		840FC5F620ADB35A000A31CF /* UrlModel */ = {
+			isa = PBXGroup;
+			children = (
+				840FC5FB20ADB7F5000A31CF /* UrlViewController.swift */,
+				840FC5F720ADB3A1000A31CF /* UrlView.swift */,
+				840FC5FD20ADBF59000A31CF /* eUrlView.xib */,
+			);
+			path = UrlModel;
+			sourceTree = "<group>";
+		};
+		8412C0E9205AA519003DB368 = {
+			isa = PBXGroup;
+			children = (
+				84A1403820C168C800BE113A /* Acetic_Acid.dae */,
+				84A1405B20C1691100BE113A /* Acetic_Acid.jpg */,
+				84A1404A20C168EF00BE113A /* Acetone.dae */,
+				84A1404B20C168F000BE113A /* Acetone.jpg */,
+				84A1400320C167FB00BE113A /* Acetonitrile.dae */,
+				84A13FFA20C167EA00BE113A /* Acetonitrile.jpg */,
+				84A1401320C1684D00BE113A /* Ammonia.dae */,
+				84A1404E20C168F500BE113A /* Ammonia.jpg */,
+				84A1402220C1689300BE113A /* Aspartame.dae */,
+				84A1403020C168B300BE113A /* Aspartame.jpg */,
+				84A1401B20C1687900BE113A /* Benzoic_Acid.dae */,
+				84A1404D20C168F300BE113A /* Benzoic_Acid.jpg */,
+				84A1400D20C1683100BE113A /* Bisphenol_A.dae */,
+				84A1400F20C1683800BE113A /* Bisphenol_A.jpg */,
+				84A13FF120C167DA00BE113A /* Caffeine.dae */,
+				84A13FF420C167E000BE113A /* Caffeine.jpg */,
+				84A13FFB20C167EC00BE113A /* Butane.dae */,
+				84A1403A20C168CE00BE113A /* Butane.jpg */,
+				84A1401220C1684800BE113A /* Butylethylene.dae */,
+				84A1400720C1680200BE113A /* Butylethylene.jpg */,
+				84A1405A20C1690F00BE113A /* Cadaverine.dae */,
+				84A1405820C1690900BE113A /* Cadaverine.jpg */,
+				84A1401020C1683E00BE113A /* Citric_Acid.dae */,
+				84A1402E20C168AF00BE113A /* Citric_Acid.jpg */,
+				84A1400020C167F500BE113A /* Chloromethane.dae */,
+				84A1404020C168DB00BE113A /* Chloromethane.jpg */,
+				84A1402420C1689700BE113A /* Cyanic_Acid.dae */,
+				84A1404820C168EB00BE113A /* Cyanic_Acid.jpg */,
+				84A1402520C1689A00BE113A /* Cyclobutane.dae */,
+				84A1405F20C1691C00BE113A /* Cyclobutane.jpg */,
+				84A1401920C1686F00BE113A /* Cyclopentane.dae */,
+				84A1405D20C1691600BE113A /* Cyclopentane.jpg */,
+				84A1404720C168EA00BE113A /* Cyclopropane.dae */,
+				84A1403520C168C200BE113A /* Cyclopropane.jpg */,
+				84A1401620C1685E00BE113A /* DDT.dae */,
+				84A1404220C168DF00BE113A /* DDT.jpg */,
+				84A1400B20C1682B00BE113A /* Diamond.dae */,
+				84A1404120C168DD00BE113A /* Diamond.jpg */,
+				84A13FF520C167E200BE113A /* Dimethyl_Sulfoxide.dae */,
+				84A13FF720C167E500BE113A /* Dimethyl_sulfoxide.jpg */,
+				84A1404520C168E600BE113A /* Dimethylcyclobutane.dae */,
+				84A1402320C1689600BE113A /* Dimethylcyclobutane.jpg */,
+				84A1405620C1690600BE113A /* Disulfiram.dae */,
+				84A1405920C1690C00BE113A /* Disulfiram.jpg */,
+				84A1405120C168FB00BE113A /* Ethanamide.dae */,
+				84A13FF620C167E400BE113A /* Ethanamide.jpg */,
+				84A1402620C1689C00BE113A /* Ethanol.dae */,
+				84A1404F20C168F700BE113A /* Ethanol.jpg */,
+				84A1403D20C168D400BE113A /* Ethene.dae */,
+				84A1401F20C1688C00BE113A /* Ethene.jpg */,
+				84A1401C20C1688200BE113A /* Heptane.dae */,
+				84A1401D20C1688800BE113A /* Heptane.jpg */,
+				84A1402820C168A100BE113A /* Isoamyl_acetate.dae */,
+				84A13FF220C167DC00BE113A /* Isoamyl_acetate.jpg */,
+				84A1403320C168BD00BE113A /* Isobutane.dae */,
+				84A1403720C168C600BE113A /* Isobutane.jpg */,
+				84A1404920C168ED00BE113A /* Isopentane.dae */,
+				84A1404C20C168F200BE113A /* Isopentane.jpg */,
+				84A13FFC20C167EE00BE113A /* Isopropanol.dae */,
+				84A1400E20C1683500BE113A /* Isopropanol.jpg */,
+				84A1401E20C1688A00BE113A /* Isopropyl_chloride.dae */,
+				84A13FFD20C167F000BE113A /* Isopropyl_chloride.jpg */,
+				84A1400120C167F700BE113A /* Lactic_Acid.dae */,
+				84A1401520C1685700BE113A /* Lactic_acid.jpg */,
+				84A1404620C168E900BE113A /* Maleic_Acid.dae */,
+				84A1403E20C168D600BE113A /* Maleic_acid.jpg */,
+				84A1402A20C168A500BE113A /* Mercuric_Acetate.dae */,
+				84A1403C20C168D200BE113A /* Mercuric_acetate.jpg */,
+				84A1400420C167FD00BE113A /* Methane.dae */,
+				84A1401A20C1687300BE113A /* Methane.jpg */,
+				84A1405720C1690800BE113A /* Methylamine.dae */,
+				84A1400220C167F900BE113A /* Methylamine.jpg */,
+				84A13FFE20C167F200BE113A /* Methylammonium_ion.dae */,
+				84A1404420C168E300BE113A /* Methylammonium_ion.jpg */,
+				84A1405220C168FE00BE113A /* Neopentane.dae */,
+				84A1402C20C168AB00BE113A /* Octane.dae */,
+				84A1405520C1690300BE113A /* Octane.jpg */,
+				84A1401420C1685200BE113A /* Paracetamol.dae */,
+				84A1403B20C168D000BE113A /* Paracetamol.jpg */,
+				84A1403120C168B600BE113A /* Pentane.dae */,
+				84A1405020C168F900BE113A /* Pentane.jpg */,
+				84A1405420C1690200BE113A /* Phthalic_acid.dae */,
+				84A1401720C1686300BE113A /* Phthalic_acid.jpg */,
+				84A13FFF20C167F300BE113A /* Propyl_Chloride.dae */,
+				84A1400A20C1682900BE113A /* Propyl_Chloride.jpg */,
+				84A1401820C1686900BE113A /* Putricine.dae */,
+				84A1402B20C168A800BE113A /* Putricine.jpg */,
+				84A1400620C1680000BE113A /* Saccharine.dae */,
+				84A1402020C1688E00BE113A /* Saccharine.jpg */,
+				84A1400C20C1682D00BE113A /* T_Butyl_Chloride.dae */,
+				84A1405C20C1691400BE113A /* T_Butyl_Chloride.jpg */,
+				84A1402920C168A300BE113A /* Tetrahydrofuran.dae */,
+				84A13FF820C167E700BE113A /* Tetrahydrofuran.jpg */,
+				84A1405320C1690000BE113A /* Tetramethyl_ethylene.dae */,
+				84A13FF920C167E900BE113A /* Tetramethyl_ethylene.jpg */,
+				84A1401120C1684200BE113A /* Tetramethylsilane.dae */,
+				84A1403920C168C900BE113A /* Tetramethylsilane.jpg */,
+				84A1404320C168E100BE113A /* Thalidomide.dae */,
+				84A1403220C168B900BE113A /* Thalidomide.jpg */,
+				84A1402D20C168AD00BE113A /* Trifluoroethanol.dae */,
+				84A1400520C167FF00BE113A /* Trifluoroethanol.jpg */,
+				84A1403F20C168D900BE113A /* Trinitrotoluene.dae */,
+				84A1403420C168C000BE113A /* Trinitrotoluene.jpg */,
+				84A1402120C1689000BE113A /* Urea.dae */,
+				84A13FF320C167DD00BE113A /* Urea.jpg */,
+				84A1405E20C1691800BE113A /* Water.dae */,
+				84A1402F20C168B100BE113A /* Water.jpg */,
+				847E9C9F20C0188B00B44EA6 /* ChangeChapterTopicName */,
+				843E67A820C00D2B00BFA16D /* DeleteTopicAlert */,
+				843E679F20C00C1B00BFA16D /* DeleteChapterAlert */,
+				8412C0F4205AA519003DB368 /* ImageUploader */,
+				8412C0F3205AA519003DB368 /* Products */,
+				CD2D718088BD16DEDD1F5C93 /* Pods */,
+				E877AB34A151F03FBAF04A31 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8412C0F3205AA519003DB368 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8412C0F2205AA519003DB368 /* ImageUploader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8412C0F4205AA519003DB368 /* ImageUploader */ = {
+			isa = PBXGroup;
+			children = (
+				844366A120C3CEBA00F5CDE9 /* ViewsView */,
+				8443669720C3661200F5CDE9 /* FollowingView */,
+				8443668820C3323A00F5CDE9 /* FollowersView */,
+				8411EE3720BBFED400FC6D24 /* ImageUploader.entitlements */,
+				84195DCA20B55084008AFA38 /* ProfileVC */,
+				84E12DC220A082EC009EA527 /* ServerSideViewController.swift */,
+				84E12DC420A0935A009EA527 /* ARKitCameraViewController.swift */,
+				842D7B4D209E33F1003B3701 /* NotesVC */,
+				840FC5F620ADB35A000A31CF /* UrlModel */,
+				842D7B42209E1092003B3701 /* UserB */,
+				842D7B5A209F6ACB003B3701 /* SearchVC */,
+				842D7B50209F3C08003B3701 /* VideoRecordingVC */,
+				8430A4102096FBF1009A8A0D /* TakePhoto */,
+				8455DD2620887F50004489F5 /* AudioRecorder */,
+				842E5AB8207B4B4D0053E47E /* ImprintViewController */,
+				84FE04D52074ED190046DFE5 /* CropViewController */,
+				8402C462205D89E000D7551D /* UploadHelper */,
+				8412C122205B165E003DB368 /* ResponsView */,
+				8412C10D205ADA70003DB368 /* User2VC */,
+				8412C10A205AB7B6003DB368 /* ImageUploaderVC */,
+				8412C107205AA6E3003DB368 /* CameraVC */,
+				8412C0F7205AA51A003DB368 /* ViewController.swift */,
+				8412C0F5205AA51A003DB368 /* AppDelegate.swift */,
+				8412C0F9205AA51A003DB368 /* Main.storyboard */,
+				8412C0FC205AA51A003DB368 /* Assets.xcassets */,
+				8412C0FE205AA51A003DB368 /* LaunchScreen.storyboard */,
+				84150C4E20DA8733006BF9D4 /* GoogleService-Info.plist */,
+				8412C101205AA51A003DB368 /* Info.plist */,
+			);
+			path = ImageUploader;
+			sourceTree = "<group>";
+		};
+		8412C107205AA6E3003DB368 /* CameraVC */ = {
+			isa = PBXGroup;
+			children = (
+				8412C108205AA70B003DB368 /* CameraViewController.swift */,
+				84554825208A20C8008255D9 /* CameraVC.swift */,
+			);
+			path = CameraVC;
+			sourceTree = "<group>";
+		};
+		8412C10A205AB7B6003DB368 /* ImageUploaderVC */ = {
+			isa = PBXGroup;
+			children = (
+				8412C10B205AB7D4003DB368 /* ImageUplader.swift */,
+			);
+			path = ImageUploaderVC;
+			sourceTree = "<group>";
+		};
+		8412C10D205ADA70003DB368 /* User2VC */ = {
+			isa = PBXGroup;
+			children = (
+				8412C118205ADD2B003DB368 /* HomeViewController.h */,
+				8412C11A205ADD2B003DB368 /* HomeViewController.m */,
+				8412C113205ADD2A003DB368 /* LLSimpleCamera.h */,
+				8412C11C205ADD2B003DB368 /* LLSimpleCamera.m */,
+				8412C119205ADD2B003DB368 /* LLSimpleCamera+Helper.h */,
+				8412C117205ADD2B003DB368 /* LLSimpleCamera+Helper.m */,
+				8412C115205ADD2A003DB368 /* UIImage+FixOrientation.h */,
+				8412C114205ADD2A003DB368 /* UIImage+FixOrientation.m */,
+				8412C11B205ADD2B003DB368 /* ViewUtils.h */,
+				8412C116205ADD2B003DB368 /* ViewUtils.m */,
+				8412C112205ADD29003DB368 /* ImageUploader-Bridging-Header.h */,
+			);
+			path = User2VC;
+			sourceTree = "<group>";
+		};
+		8412C122205B165E003DB368 /* ResponsView */ = {
+			isa = PBXGroup;
+			children = (
+				842D7B46209E146D003B3701 /* ResultsViewController.swift */,
+				84163558205B22EC006FB2D1 /* ResponseViewController.h */,
+				84163559205B22EC006FB2D1 /* ResponseViewController.m */,
+				8416355D205B25EF006FB2D1 /* ResivedModel.h */,
+				8416355E205B25EF006FB2D1 /* ResivedModel.m */,
+			);
+			path = ResponsView;
+			sourceTree = "<group>";
+		};
+		8414987120BAEDC500B10910 /* SearchProfile */ = {
+			isa = PBXGroup;
+			children = (
+				8414987420BAEE1500B10910 /* SearchProfileView.xib */,
+				8414987220BAEE0800B10910 /* SearchProfileView.swift */,
+			);
+			path = SearchProfile;
+			sourceTree = "<group>";
+		};
+		8414987620BAF70600B10910 /* SearchProfileCell */ = {
+			isa = PBXGroup;
+			children = (
+				8414987720BAF73100B10910 /* SearchTableTableViewCell.swift */,
+				8414987820BAF73100B10910 /* SearchTableTableViewCell.xib */,
+			);
+			path = SearchProfileCell;
+			sourceTree = "<group>";
+		};
+		8415832620B01FBB009FF98B /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				8415832720B02004009FF98B /* WebView.swift */,
+				8415832920B02013009FF98B /* WebView.xib */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		84195DCA20B55084008AFA38 /* ProfileVC */ = {
+			isa = PBXGroup;
+			children = (
+				8414987120BAEDC500B10910 /* SearchProfile */,
+				84199BAA20B804E000411BA7 /* ProfileMenu */,
+				84195DE120B5A606008AFA38 /* CapterTableViewCell */,
+				84195DDC20B583F7008AFA38 /* TopicTableViewCell */,
+				84195DD720B579DF008AFA38 /* ImprintTableViewCell */,
+				84195DCD20B55785008AFA38 /* ProfileInfoCell */,
+				84195DD220B560D4008AFA38 /* GoalsTableViewCell */,
+				84195DCB20B5509D008AFA38 /* ProfileViewController.swift */,
+				84E12DDE20A0A8A0009EA527 /* ARKitWrapper.h */,
+				84E12DDF20A0A8A0009EA527 /* ARKitWrapper.m */,
+			);
+			path = ProfileVC;
+			sourceTree = "<group>";
+		};
+		84195DCD20B55785008AFA38 /* ProfileInfoCell */ = {
+			isa = PBXGroup;
+			children = (
+				84195DCE20B557BB008AFA38 /* ProfileInfoTableViewCell.swift */,
+				84195DCF20B557BB008AFA38 /* ProfileInfoTableViewCell.xib */,
+			);
+			path = ProfileInfoCell;
+			sourceTree = "<group>";
+		};
+		84195DD220B560D4008AFA38 /* GoalsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				84195DD320B560F1008AFA38 /* GoalTableViewCell.swift */,
+				84195DD420B560F1008AFA38 /* GoalTableViewCell.xib */,
+			);
+			path = GoalsTableViewCell;
+			sourceTree = "<group>";
+		};
+		84195DD720B579DF008AFA38 /* ImprintTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				84195DD820B579FD008AFA38 /* ImprintTableViewCell.swift */,
+				84195DD920B579FD008AFA38 /* ImprintTableViewCell.xib */,
+			);
+			path = ImprintTableViewCell;
+			sourceTree = "<group>";
+		};
+		84195DDC20B583F7008AFA38 /* TopicTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				84195DDD20B5840F008AFA38 /* TopicTableViewCell.swift */,
+				84195DDE20B5840F008AFA38 /* TopicTableViewCell.xib */,
+			);
+			path = TopicTableViewCell;
+			sourceTree = "<group>";
+		};
+		84195DE120B5A606008AFA38 /* CapterTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				84195DE220B5A656008AFA38 /* ChapterTableViewCell.swift */,
+				84195DE320B5A656008AFA38 /* ChapterTableViewCell.xib */,
+			);
+			path = CapterTableViewCell;
+			sourceTree = "<group>";
+		};
+		84199BAA20B804E000411BA7 /* ProfileMenu */ = {
+			isa = PBXGroup;
+			children = (
+				84199BAB20B8051900411BA7 /* MenuView.swift */,
+				84199BAD20B8052A00411BA7 /* MenuView.xib */,
+			);
+			path = ProfileMenu;
+			sourceTree = "<group>";
+		};
+		842D7B42209E1092003B3701 /* UserB */ = {
+			isa = PBXGroup;
+			children = (
+				842D7B45209E144C003B3701 /* ResultsViewController */,
+				842D7B43209E10B3003B3701 /* UserBCameraViewController.swift */,
+				84C73D5A207642C100270D3E /* Helper */,
+			);
+			path = UserB;
+			sourceTree = "<group>";
+		};
+		842D7B45209E144C003B3701 /* ResultsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				842D7B48209E1AF0003B3701 /* ResultsCell */,
+				84E12DC120A05446009EA527 /* ImageUploader-Swift.h */,
+			);
+			path = ResultsViewController;
+			sourceTree = "<group>";
+		};
+		842D7B48209E1AF0003B3701 /* ResultsCell */ = {
+			isa = PBXGroup;
+			children = (
+				842D7B49209E1B0B003B3701 /* ResultsCell.swift */,
+				842D7B4B209E1B38003B3701 /* ResultsCell.xib */,
+			);
+			path = ResultsCell;
+			sourceTree = "<group>";
+		};
+		842D7B4D209E33F1003B3701 /* NotesVC */ = {
+			isa = PBXGroup;
+			children = (
+				84A26AAD20DC04D400CE67E0 /* MediaItemsCollectionViewCell */,
+				842D7B4E209E341A003B3701 /* NotesViewController.swift */,
+				848EE93D20D29A200028686D /* DetectedUnitView.swift */,
+				848EE93F20D29A4E0028686D /* DetectedUnitView.xib */,
+			);
+			path = NotesVC;
+			sourceTree = "<group>";
+		};
+		842D7B50209F3C08003B3701 /* VideoRecordingVC */ = {
+			isa = PBXGroup;
+			children = (
+				842D7B53209F3DA5003B3701 /* VideoRecording.h */,
+				842D7B54209F3DA5003B3701 /* VideoRecording.m */,
+				842D7B56209F437E003B3701 /* VideoCollectionViewCell.swift */,
+				842D7B58209F438F003B3701 /* VideoCollectionViewCell.xib */,
+				8415832B20B02B0C009FF98B /* VideoViewController.swift */,
+			);
+			path = VideoRecordingVC;
+			sourceTree = "<group>";
+		};
+		842D7B5A209F6ACB003B3701 /* SearchVC */ = {
+			isa = PBXGroup;
+			children = (
+				842D7B5B209F6B01003B3701 /* SearchViewController.swift */,
+				842D7B5D209F6B54003B3701 /* SearchTableViewCell.swift */,
+				842D7B5E209F6B54003B3701 /* SearchTableViewCell.xib */,
+			);
+			path = SearchVC;
+			sourceTree = "<group>";
+		};
+		842E5AB8207B4B4D0053E47E /* ImprintViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8415832620B01FBB009FF98B /* WebView */,
+				8456E33A20AC1CE7000F475F /* ImprintCells */,
+				8456E33F20AC250B000F475F /* AudioXIB */,
+				8456E33820AC1C52000F475F /* InprintTableViewController.swift */,
+			);
+			path = ImprintViewController;
+			sourceTree = "<group>";
+		};
+		8430A4102096FBF1009A8A0D /* TakePhoto */ = {
+			isa = PBXGroup;
+			children = (
+				8430A4112096FC2E009A8A0D /* TackePhotoViewController.swift */,
+				8430A41320972616009A8A0D /* PhotosCollectionViewCell.swift */,
+				8430A41520972635009A8A0D /* PhotosCollectionViewCell.xib */,
+			);
+			path = TakePhoto;
+			sourceTree = "<group>";
+		};
+		843E679F20C00C1B00BFA16D /* DeleteChapterAlert */ = {
+			isa = PBXGroup;
+			children = (
+				847E9C9720C00DB400B44EA6 /* DeleteChapterAlertView.swift */,
+				847E9C9820C00DB500B44EA6 /* DeleteChapterAlertView.xib */,
+			);
+			path = DeleteChapterAlert;
+			sourceTree = "<group>";
+		};
+		843E67A820C00D2B00BFA16D /* DeleteTopicAlert */ = {
+			isa = PBXGroup;
+			children = (
+				847E9C9B20C00E0300B44EA6 /* DeleteTopicAlertVIew.swift */,
+				847E9C9D20C00E3400B44EA6 /* DeleteTopicAlertVIew.xib */,
+			);
+			path = DeleteTopicAlert;
+			sourceTree = "<group>";
+		};
+		8443668820C3323A00F5CDE9 /* FollowersView */ = {
+			isa = PBXGroup;
+			children = (
+				8443669220C339CE00F5CDE9 /* FollowingRequestTableViewCell */,
+				8443668D20C333EF00F5CDE9 /* FolowersTableViewCell */,
+				8443668920C3325F00F5CDE9 /* FolowersView.swift */,
+				8443668B20C3327100F5CDE9 /* FolowersView.xib */,
+			);
+			path = FollowersView;
+			sourceTree = "<group>";
+		};
+		8443668D20C333EF00F5CDE9 /* FolowersTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8443668E20C3341F00F5CDE9 /* FolowersTableViewCell.swift */,
+				8443668F20C3341F00F5CDE9 /* FolowersTableViewCell.xib */,
+			);
+			path = FolowersTableViewCell;
+			sourceTree = "<group>";
+		};
+		8443669220C339CE00F5CDE9 /* FollowingRequestTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8443669320C339FB00F5CDE9 /* FollowingRequestTableViewCell.swift */,
+				8443669420C339FB00F5CDE9 /* FollowingRequestTableViewCell.xib */,
+			);
+			path = FollowingRequestTableViewCell;
+			sourceTree = "<group>";
+		};
+		8443669720C3661200F5CDE9 /* FollowingView */ = {
+			isa = PBXGroup;
+			children = (
+				8443669C20C3679C00F5CDE9 /* FollowingTableViewCell */,
+				8443669820C3663100F5CDE9 /* FollowingView.swift */,
+				8443669A20C3664500F5CDE9 /* FollowingView.xib */,
+			);
+			path = FollowingView;
+			sourceTree = "<group>";
+		};
+		8443669C20C3679C00F5CDE9 /* FollowingTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8443669D20C367C900F5CDE9 /* FollowingTableViewCell.swift */,
+				8443669E20C367C900F5CDE9 /* FollowingTableViewCell.xib */,
+			);
+			path = FollowingTableViewCell;
+			sourceTree = "<group>";
+		};
+		844366A120C3CEBA00F5CDE9 /* ViewsView */ = {
+			isa = PBXGroup;
+			children = (
+				844366A620C3CFCD00F5CDE9 /* ViewsTableViewCell */,
+				844366A220C3CEDC00F5CDE9 /* ViewsView.swift */,
+				8414987620BAF70600B10910 /* SearchProfileCell */,
+				844366A420C3CEF800F5CDE9 /* ViewsView.xib */,
+			);
+			path = ViewsView;
+			sourceTree = "<group>";
+		};
+		844366A620C3CFCD00F5CDE9 /* ViewsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				844366A720C3CFF500F5CDE9 /* ViewsTableViewCell.swift */,
+				844366A820C3CFF500F5CDE9 /* ViewsTableViewCell.xib */,
+			);
+			path = ViewsTableViewCell;
+			sourceTree = "<group>";
+		};
+		8455DD2620887F50004489F5 /* AudioRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				8455DD2B20888326004489F5 /* AudioRecorderViewController.swift */,
+				845548212089FF50008255D9 /* AudioPlayerView.swift */,
+				84E12DE420A0CE5A009EA527 /* AudioPlayerView.xib */,
+				84FCD9AF20CE910F00835D82 /* AudioRecordView.swift */,
+				84FCD9B120CE912100835D82 /* AudioRecordView.xib */,
+			);
+			path = AudioRecorder;
+			sourceTree = "<group>";
+		};
+		8456E33A20AC1CE7000F475F /* ImprintCells */ = {
+			isa = PBXGroup;
+			children = (
+				8456E35820AC3220000F475F /* PublishXIB */,
+				8456E35320AC2F6D000F475F /* UrlXIB */,
+				8456E34E20AC2C8C000F475F /* ModelXIB */,
+				8456E34920AC28BD000F475F /* VideoXIB */,
+				8456E34420AC2641000F475F /* ImageXIB */,
+				8456E33B20AC1D3E000F475F /* NotesInfoTableViewCell.swift */,
+				8456E33C20AC1D3E000F475F /* NotesInfoTableViewCell.xib */,
+			);
+			path = ImprintCells;
+			sourceTree = "<group>";
+		};
+		8456E33F20AC250B000F475F /* AudioXIB */ = {
+			isa = PBXGroup;
+			children = (
+				8456E34020AC2529000F475F /* AudioTableViewCell.swift */,
+				8456E34120AC2529000F475F /* AudioTableViewCell.xib */,
+			);
+			path = AudioXIB;
+			sourceTree = "<group>";
+		};
+		8456E34420AC2641000F475F /* ImageXIB */ = {
+			isa = PBXGroup;
+			children = (
+				8456E34520AC2657000F475F /* ImageTableViewCell.swift */,
+				8456E34620AC2657000F475F /* ImageTableViewCell.xib */,
+			);
+			path = ImageXIB;
+			sourceTree = "<group>";
+		};
+		8456E34920AC28BD000F475F /* VideoXIB */ = {
+			isa = PBXGroup;
+			children = (
+				8456E34A20AC28D7000F475F /* VideoTableViewCell.swift */,
+				8456E34B20AC28D7000F475F /* VideoTableViewCell.xib */,
+			);
+			path = VideoXIB;
+			sourceTree = "<group>";
+		};
+		8456E34E20AC2C8C000F475F /* ModelXIB */ = {
+			isa = PBXGroup;
+			children = (
+				8456E34F20AC2CAA000F475F /* ModelTableViewCell.swift */,
+				8456E35020AC2CAA000F475F /* ModelTableViewCell.xib */,
+			);
+			path = ModelXIB;
+			sourceTree = "<group>";
+		};
+		8456E35320AC2F6D000F475F /* UrlXIB */ = {
+			isa = PBXGroup;
+			children = (
+				8456E35420AC2FEA000F475F /* UrlTableViewCell.swift */,
+				8456E35520AC2FEA000F475F /* UrlTableViewCell.xib */,
+			);
+			path = UrlXIB;
+			sourceTree = "<group>";
+		};
+		8456E35820AC3220000F475F /* PublishXIB */ = {
+			isa = PBXGroup;
+			children = (
+				8456E35920AC323B000F475F /* PublishTableViewCell.swift */,
+				8456E35A20AC323B000F475F /* PublishTableViewCell.xib */,
+			);
+			path = PublishXIB;
+			sourceTree = "<group>";
+		};
+		847E9C9F20C0188B00B44EA6 /* ChangeChapterTopicName */ = {
+			isa = PBXGroup;
+			children = (
+				847E9CA020C018CF00B44EA6 /* ChangeChapterNameAlert.swift */,
+				847E9CA120C018CF00B44EA6 /* ChangeChapterNameAlert.xib */,
+			);
+			path = ChangeChapterTopicName;
+			sourceTree = "<group>";
+		};
+		84A26AAD20DC04D400CE67E0 /* MediaItemsCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				84A26AAE20DC051100CE67E0 /* MediaItemsCollectionViewCell.swift */,
+				84A26AB020DC052700CE67E0 /* MediaItemsCollectionViewCell.xib */,
+			);
+			path = MediaItemsCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		84C73D5A207642C100270D3E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				84C73D5B207642D300270D3E /* Helper.swift */,
+				84C73D5F20765BE900270D3E /* UserModel.swift */,
+				84150C4C20DA3459006BF9D4 /* CacheHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		84FE04CE2074AFF80046DFE5 /* SignInSignUpVC */ = {
+			isa = PBXGroup;
+			children = (
+				84FE04CF2074B01C0046DFE5 /* SignInViewController.swift */,
+				84FE04D12074C5910046DFE5 /* SignUPViewController.swift */,
+				84FE04D32074E5580046DFE5 /* PersonalInformationViewController.swift */,
+				84C73D5D2076489C00270D3E /* SwitchViewController.swift */,
+			);
+			path = SignInSignUpVC;
+			sourceTree = "<group>";
+		};
+		84FE04D52074ED190046DFE5 /* CropViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84FE04CE2074AFF80046DFE5 /* SignInSignUpVC */,
+				84FE04D82074F1D20046DFE5 /* MSCropView.swift */,
+				84FE04D62074ED3E0046DFE5 /* CropViewController.swift */,
+			);
+			path = CropViewController;
+			sourceTree = "<group>";
+		};
+		CD2D718088BD16DEDD1F5C93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF4DBD1AF09F19E41138BC07 /* Pods-ImageUploader.debug.xcconfig */,
+				05AF1E5B51479F84E25EF0AA /* Pods-ImageUploader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E877AB34A151F03FBAF04A31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				842C85E620BD6DA7007CA018 /* ARKit.framework */,
+				84E12DDC20A0A7FE009EA527 /* AssimpKit.framework */,
+				84E12DD820A0A445009EA527 /* Pods_ImageUploader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8412C0F1205AA519003DB368 /* ImageUploader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8412C104205AA51A003DB368 /* Build configuration list for PBXNativeTarget "ImageUploader" */;
+			buildPhases = (
+				95202EAAD9D396BADA1D0084 /* [CP] Check Pods Manifest.lock */,
+				8412C0EE205AA519003DB368 /* Sources */,
+				8412C0EF205AA519003DB368 /* Frameworks */,
+				8412C0F0205AA519003DB368 /* Resources */,
+				E637C07B0015F27B3C554BD3 /* [CP] Embed Pods Frameworks */,
+				6986985E0BA6D390DCE849EB /* [CP] Copy Pods Resources */,
+				84E12DE320A0AD4B009EA527 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageUploader;
+			productName = ImageUploader;
+			productReference = 8412C0F2205AA519003DB368 /* ImageUploader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8412C0EA205AA519003DB368 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Armen Nikodhosyan";
+				TargetAttributes = {
+					8412C0F1205AA519003DB368 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 8412C0ED205AA519003DB368 /* Build configuration list for PBXProject "ImageUploader" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8412C0E9205AA519003DB368;
+			productRefGroup = 8412C0F3205AA519003DB368 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8412C0F1205AA519003DB368 /* ImageUploader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8412C0F0205AA519003DB368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8443668C20C3327100F5CDE9 /* FolowersView.xib in Resources */,
+				84A140A620C1691C00BE113A /* Butane.jpg in Resources */,
+				84A1408920C1691C00BE113A /* Heptane.dae in Resources */,
+				84A140B220C1691C00BE113A /* Maleic_Acid.dae in Resources */,
+				84A1409520C1691C00BE113A /* Tetrahydrofuran.dae in Resources */,
+				84A1406920C1691C00BE113A /* Acetonitrile.jpg in Resources */,
+				84A1408420C1691C00BE113A /* Phthalic_acid.jpg in Resources */,
+				84A1409120C1691C00BE113A /* Cyanic_Acid.dae in Resources */,
+				8456E35720AC2FEA000F475F /* UrlTableViewCell.xib in Resources */,
+				84195DDB20B579FD008AFA38 /* ImprintTableViewCell.xib in Resources */,
+				84A1409D20C1691C00BE113A /* Pentane.dae in Resources */,
+				844366A520C3CEF800F5CDE9 /* ViewsView.xib in Resources */,
+				84A140B620C1691C00BE113A /* Acetone.dae in Resources */,
+				84A140BF20C1691C00BE113A /* Tetramethyl_ethylene.dae in Resources */,
+				840FC5FE20ADBF59000A31CF /* eUrlView.xib in Resources */,
+				8443669620C339FB00F5CDE9 /* FollowingRequestTableViewCell.xib in Resources */,
+				8456E35C20AC323B000F475F /* PublishTableViewCell.xib in Resources */,
+				84A1409720C1691C00BE113A /* Putricine.jpg in Resources */,
+				84A1406220C1691C00BE113A /* Urea.jpg in Resources */,
+				842D7B4C209E1B38003B3701 /* ResultsCell.xib in Resources */,
+				84A1408E20C1691C00BE113A /* Urea.dae in Resources */,
+				84A1408520C1691C00BE113A /* Putricine.dae in Resources */,
+				84A1408620C1691C00BE113A /* Cyclopentane.dae in Resources */,
+				84A140AA20C1691C00BE113A /* Maleic_acid.jpg in Resources */,
+				84A1408820C1691C00BE113A /* Benzoic_Acid.dae in Resources */,
+				84A1408C20C1691C00BE113A /* Ethene.jpg in Resources */,
+				8414987520BAEE1500B10910 /* SearchProfileView.xib in Resources */,
+				84A140C620C1691D00BE113A /* Cadaverine.dae in Resources */,
+				84A26AB120DC052700CE67E0 /* MediaItemsCollectionViewCell.xib in Resources */,
+				84A140AD20C1691C00BE113A /* Diamond.jpg in Resources */,
+				84A1407720C1691C00BE113A /* Propyl_Chloride.jpg in Resources */,
+				84A1409420C1691C00BE113A /* Isoamyl_acetate.dae in Resources */,
+				84A140CA20C1691D00BE113A /* Water.dae in Resources */,
+				84A1409320C1691C00BE113A /* Ethanol.dae in Resources */,
+				842D7B60209F6B54003B3701 /* SearchTableViewCell.xib in Resources */,
+				84A1406720C1691C00BE113A /* Tetrahydrofuran.jpg in Resources */,
+				84A1407A20C1691C00BE113A /* Bisphenol_A.dae in Resources */,
+				84A1407B20C1691C00BE113A /* Isopropanol.jpg in Resources */,
+				84A1409920C1691C00BE113A /* Trifluoroethanol.dae in Resources */,
+				842D7B59209F438F003B3701 /* VideoCollectionViewCell.xib in Resources */,
+				84A1407220C1691C00BE113A /* Acetonitrile.dae in Resources */,
+				84A140B020C1691C00BE113A /* Methylammonium_ion.jpg in Resources */,
+				848EE94020D29A4E0028686D /* DetectedUnitView.xib in Resources */,
+				84A1408D20C1691C00BE113A /* Saccharine.jpg in Resources */,
+				84A1408320C1691C00BE113A /* DDT.dae in Resources */,
+				8412C100205AA51A003DB368 /* LaunchScreen.storyboard in Resources */,
+				84A140C020C1691D00BE113A /* Phthalic_acid.dae in Resources */,
+				84A1409B20C1691C00BE113A /* Water.jpg in Resources */,
+				84A140C820C1691D00BE113A /* T_Butyl_Chloride.jpg in Resources */,
+				8456E34320AC2529000F475F /* AudioTableViewCell.xib in Resources */,
+				84A140BB20C1691C00BE113A /* Ethanol.jpg in Resources */,
+				84A1406B20C1691C00BE113A /* Isopropanol.dae in Resources */,
+				84A140BC20C1691C00BE113A /* Pentane.jpg in Resources */,
+				8415832A20B02013009FF98B /* WebView.xib in Resources */,
+				84A1406820C1691C00BE113A /* Tetramethyl_ethylene.jpg in Resources */,
+				84A140A020C1691C00BE113A /* Trinitrotoluene.jpg in Resources */,
+				84A140AF20C1691C00BE113A /* Thalidomide.dae in Resources */,
+				84A1407C20C1691C00BE113A /* Bisphenol_A.jpg in Resources */,
+				8443669120C3341F00F5CDE9 /* FolowersTableViewCell.xib in Resources */,
+				84A140B120C1691C00BE113A /* Dimethylcyclobutane.dae in Resources */,
+				84A140A420C1691C00BE113A /* Acetic_Acid.dae in Resources */,
+				8443669B20C3664500F5CDE9 /* FollowingView.xib in Resources */,
+				84A140AC20C1691C00BE113A /* Chloromethane.jpg in Resources */,
+				84150C4F20DA8734006BF9D4 /* GoogleService-Info.plist in Resources */,
+				84A1406420C1691C00BE113A /* Dimethyl_Sulfoxide.dae in Resources */,
+				84A140B820C1691C00BE113A /* Isopentane.jpg in Resources */,
+				84A140A320C1691C00BE113A /* Isobutane.jpg in Resources */,
+				847E9C9E20C00E3400B44EA6 /* DeleteTopicAlertVIew.xib in Resources */,
+				844366A020C367C900F5CDE9 /* FollowingTableViewCell.xib in Resources */,
+				8414987A20BAF73100B10910 /* SearchTableTableViewCell.xib in Resources */,
+				84A140B320C1691C00BE113A /* Cyclopropane.dae in Resources */,
+				84A1409020C1691C00BE113A /* Dimethylcyclobutane.jpg in Resources */,
+				84A140CB20C1691D00BE113A /* Cyclobutane.jpg in Resources */,
+				84E12DE520A0CE5A009EA527 /* AudioPlayerView.xib in Resources */,
+				84A1409C20C1691C00BE113A /* Aspartame.jpg in Resources */,
+				84A1408A20C1691C00BE113A /* Heptane.jpg in Resources */,
+				84A140AE20C1691C00BE113A /* DDT.jpg in Resources */,
+				8430A41620972635009A8A0D /* PhotosCollectionViewCell.xib in Resources */,
+				84A1406E20C1691C00BE113A /* Propyl_Chloride.dae in Resources */,
+				84199BAE20B8052A00411BA7 /* MenuView.xib in Resources */,
+				84A140C320C1691D00BE113A /* Methylamine.dae in Resources */,
+				84A140A920C1691C00BE113A /* Ethene.dae in Resources */,
+				84FCD9B220CE912100835D82 /* AudioRecordView.xib in Resources */,
+				84195DD620B560F1008AFA38 /* GoalTableViewCell.xib in Resources */,
+				84A1407520C1691C00BE113A /* Saccharine.dae in Resources */,
+				8456E34D20AC28D7000F475F /* VideoTableViewCell.xib in Resources */,
+				84A1407E20C1691C00BE113A /* Tetramethylsilane.dae in Resources */,
+				84A1406C20C1691C00BE113A /* Isopropyl_chloride.jpg in Resources */,
+				84A140A820C1691C00BE113A /* Mercuric_acetate.jpg in Resources */,
+				84A1407120C1691C00BE113A /* Methylamine.jpg in Resources */,
+				84A1408720C1691C00BE113A /* Methane.jpg in Resources */,
+				84A1407F20C1691C00BE113A /* Butylethylene.dae in Resources */,
+				84A1407D20C1691C00BE113A /* Citric_Acid.dae in Resources */,
+				84A1406120C1691C00BE113A /* Isoamyl_acetate.jpg in Resources */,
+				84A1406A20C1691C00BE113A /* Butane.dae in Resources */,
+				84A1407820C1691C00BE113A /* Diamond.dae in Resources */,
+				84195DE020B5840F008AFA38 /* TopicTableViewCell.xib in Resources */,
+				84A140C920C1691D00BE113A /* Cyclopentane.jpg in Resources */,
+				8456E35220AC2CAA000F475F /* ModelTableViewCell.xib in Resources */,
+				84A1406020C1691C00BE113A /* Caffeine.dae in Resources */,
+				84A140B920C1691C00BE113A /* Benzoic_Acid.jpg in Resources */,
+				847E9C9A20C00DB500B44EA6 /* DeleteChapterAlertView.xib in Resources */,
+				84A1409620C1691C00BE113A /* Mercuric_Acetate.dae in Resources */,
+				84A1406320C1691C00BE113A /* Caffeine.jpg in Resources */,
+				84A1408120C1691C00BE113A /* Paracetamol.dae in Resources */,
+				84A1407420C1691C00BE113A /* Trifluoroethanol.jpg in Resources */,
+				84A1407620C1691C00BE113A /* Butylethylene.jpg in Resources */,
+				84A140C720C1691D00BE113A /* Acetic_Acid.jpg in Resources */,
+				84A1409E20C1691C00BE113A /* Thalidomide.jpg in Resources */,
+				84A140A720C1691C00BE113A /* Paracetamol.jpg in Resources */,
+				847E9CA320C018CF00B44EA6 /* ChangeChapterNameAlert.xib in Resources */,
+				84A1408B20C1691C00BE113A /* Isopropyl_chloride.dae in Resources */,
+				84A1407020C1691C00BE113A /* Lactic_Acid.dae in Resources */,
+				84A140B420C1691C00BE113A /* Cyanic_Acid.jpg in Resources */,
+				84A1409220C1691C00BE113A /* Cyclobutane.dae in Resources */,
+				84A1406F20C1691C00BE113A /* Chloromethane.dae in Resources */,
+				84A1408F20C1691C00BE113A /* Aspartame.dae in Resources */,
+				84A1406D20C1691C00BE113A /* Methylammonium_ion.dae in Resources */,
+				84A1407920C1691C00BE113A /* T_Butyl_Chloride.dae in Resources */,
+				8412C0FD205AA51A003DB368 /* Assets.xcassets in Resources */,
+				84A140BE20C1691C00BE113A /* Neopentane.dae in Resources */,
+				84A1407320C1691C00BE113A /* Methane.dae in Resources */,
+				84A140BD20C1691C00BE113A /* Ethanamide.dae in Resources */,
+				84195DD120B557BB008AFA38 /* ProfileInfoTableViewCell.xib in Resources */,
+				84A1406520C1691C00BE113A /* Ethanamide.jpg in Resources */,
+				84A1406620C1691C00BE113A /* Dimethyl_sulfoxide.jpg in Resources */,
+				84A1408020C1691C00BE113A /* Ammonia.dae in Resources */,
+				84A140A520C1691C00BE113A /* Tetramethylsilane.jpg in Resources */,
+				84A140A120C1691C00BE113A /* Cyclopropane.jpg in Resources */,
+				84A140C520C1691D00BE113A /* Disulfiram.jpg in Resources */,
+				84A140BA20C1691C00BE113A /* Ammonia.jpg in Resources */,
+				84195DE520B5A656008AFA38 /* ChapterTableViewCell.xib in Resources */,
+				8456E34820AC2657000F475F /* ImageTableViewCell.xib in Resources */,
+				8412C0FB205AA51A003DB368 /* Main.storyboard in Resources */,
+				84A140C220C1691D00BE113A /* Disulfiram.dae in Resources */,
+				84A140C120C1691D00BE113A /* Octane.jpg in Resources */,
+				84A140AB20C1691C00BE113A /* Trinitrotoluene.dae in Resources */,
+				84A1409A20C1691C00BE113A /* Citric_Acid.jpg in Resources */,
+				84A1408220C1691C00BE113A /* Lactic_acid.jpg in Resources */,
+				84A1409820C1691C00BE113A /* Octane.dae in Resources */,
+				8456E33E20AC1D3E000F475F /* NotesInfoTableViewCell.xib in Resources */,
+				84A140B520C1691C00BE113A /* Isopentane.dae in Resources */,
+				84A140C420C1691D00BE113A /* Cadaverine.jpg in Resources */,
+				84A140B720C1691C00BE113A /* Acetone.jpg in Resources */,
+				844366AA20C3CFF500F5CDE9 /* ViewsTableViewCell.xib in Resources */,
+				84A1409F20C1691C00BE113A /* Isobutane.dae in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6986985E0BA6D390DCE849EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageUploader/Pods-ImageUploader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95202EAAD9D396BADA1D0084 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImageUploader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E637C07B0015F27B3C554BD3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ImageUploader/Pods-ImageUploader-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AKPickerView/AKPickerView.framework",
+				"${BUILT_PRODUCTS_DIR}/DisPlayers-Audio-Visualizers/DisPlayers_Audio_Visualizers.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/EZAudio/EZAudio.framework",
+				"${BUILT_PRODUCTS_DIR}/FCAlertView/FCAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GUIPlayerView/GUIPlayerView.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/LLSimpleCamera/LLSimpleCamera.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/TOCropViewController/TOCropViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/TPCircularBuffer/TPCircularBuffer.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AKPickerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DisPlayers_Audio_Visualizers.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EZAudio.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FCAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GUIPlayerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LLSimpleCamera.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TOCropViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TPCircularBuffer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageUploader/Pods-ImageUploader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8412C0EE205AA519003DB368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8443669020C3341F00F5CDE9 /* FolowersTableViewCell.swift in Sources */,
+				8443669F20C367C900F5CDE9 /* FollowingTableViewCell.swift in Sources */,
+				8456E33920AC1C52000F475F /* InprintTableViewController.swift in Sources */,
+				8456E34C20AC28D7000F475F /* VideoTableViewCell.swift in Sources */,
+				84FE04D92074F1D30046DFE5 /* MSCropView.swift in Sources */,
+				8416355F205B25EF006FB2D1 /* ResivedModel.m in Sources */,
+				847E9C9920C00DB500B44EA6 /* DeleteChapterAlertView.swift in Sources */,
+				8412C121205ADD2B003DB368 /* LLSimpleCamera.m in Sources */,
+				84150C4D20DA3459006BF9D4 /* CacheHelper.swift in Sources */,
+				842D7B47209E146D003B3701 /* ResultsViewController.swift in Sources */,
+				8414987920BAF73100B10910 /* SearchTableTableViewCell.swift in Sources */,
+				844366A320C3CEDC00F5CDE9 /* ViewsView.swift in Sources */,
+				8412C11F205ADD2B003DB368 /* LLSimpleCamera+Helper.m in Sources */,
+				8430A4122096FC2E009A8A0D /* TackePhotoViewController.swift in Sources */,
+				8412C0F8205AA51A003DB368 /* ViewController.swift in Sources */,
+				84199BAC20B8051900411BA7 /* MenuView.swift in Sources */,
+				8456E34720AC2657000F475F /* ImageTableViewCell.swift in Sources */,
+				847E9CA220C018CF00B44EA6 /* ChangeChapterNameAlert.swift in Sources */,
+				84C73D5C207642D300270D3E /* Helper.swift in Sources */,
+				84FE04D22074C5910046DFE5 /* SignUPViewController.swift in Sources */,
+				84E12DE020A0A8A0009EA527 /* ARKitWrapper.m in Sources */,
+				8414987320BAEE0800B10910 /* SearchProfileView.swift in Sources */,
+				84FE04D42074E5580046DFE5 /* PersonalInformationViewController.swift in Sources */,
+				8415832C20B02B0C009FF98B /* VideoViewController.swift in Sources */,
+				844366A920C3CFF500F5CDE9 /* ViewsTableViewCell.swift in Sources */,
+				842D7B5F209F6B54003B3701 /* SearchTableViewCell.swift in Sources */,
+				84FCD9B020CE910F00835D82 /* AudioRecordView.swift in Sources */,
+				84C73D5E2076489C00270D3E /* SwitchViewController.swift in Sources */,
+				842D7B5C209F6B01003B3701 /* SearchViewController.swift in Sources */,
+				84FE04D72074ED3E0046DFE5 /* CropViewController.swift in Sources */,
+				8455DD2C20888326004489F5 /* AudioRecorderViewController.swift in Sources */,
+				8416355A205B22EC006FB2D1 /* ResponseViewController.m in Sources */,
+				84195DCC20B5509D008AFA38 /* ProfileViewController.swift in Sources */,
+				84A26AAF20DC051100CE67E0 /* MediaItemsCollectionViewCell.swift in Sources */,
+				84FE04D02074B01C0046DFE5 /* SignInViewController.swift in Sources */,
+				842D7B4A209E1B0B003B3701 /* ResultsCell.swift in Sources */,
+				8412C10C205AB7D4003DB368 /* ImageUplader.swift in Sources */,
+				845548222089FF50008255D9 /* AudioPlayerView.swift in Sources */,
+				8456E33D20AC1D3E000F475F /* NotesInfoTableViewCell.swift in Sources */,
+				842D7B44209E10B3003B3701 /* UserBCameraViewController.swift in Sources */,
+				8430A41420972616009A8A0D /* PhotosCollectionViewCell.swift in Sources */,
+				8402C464205D8A0200D7551D /* UploadHelper.swift in Sources */,
+				842D7B57209F437E003B3701 /* VideoCollectionViewCell.swift in Sources */,
+				84195DE420B5A656008AFA38 /* ChapterTableViewCell.swift in Sources */,
+				8412C0F6205AA51A003DB368 /* AppDelegate.swift in Sources */,
+				84E12DC320A082ED009EA527 /* ServerSideViewController.swift in Sources */,
+				8412C11E205ADD2B003DB368 /* ViewUtils.m in Sources */,
+				848EE93E20D29A210028686D /* DetectedUnitView.swift in Sources */,
+				84554826208A20C8008255D9 /* CameraVC.swift in Sources */,
+				84195DD020B557BB008AFA38 /* ProfileInfoTableViewCell.swift in Sources */,
+				8443668A20C3325F00F5CDE9 /* FolowersView.swift in Sources */,
+				84E12DC520A0935A009EA527 /* ARKitCameraViewController.swift in Sources */,
+				8456E35620AC2FEA000F475F /* UrlTableViewCell.swift in Sources */,
+				8443669920C3663200F5CDE9 /* FollowingView.swift in Sources */,
+				8412C120205ADD2B003DB368 /* HomeViewController.m in Sources */,
+				8415832820B02004009FF98B /* WebView.swift in Sources */,
+				847E9C9C20C00E0300B44EA6 /* DeleteTopicAlertVIew.swift in Sources */,
+				842D7B4F209E341A003B3701 /* NotesViewController.swift in Sources */,
+				8443669520C339FB00F5CDE9 /* FollowingRequestTableViewCell.swift in Sources */,
+				840FC5FC20ADB7F5000A31CF /* UrlViewController.swift in Sources */,
+				84195DDF20B5840F008AFA38 /* TopicTableViewCell.swift in Sources */,
+				840FC5F920ADB3A1000A31CF /* UrlView.swift in Sources */,
+				84195DDA20B579FD008AFA38 /* ImprintTableViewCell.swift in Sources */,
+				84195DD520B560F1008AFA38 /* GoalTableViewCell.swift in Sources */,
+				8412C109205AA70B003DB368 /* CameraViewController.swift in Sources */,
+				8456E34220AC2529000F475F /* AudioTableViewCell.swift in Sources */,
+				84C73D6020765BE900270D3E /* UserModel.swift in Sources */,
+				8456E35120AC2CAA000F475F /* ModelTableViewCell.swift in Sources */,
+				8412C11D205ADD2B003DB368 /* UIImage+FixOrientation.m in Sources */,
+				842D7B55209F3DA5003B3701 /* VideoRecording.m in Sources */,
+				8456E35B20AC323B000F475F /* PublishTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8412C0F9205AA51A003DB368 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8412C0FA205AA51A003DB368 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8412C0FE205AA51A003DB368 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8412C0FF205AA51A003DB368 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8412C102205AA51A003DB368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8412C103205AA51A003DB368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8412C105205AA51A003DB368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF4DBD1AF09F19E41138BC07 /* Pods-ImageUploader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ImageUploader/ImageUploader.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GQ4Z5YLXHU;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/DisPlayers-Audio-Visualizers\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/EZAudio\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FCAlertView\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GTMSessionFetcher\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GoogleToolboxForMac\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/LLSimpleCamera\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Protobuf\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/TOCropViewController\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/TPCircularBuffer\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/leveldb-library\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/nanopb\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseAuth/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCrash/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseDatabase/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseDynamicLinks/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseMessaging/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseStorage/Frameworks\"",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ImageUploader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-DSERVERANAVAILABLE\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ImprovisGyumriZiadi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d7fa2f91-3900-436d-a67d-8c54675a3046";
+				PROVISIONING_PROFILE_SPECIFIER = ZiadDistNew;
+				SWIFT_OBJC_BRIDGING_HEADER = "ImageUploader/User2VC/ImageUploader-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "ImageUploader-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8412C106205AA51A003DB368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05AF1E5B51479F84E25EF0AA /* Pods-ImageUploader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ImageUploader/ImageUploader.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GQ4Z5YLXHU;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/DisPlayers-Audio-Visualizers\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/EZAudio\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FCAlertView\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GTMSessionFetcher\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GoogleToolboxForMac\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/LLSimpleCamera\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Protobuf\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/TOCropViewController\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/TPCircularBuffer\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/leveldb-library\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/nanopb\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseAuth/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCrash/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseDatabase/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseDynamicLinks/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseMessaging/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseStorage/Frameworks\"",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ImageUploader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-DSERVERANAVAILABLE\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ImprovisGyumriZiadi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "61e2de33-42f9-47cf-b894-d1346990a3ce";
+				PROVISIONING_PROFILE_SPECIFIER = ZiadDistributionNew;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OBJC_BRIDGING_HEADER = "ImageUploader/User2VC/ImageUploader-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "ImageUploader-Swift.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8412C0ED205AA519003DB368 /* Build configuration list for PBXProject "ImageUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8412C102205AA51A003DB368 /* Debug */,
+				8412C103205AA51A003DB368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8412C104205AA51A003DB368 /* Build configuration list for PBXNativeTarget "ImageUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8412C105205AA51A003DB368 /* Debug */,
+				8412C106205AA51A003DB368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8412C0EA205AA519003DB368 /* Project object */;
+}

@@ -1,0 +1,1200 @@
+2018-05-06 22:36:23 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fa2904aa3e0; archive(resolved)='<IDEArchive: 0x7fa2907a2010>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7fa2b6d96e40>', team(resolved)='<IDEProvisioningBasicTeam: 0x7fa2900803b0; teamID='GQ4Z5YLXHU', teamName='Arman Torosyan'>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fa2904aa3e0; archive = '<IDEArchive: 0x7fa2907a2010>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fa2b6d96e40>', team='<IDEProvisioningBasicTeam: 0x7fa2900803b0; teamID='GQ4Z5YLXHU', teamName='Arman Torosyan'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fa2ab9db9a0; archive = '<IDEArchive: 0x7fa2907a2010>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fa2b6d96e40>', team='<IDEProvisioningBasicTeam: 0x7fa2900803b0; teamID='GQ4Z5YLXHU', teamName='Arman Torosyan'>'>
+	<IDEDistributionContext: 0x7fa28e184f70; archive = '<IDEArchive: 0x7fa2907a2010>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fa2b6d96e40>', team='<IDEProvisioningBasicTeam: 0x7fa2900803b0; teamID='GQ4Z5YLXHU', teamName='Arman Torosyan'>'>
+	<IDEDistributionContext: 0x7fa2900a04a0; archive = '<IDEArchive: 0x7fa2907a2010>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fa2b6d96e40>', team='<IDEProvisioningBasicTeam: 0x7fa2900803b0; teamID='GQ4Z5YLXHU', teamName='Arman Torosyan'>'>
+	<IDEDistributionContext: 0x7fa28e852f90; archive = '<IDEArchive: 0x7fa2907a2010>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fa2b6d96e40>', team='<IDEProvisioningBasicTeam: 0x7fa2900803b0; teamID='GQ4Z5YLXHU', teamName='Arman Torosyan'>'>
+	<IDEDistributionContext: 0x7fa2903d7940; archive = '<IDEArchive: 0x7fa2907a2010>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fa2b6d96e40>', team='<IDEProvisioningBasicTeam: 0x7fa2900803b0; teamID='GQ4Z5YLXHU', teamName='Arman Torosyan'>'>
+	<IDEDistributionContext: 0x7fa28e78e930; archive = '<IDEArchive: 0x7fa2907a2010>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fa2b6d96e40>', team='<IDEProvisioningBasicTeam: 0x7fa2900803b0; teamID='GQ4Z5YLXHU', teamName='Arman Torosyan'>'>
+	<IDEDistributionContext: 0x7fa2abc31bd0; archive = '<IDEArchive: 0x7fa2907a2010>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fa2b6d96e40>', team='<IDEProvisioningBasicTeam: 0x7fa2900803b0; teamID='GQ4Z5YLXHU', teamName='Arman Torosyan'>'>
+	<IDEDistributionContext: 0x7fa2abcf8300; archive = '<IDEArchive: 0x7fa2907a2010>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fa2b6d96e40>', team='<IDEProvisioningBasicTeam: 0x7fa2900803b0; teamID='GQ4Z5YLXHU', teamName='Arman Torosyan'>'>
+	<IDEDistributionContext: 0x7fa2abcea430; archive = '<IDEArchive: 0x7fa2907a2010>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fa2b6d96e40>', team='(null)'>
+	<IDEDistributionContext: 0x7fa28e0acc70; archive = '<IDEArchive: 0x7fa2907a2010>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fa2904aa3e0>
+2018-05-06 22:36:23 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-05-06 22:36:23 +0000  Processing step: IDEDistributionCopyItemStep
+2018-05-06 22:36:23 +0000  Running /usr/bin/ditto '-V' '/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app'
+2018-05-06 22:36:23 +0000  >>> Copying /Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app 
+2018-05-06 22:36:23 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-05-06 22:36:23 +0000  49597 bytes for ./_CodeSignature/CodeResources
+2018-05-06 22:36:23 +0000  copying file ./ImageUploader ... 
+2018-05-06 22:36:23 +0000  20279616 bytes for ./ImageUploader
+2018-05-06 22:36:23 +0000  copying file ./SearchTableViewCell.nib ... 
+2018-05-06 22:36:23 +0000  3496 bytes for ./SearchTableViewCell.nib
+2018-05-06 22:36:23 +0000  copying file ./AudioPlayerView.nib ... 
+2018-05-06 22:36:23 +0000  3862 bytes for ./AudioPlayerView.nib
+copying file ./PhotosCollectionViewCell.nib ... 
+2018-05-06 22:36:23 +0000  4025 bytes for ./PhotosCollectionViewCell.nib
+2018-05-06 22:36:23 +0000  copying file ./VideoCollectionViewCell.nib ... 
+2018-05-06 22:36:23 +0000  4492 bytes for ./VideoCollectionViewCell.nib
+copying file ./GoogleService-Info.plist ... 
+2018-05-06 22:36:23 +0000  879 bytes for ./GoogleService-Info.plist
+2018-05-06 22:36:23 +0000  copying file ./Base.lproj/Main.storyboardc/videoVC.nib ... 
+2018-05-06 22:36:23 +0000  988 bytes for ./Base.lproj/Main.storyboardc/videoVC.nib
+2018-05-06 22:36:23 +0000  copying file ./Base.lproj/Main.storyboardc/jXQ-3p-fHh-view-FJt-P8-aYJ.nib ... 
+2018-05-06 22:36:23 +0000  11782 bytes for ./Base.lproj/Main.storyboardc/jXQ-3p-fHh-view-FJt-P8-aYJ.nib
+2018-05-06 22:36:23 +0000  copying file ./Base.lproj/Main.storyboardc/s7C-3F-9gN-view-vDS-IU-h4F.nib ... 
+2018-05-06 22:36:23 +0000  3373 bytes for ./Base.lproj/Main.storyboardc/s7C-3F-9gN-view-vDS-IU-h4F.nib
+2018-05-06 22:36:23 +0000  copying file ./Base.lproj/Main.storyboardc/CameraViewController.nib ... 
+2018-05-06 22:36:23 +0000  1076 bytes for ./Base.lproj/Main.storyboardc/CameraViewController.nib
+2018-05-06 22:36:23 +0000  copying file ./Base.lproj/Main.storyboardc/RgG-mH-IfV-view-JoU-Uh-FXu.nib ... 
+2018-05-06 22:36:23 +0000  1149 bytes for ./Base.lproj/Main.storyboardc/RgG-mH-IfV-view-JoU-Uh-FXu.nib
+copying file ./Base.lproj/Main.storyboardc/eb7-0T-r65-view-Yyi-qL-Zbg.nib ... 
+2018-05-06 22:36:23 +0000  5085 bytes for ./Base.lproj/Main.storyboardc/eb7-0T-r65-view-Yyi-qL-Zbg.nib
+copying file ./Base.lproj/Main.storyboardc/cropVC.nib ... 
+2018-05-06 22:36:23 +0000  1351 bytes for ./Base.lproj/Main.storyboardc/cropVC.nib
+copying file ./Base.lproj/Main.storyboardc/resultsViewController.nib ... 
+2018-05-06 22:36:23 +0000  1078 bytes for ./Base.lproj/Main.storyboardc/resultsViewController.nib
+copying file ./Base.lproj/Main.storyboardc/uad-IB-cQb-view-ppl-d8-Gz6.nib ... 
+2018-05-06 22:36:23 +0000  13299 bytes for ./Base.lproj/Main.storyboardc/uad-IB-cQb-view-ppl-d8-Gz6.nib
+2018-05-06 22:36:23 +0000  copying file ./Base.lproj/Main.storyboardc/5Q1-yf-U7v-view-oOX-9j-cOi.nib ... 
+2018-05-06 22:36:23 +0000  13774 bytes for ./Base.lproj/Main.storyboardc/5Q1-yf-U7v-view-oOX-9j-cOi.nib
+copying file ./Base.lproj/Main.storyboardc/NQ2-GK-1ua-view-2YN-aD-kdh.nib ... 
+2018-05-06 22:36:23 +0000  1149 bytes for ./Base.lproj/Main.storyboardc/NQ2-GK-1ua-view-2YN-aD-kdh.nib
+2018-05-06 22:36:23 +0000  copying file ./Base.lproj/Main.storyboardc/joB-nG-D9y-view-wio-n9-vNV.nib ... 
+2018-05-06 22:36:23 +0000  3653 bytes for ./Base.lproj/Main.storyboardc/joB-nG-D9y-view-wio-n9-vNV.nib
+2018-05-06 22:36:23 +0000  copying file ./Base.lproj/Main.storyboardc/HfQ-bV-Swi-view-HE9-02-JYm.nib ... 
+2018-05-06 22:36:23 +0000  1149 bytes for ./Base.lproj/Main.storyboardc/HfQ-bV-Swi-view-HE9-02-JYm.nib
+copying file ./Base.lproj/Main.storyboardc/Rin-0T-gvU-view-sC6-P6-zq8.nib ... 
+2018-05-06 22:36:23 +0000  6760 bytes for ./Base.lproj/Main.storyboardc/Rin-0T-gvU-view-sC6-P6-zq8.nib
+copying file ./Base.lproj/Main.storyboardc/UIViewController-Mlx-ow-gbm.nib ... 
+2018-05-06 22:36:23 +0000  1265 bytes for ./Base.lproj/Main.storyboardc/UIViewController-Mlx-ow-gbm.nib
+copying file ./Base.lproj/Main.storyboardc/searchViewController.nib ... 
+2018-05-06 22:36:23 +0000  1443 bytes for ./Base.lproj/Main.storyboardc/searchViewController.nib
+copying file ./Base.lproj/Main.storyboardc/AudioRecorder.nib ... 
+2018-05-06 22:36:23 +0000  1076 bytes for ./Base.lproj/Main.storyboardc/AudioRecorder.nib
+copying file ./Base.lproj/Main.storyboardc/homeVC.nib ... 
+2018-05-06 22:36:23 +0000  991 bytes for ./Base.lproj/Main.storyboardc/homeVC.nib
+copying file ./Base.lproj/Main.storyboardc/SaU-ZN-eyW-view-pfB-op-nnD.nib ... 
+2018-05-06 22:36:23 +0000  4965 bytes for ./Base.lproj/Main.storyboardc/SaU-ZN-eyW-view-pfB-op-nnD.nib
+2018-05-06 22:36:23 +0000  copying file ./Base.lproj/Main.storyboardc/qD4-W6-bYX-view-95c-RF-gxg.nib ... 
+2018-05-06 22:36:23 +0000  3917 bytes for ./Base.lproj/Main.storyboardc/qD4-W6-bYX-view-95c-RF-gxg.nib
+2018-05-06 22:36:23 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-jXQ-3p-fHh.nib ... 
+2018-05-06 22:36:23 +0000  1284 bytes for ./Base.lproj/Main.storyboardc/UIViewController-jXQ-3p-fHh.nib
+2018-05-06 22:36:23 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-5Q1-yf-U7v.nib ... 
+2018-05-06 22:36:23 +0000  1285 bytes for ./Base.lproj/Main.storyboardc/UIViewController-5Q1-yf-U7v.nib
+copying file ./Base.lproj/Main.storyboardc/TackPhotto.nib ... 
+2018-05-06 22:36:23 +0000  1070 bytes for ./Base.lproj/Main.storyboardc/TackPhotto.nib
+copying file ./Base.lproj/Main.storyboardc/signUP.nib ... 
+2018-05-06 22:36:23 +0000  1448 bytes for ./Base.lproj/Main.storyboardc/signUP.nib
+2018-05-06 22:36:23 +0000  copying file ./Base.lproj/Main.storyboardc/Mlx-ow-gbm-view-Cuh-3Z-CBS.nib ... 
+2018-05-06 22:36:23 +0000  9636 bytes for ./Base.lproj/Main.storyboardc/Mlx-ow-gbm-view-Cuh-3Z-CBS.nib
+2018-05-06 22:36:23 +0000  copying file ./Base.lproj/Main.storyboardc/8Rj-Da-Slq-view-JES-b8-is8.nib ... 
+2018-05-06 22:36:23 +0000  27285 bytes for ./Base.lproj/Main.storyboardc/8Rj-Da-Slq-view-JES-b8-is8.nib
+2018-05-06 22:36:23 +0000  copying file ./Base.lproj/Main.storyboardc/userB.nib ... 
+2018-05-06 22:36:23 +0000  1298 bytes for ./Base.lproj/Main.storyboardc/userB.nib
+2018-05-06 22:36:23 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2018-05-06 22:36:23 +0000  785 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2018-05-06 22:36:23 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-8Rj-Da-Slq.nib ... 
+2018-05-06 22:36:23 +0000  999 bytes for ./Base.lproj/Main.storyboardc/UIViewController-8Rj-Da-Slq.nib
+2018-05-06 22:36:23 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-05-06 22:36:23 +0000  1136 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-05-06 22:36:23 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2018-05-06 22:36:23 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-05-06 22:36:23 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-05-06 22:36:23 +0000  copying file ./Assets.car ... 
+2018-05-06 22:36:23 +0000  993384 bytes for ./Assets.car
+2018-05-06 22:36:23 +0000  copying file ./ResultsCell.nib ... 
+2018-05-06 22:36:23 +0000  9576 bytes for ./ResultsCell.nib
+2018-05-06 22:36:23 +0000  copying file ./Frameworks/Protobuf.framework/_CodeSignature/CodeResources ... 
+2018-05-06 22:36:23 +0000  2202 bytes for ./Frameworks/Protobuf.framework/_CodeSignature/CodeResources
+2018-05-06 22:36:23 +0000  copying file ./Frameworks/Protobuf.framework/Protobuf ... 
+2018-05-06 22:36:23 +0000  3219216 bytes for ./Frameworks/Protobuf.framework/Protobuf
+copying file ./Frameworks/Protobuf.framework/Info.plist ... 
+2018-05-06 22:36:23 +0000  737 bytes for ./Frameworks/Protobuf.framework/Info.plist
+2018-05-06 22:36:23 +0000  copying file ./Frameworks/LLSimpleCamera.framework/_CodeSignature/CodeResources ... 
+2018-05-06 22:36:23 +0000  2202 bytes for ./Frameworks/LLSimpleCamera.framework/_CodeSignature/CodeResources
+2018-05-06 22:36:23 +0000  copying file ./Frameworks/LLSimpleCamera.framework/LLSimpleCamera ... 
+2018-05-06 22:36:23 +0000  406208 bytes for ./Frameworks/LLSimpleCamera.framework/LLSimpleCamera
+2018-05-06 22:36:23 +0000  copying file ./Frameworks/LLSimpleCamera.framework/Info.plist ... 
+2018-05-06 22:36:23 +0000  749 bytes for ./Frameworks/LLSimpleCamera.framework/Info.plist
+2018-05-06 22:36:23 +0000  copying file ./Frameworks/libswiftCoreImage.dylib ... 
+2018-05-06 22:36:23 +0000  307632 bytes for ./Frameworks/libswiftCoreImage.dylib
+2018-05-06 22:36:23 +0000  copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+2018-05-06 22:36:23 +0000  554096 bytes for ./Frameworks/libswiftObjectiveC.dylib
+2018-05-06 22:36:23 +0000  copying file ./Frameworks/GTMSessionFetcher.framework/_CodeSignature/CodeResources ... 
+2018-05-06 22:36:23 +0000  2202 bytes for ./Frameworks/GTMSessionFetcher.framework/_CodeSignature/CodeResources
+2018-05-06 22:36:23 +0000  copying file ./Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher ... 
+2018-05-06 22:36:23 +0000  1295904 bytes for ./Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher
+copying file ./Frameworks/GTMSessionFetcher.framework/Info.plist ... 
+2018-05-06 22:36:23 +0000  758 bytes for ./Frameworks/GTMSessionFetcher.framework/Info.plist
+copying file ./Frameworks/libswiftCore.dylib ... 
+2018-05-06 22:36:23 +0000  66629568 bytes for ./Frameworks/libswiftCore.dylib
+2018-05-06 22:36:23 +0000  copying file ./Frameworks/DisPlayers_Audio_Visualizers.framework/_CodeSignature/CodeResources ... 
+2018-05-06 22:36:23 +0000  2202 bytes for ./Frameworks/DisPlayers_Audio_Visualizers.framework/_CodeSignature/CodeResources
+2018-05-06 22:36:23 +0000  copying file ./Frameworks/DisPlayers_Audio_Visualizers.framework/DisPlayers_Audio_Visualizers ... 
+2018-05-06 22:36:23 +0000  456800 bytes for ./Frameworks/DisPlayers_Audio_Visualizers.framework/DisPlayers_Audio_Visualizers
+2018-05-06 22:36:23 +0000  copying file ./Frameworks/DisPlayers_Audio_Visualizers.framework/Info.plist ... 
+2018-05-06 22:36:23 +0000  779 bytes for ./Frameworks/DisPlayers_Audio_Visualizers.framework/Info.plist
+2018-05-06 22:36:23 +0000  copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+2018-05-06 22:36:23 +0000  1628560 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+copying file ./Frameworks/libswiftUIKit.dylib ... 
+2018-05-06 22:36:23 +0000  1043024 bytes for ./Frameworks/libswiftUIKit.dylib
+2018-05-06 22:36:23 +0000  copying file ./Frameworks/libswiftMetal.dylib ... 
+448896 bytes for ./Frameworks/libswiftMetal.dylib
+2018-05-06 22:36:23 +0000  copying file ./Frameworks/libswiftDispatch.dylib ... 
+2018-05-06 22:36:23 +0000  2722288 bytes for ./Frameworks/libswiftDispatch.dylib
+2018-05-06 22:36:23 +0000  copying file ./Frameworks/libswiftos.dylib ... 
+497152 bytes for ./Frameworks/libswiftos.dylib
+copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+2018-05-06 22:36:23 +0000  257744 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+2018-05-06 22:36:23 +0000  copying file ./Frameworks/libswiftDarwin.dylib ... 
+2018-05-06 22:36:23 +0000  838720 bytes for ./Frameworks/libswiftDarwin.dylib
+2018-05-06 22:36:23 +0000  copying file ./Frameworks/GoogleToolboxForMac.framework/_CodeSignature/CodeResources ... 
+2018-05-06 22:36:23 +0000  2202 bytes for ./Frameworks/GoogleToolboxForMac.framework/_CodeSignature/CodeResources
+2018-05-06 22:36:23 +0000  copying file ./Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac ... 
+2018-05-06 22:36:23 +0000  334208 bytes for ./Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac
+2018-05-06 22:36:23 +0000  copying file ./Frameworks/GoogleToolboxForMac.framework/Info.plist ... 
+2018-05-06 22:36:23 +0000  761 bytes for ./Frameworks/GoogleToolboxForMac.framework/Info.plist
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/nanopb.framework/_CodeSignature/CodeResources ... 
+2018-05-06 22:36:24 +0000  2202 bytes for ./Frameworks/nanopb.framework/_CodeSignature/CodeResources
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/nanopb.framework/nanopb ... 
+2018-05-06 22:36:24 +0000  233488 bytes for ./Frameworks/nanopb.framework/nanopb
+copying file ./Frameworks/nanopb.framework/Info.plist ... 
+2018-05-06 22:36:24 +0000  733 bytes for ./Frameworks/nanopb.framework/Info.plist
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/TPCircularBuffer.framework/_CodeSignature/CodeResources ... 
+2018-05-06 22:36:24 +0000  2202 bytes for ./Frameworks/TPCircularBuffer.framework/_CodeSignature/CodeResources
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/TPCircularBuffer.framework/Info.plist ... 
+2018-05-06 22:36:24 +0000  755 bytes for ./Frameworks/TPCircularBuffer.framework/Info.plist
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/TPCircularBuffer.framework/TPCircularBuffer ... 
+2018-05-06 22:36:24 +0000  196208 bytes for ./Frameworks/TPCircularBuffer.framework/TPCircularBuffer
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/EZAudio.framework/_CodeSignature/CodeResources ... 
+2018-05-06 22:36:24 +0000  2202 bytes for ./Frameworks/EZAudio.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/EZAudio.framework/EZAudio ... 
+2018-05-06 22:36:24 +0000  1065888 bytes for ./Frameworks/EZAudio.framework/EZAudio
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/EZAudio.framework/Info.plist ... 
+735 bytes for ./Frameworks/EZAudio.framework/Info.plist
+copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+2018-05-06 22:36:24 +0000  310608 bytes for ./Frameworks/libswiftQuartzCore.dylib
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/leveldb.framework/_CodeSignature/CodeResources ... 
+2018-05-06 22:36:24 +0000  2202 bytes for ./Frameworks/leveldb.framework/_CodeSignature/CodeResources
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/leveldb.framework/leveldb ... 
+2018-05-06 22:36:24 +0000  2355664 bytes for ./Frameworks/leveldb.framework/leveldb
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/leveldb.framework/Info.plist ... 
+736 bytes for ./Frameworks/leveldb.framework/Info.plist
+copying file ./Frameworks/libswiftCoreAudio.dylib ... 
+659920 bytes for ./Frameworks/libswiftCoreAudio.dylib
+copying file ./Frameworks/libswiftAVFoundation.dylib ... 
+2018-05-06 22:36:24 +0000  1310608 bytes for ./Frameworks/libswiftAVFoundation.dylib
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/TOCropViewController.framework/_CodeSignature/CodeResources ... 
+2018-05-06 22:36:24 +0000  13200 bytes for ./Frameworks/TOCropViewController.framework/_CodeSignature/CodeResources
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/TOCropViewController.framework/TOCropViewController ... 
+2018-05-06 22:36:24 +0000  1096496 bytes for ./Frameworks/TOCropViewController.framework/TOCropViewController
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/de.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:24 +0000  116 bytes for ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/de.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/ar.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:24 +0000  130 bytes for ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/ar.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/zh-Hans.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:24 +0000  106 bytes for ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/zh-Hans.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/ja.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:24 +0000  124 bytes for ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/ja.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/en.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:24 +0000  102 bytes for ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/en.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/es.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:24 +0000  112 bytes for ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/es.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/da.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:24 +0000  107 bytes for ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/da.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/it.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:24 +0000  113 bytes for ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/it.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/ms.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:24 +0000  105 bytes for ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/ms.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/ko.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:24 +0000  110 bytes for ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/ko.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/Base.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:24 +0000  102 bytes for ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/Base.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/zh-Hant.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:24 +0000  109 bytes for ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/zh-Hant.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/tr.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:24 +0000  105 bytes for ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/tr.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/pl.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:24 +0000  107 bytes for ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/pl.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/vi.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:24 +0000  106 bytes for ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/vi.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/ru.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:24 +0000  148 bytes for ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/ru.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/fr.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:24 +0000  113 bytes for ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/fr.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/id.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:24 +0000  109 bytes for ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/id.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/nl.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:24 +0000  111 bytes for ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/nl.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/pt.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:24 +0000  108 bytes for ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/pt.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/Info.plist ... 
+2018-05-06 22:36:24 +0000  750 bytes for ./Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/Info.plist
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/TOCropViewController.framework/Info.plist ... 
+2018-05-06 22:36:24 +0000  763 bytes for ./Frameworks/TOCropViewController.framework/Info.plist
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/libswiftModelIO.dylib ... 
+2018-05-06 22:36:24 +0000  604032 bytes for ./Frameworks/libswiftModelIO.dylib
+copying file ./Frameworks/libswiftAccelerate.dylib ... 
+2018-05-06 22:36:24 +0000  452912 bytes for ./Frameworks/libswiftAccelerate.dylib
+copying file ./Frameworks/libswiftFoundation.dylib ... 
+2018-05-06 22:36:24 +0000  30131392 bytes for ./Frameworks/libswiftFoundation.dylib
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/libswiftCoreMedia.dylib ... 
+483632 bytes for ./Frameworks/libswiftCoreMedia.dylib
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/FCAlertView.framework/_CodeSignature/CodeResources ... 
+2018-05-06 22:36:24 +0000  4138 bytes for ./Frameworks/FCAlertView.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/FCAlertView.framework/FCAlertView ... 
+2018-05-06 22:36:24 +0000  599408 bytes for ./Frameworks/FCAlertView.framework/FCAlertView
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/FCAlertView.framework/FCAlertView.bundle/alert-round.png ... 
+2018-05-06 22:36:24 +0000  6335 bytes for ./Frameworks/FCAlertView.framework/FCAlertView.bundle/alert-round.png
+copying file ./Frameworks/FCAlertView.framework/FCAlertView.bundle/heart.png ... 
+2018-05-06 22:36:24 +0000  2714 bytes for ./Frameworks/FCAlertView.framework/FCAlertView.bundle/heart.png
+copying file ./Frameworks/FCAlertView.framework/FCAlertView.bundle/close-round.png ... 
+2018-05-06 22:36:24 +0000  2510 bytes for ./Frameworks/FCAlertView.framework/FCAlertView.bundle/close-round.png
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/FCAlertView.framework/FCAlertView.bundle/checkmark-round.png ... 
+2018-05-06 22:36:24 +0000  2854 bytes for ./Frameworks/FCAlertView.framework/FCAlertView.bundle/checkmark-round.png
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/FCAlertView.framework/FCAlertView.bundle/star.png ... 
+2018-05-06 22:36:24 +0000  2834 bytes for ./Frameworks/FCAlertView.framework/FCAlertView.bundle/star.png
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/FCAlertView.framework/FCAlertView.bundle/Info.plist ... 
+2018-05-06 22:36:24 +0000  718 bytes for ./Frameworks/FCAlertView.framework/FCAlertView.bundle/Info.plist
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/FCAlertView.framework/Info.plist ... 
+2018-05-06 22:36:24 +0000  743 bytes for ./Frameworks/FCAlertView.framework/Info.plist
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/libswiftGLKit.dylib ... 
+2018-05-06 22:36:24 +0000  259184 bytes for ./Frameworks/libswiftGLKit.dylib
+2018-05-06 22:36:24 +0000  copying file ./Frameworks/libswiftsimd.dylib ... 
+2018-05-06 22:36:24 +0000  5579984 bytes for ./Frameworks/libswiftsimd.dylib
+2018-05-06 22:36:24 +0000  copying file ./embedded.mobileprovision ... 
+2018-05-06 22:36:24 +0000  9694 bytes for ./embedded.mobileprovision
+2018-05-06 22:36:24 +0000  copying file ./Info.plist ... 
+2018-05-06 22:36:24 +0000  1566 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+2018-05-06 22:36:24 +0000  8 bytes for ./PkgInfo
+2018-05-06 22:36:24 +0000  2018-05-06 22:36:24 +0000  
+
+2018-05-06 22:36:24 +0000  
+2018-05-06 22:36:24 +0000  
+2018-05-06 22:36:24 +0000  
+2018-05-06 22:36:24 +0000  2018-05-06 22:36:24 +0000  /usr/bin/ditto exited with 0
+
+2018-05-06 22:36:24 +0000  
+2018-05-06 22:36:24 +0000  Processing step: IDEDistributionEmbedProfileStep
+2018-05-06 22:36:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa2900b9c40 'org.cocoapods.DisPlayers-Audio-Visualizers' '<DVTFilePath:0x7fa290b18ac0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/DisPlayers_Audio_Visualizers.framework'>'>
+2018-05-06 22:36:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa28cb9c3b0 'org.cocoapods.EZAudio' '<DVTFilePath:0x7fa290bdfec0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/EZAudio.framework'>'>
+2018-05-06 22:36:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa28ebe1410 'org.cocoapods.FCAlertView' '<DVTFilePath:0x7fa28e2142b0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/FCAlertView.framework'>'>
+2018-05-06 22:36:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa28e6debf0 'org.cocoapods.GTMSessionFetcher' '<DVTFilePath:0x7fa2905bae60:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/GTMSessionFetcher.framework'>'>
+2018-05-06 22:36:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa29008f5e0 'org.cocoapods.GoogleToolboxForMac' '<DVTFilePath:0x7fa2905be4f0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/GoogleToolboxForMac.framework'>'>
+2018-05-06 22:36:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa290b53220 'org.cocoapods.LLSimpleCamera' '<DVTFilePath:0x7fa2905a7450:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/LLSimpleCamera.framework'>'>
+2018-05-06 22:36:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa2a37b0a00 'org.cocoapods.Protobuf' '<DVTFilePath:0x7fa2905a34b0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/Protobuf.framework'>'>
+2018-05-06 22:36:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa290095460 'org.cocoapods.TOCropViewController' '<DVTFilePath:0x7fa28e8a4b60:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/TOCropViewController.framework'>'>
+2018-05-06 22:36:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa2900c12f0 'org.cocoapods.TPCircularBuffer' '<DVTFilePath:0x7fa290215a40:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/TPCircularBuffer.framework'>'>
+2018-05-06 22:36:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa2a4855370 'org.cocoapods.leveldb' '<DVTFilePath:0x7fa2905b2c10:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/leveldb.framework'>'>
+2018-05-06 22:36:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa28e602fb0 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7fa28e7b8d80:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftAVFoundation.dylib'>'>
+2018-05-06 22:36:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa28cbbb220 'com.apple.dt.runtime.swiftAccelerate' '<DVTFilePath:0x7fa290980a60:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftAccelerate.dylib'>'>
+2018-05-06 22:36:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa2900d8370 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fa29021bdb0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftCore.dylib'>'>
+2018-05-06 22:36:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa2900a44c0 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7fa290525db0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftCoreAudio.dylib'>'>
+2018-05-06 22:36:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa29fe3a220 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fa2900410b0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-05-06 22:36:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa2900c9be0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fa29024f4c0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-05-06 22:36:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa2900ae4f0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fa28e48b5d0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-05-06 22:36:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa28c6519e0 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7fa28eb9d320:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftCoreMedia.dylib'>'>
+2018-05-06 22:36:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa29009ce20 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fa29003fce0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-05-06 22:36:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa28e643d30 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fa2900484a0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-05-06 22:36:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa28e64dcf0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fa290bd5e50:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-05-06 22:36:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa28efa6710 'com.apple.dt.runtime.swiftGLKit' '<DVTFilePath:0x7fa28cb5f3f0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftGLKit.dylib'>'>
+2018-05-06 22:36:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa2900a4aa0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fa28c6d7490:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftMetal.dylib'>'>
+2018-05-06 22:36:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa28ef194f0 'com.apple.dt.runtime.swiftModelIO' '<DVTFilePath:0x7fa290aec5a0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftModelIO.dylib'>'>
+2018-05-06 22:36:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa28cbb1840 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fa28e753530:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-05-06 22:36:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa2900cdb10 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fa28eb34b70:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-05-06 22:36:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa2a37b2660 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fa290241220:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-05-06 22:36:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa28e6ef5b0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fa290042480:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftos.dylib'>'>
+2018-05-06 22:36:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa2900d5fa0 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7fa2a40a74b0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftsimd.dylib'>'>
+2018-05-06 22:36:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa2900dc400 'org.cocoapods.nanopb' '<DVTFilePath:0x7fa2905a0790:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/nanopb.framework'>'>
+2018-05-06 22:36:24 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-05-06 22:36:24 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-05-06 22:36:24 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2018-05-06 22:36:24 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-05-06 22:36:25 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-06 22:36:25 +0000  Processing step: IDEDistributionSymbolsStep
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-06 22:36:25 +0000  Processing step: IDEDistributionAppThinningStep
+2018-05-06 22:36:25 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2018-05-06 22:36:25 +0000  Processing step: IDEDistributionODRStep
+2018-05-06 22:36:25 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-05-06 22:36:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa2900b9c40 'org.cocoapods.DisPlayers-Audio-Visualizers' '<DVTFilePath:0x7fa290b18ac0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/DisPlayers_Audio_Visualizers.framework'>'>
+2018-05-06 22:36:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa28cb9c3b0 'org.cocoapods.EZAudio' '<DVTFilePath:0x7fa290bdfec0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/EZAudio.framework'>'>
+2018-05-06 22:36:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa28ebe1410 'org.cocoapods.FCAlertView' '<DVTFilePath:0x7fa28e2142b0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/FCAlertView.framework'>'>
+2018-05-06 22:36:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa28e6debf0 'org.cocoapods.GTMSessionFetcher' '<DVTFilePath:0x7fa2905bae60:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/GTMSessionFetcher.framework'>'>
+2018-05-06 22:36:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa29008f5e0 'org.cocoapods.GoogleToolboxForMac' '<DVTFilePath:0x7fa2905be4f0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/GoogleToolboxForMac.framework'>'>
+2018-05-06 22:36:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa290b53220 'org.cocoapods.LLSimpleCamera' '<DVTFilePath:0x7fa2905a7450:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/LLSimpleCamera.framework'>'>
+2018-05-06 22:36:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa2a37b0a00 'org.cocoapods.Protobuf' '<DVTFilePath:0x7fa2905a34b0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/Protobuf.framework'>'>
+2018-05-06 22:36:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa290095460 'org.cocoapods.TOCropViewController' '<DVTFilePath:0x7fa28e8a4b60:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/TOCropViewController.framework'>'>
+2018-05-06 22:36:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa2900c12f0 'org.cocoapods.TPCircularBuffer' '<DVTFilePath:0x7fa290215a40:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/TPCircularBuffer.framework'>'>
+2018-05-06 22:36:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa2a4855370 'org.cocoapods.leveldb' '<DVTFilePath:0x7fa2905b2c10:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/leveldb.framework'>'>
+2018-05-06 22:36:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa28e602fb0 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7fa28e7b8d80:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftAVFoundation.dylib'>'>
+2018-05-06 22:36:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa28cbbb220 'com.apple.dt.runtime.swiftAccelerate' '<DVTFilePath:0x7fa290980a60:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftAccelerate.dylib'>'>
+2018-05-06 22:36:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa2900d8370 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fa29021bdb0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftCore.dylib'>'>
+2018-05-06 22:36:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa2900a44c0 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7fa290525db0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftCoreAudio.dylib'>'>
+2018-05-06 22:36:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa29fe3a220 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fa2900410b0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-05-06 22:36:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa2900c9be0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fa29024f4c0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-05-06 22:36:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa2900ae4f0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fa28e48b5d0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-05-06 22:36:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa28c6519e0 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7fa28eb9d320:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftCoreMedia.dylib'>'>
+2018-05-06 22:36:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa29009ce20 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fa29003fce0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-05-06 22:36:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa28e643d30 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fa2900484a0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-05-06 22:36:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa28e64dcf0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fa290bd5e50:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-05-06 22:36:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa28efa6710 'com.apple.dt.runtime.swiftGLKit' '<DVTFilePath:0x7fa28cb5f3f0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftGLKit.dylib'>'>
+2018-05-06 22:36:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa2900a4aa0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fa28c6d7490:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftMetal.dylib'>'>
+2018-05-06 22:36:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa28ef194f0 'com.apple.dt.runtime.swiftModelIO' '<DVTFilePath:0x7fa290aec5a0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftModelIO.dylib'>'>
+2018-05-06 22:36:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa28cbb1840 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fa28e753530:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-05-06 22:36:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa2900cdb10 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fa28eb34b70:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-05-06 22:36:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa2a37b2660 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fa290241220:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-05-06 22:36:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa28e6ef5b0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fa290042480:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftos.dylib'>'>
+2018-05-06 22:36:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa2900d5fa0 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7fa2a40a74b0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftsimd.dylib'>'>
+2018-05-06 22:36:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa2900dc400 'org.cocoapods.nanopb' '<DVTFilePath:0x7fa2905a0790:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/nanopb.framework'>'>
+2018-05-06 22:36:25 +0000  Running /usr/bin/xattr '-crs' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app'
+2018-05-06 22:36:25 +0000  2018-05-06 22:36:25 +0000  
+
+2018-05-06 22:36:25 +0000  /usr/bin/xattr exited with 0
+2018-05-06 22:36:25 +0000  Processing step: IDEDistributionCodesignStep
+2018-05-06 22:36:25 +0000  Entitlements for <IDEDistributionItem: 0x7fa2900b9c40 'org.cocoapods.DisPlayers-Audio-Visualizers' '<DVTFilePath:0x7fa290b18ac0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/DisPlayers_Audio_Visualizers.framework'>'>: {
+}
+2018-05-06 22:36:25 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa2900b9c40 'org.cocoapods.DisPlayers-Audio-Visualizers' '<DVTFilePath:0x7fa290b18ac0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/DisPlayers_Audio_Visualizers.framework'>'> to: /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementscBn0N9
+2018-05-06 22:36:25 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '327EB47AE5E5DD7AF756B063BC0316308AFCC0C0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementscBn0N9' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/DisPlayers_Audio_Visualizers.framework'
+2018-05-06 22:36:25 +0000  /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/DisPlayers_Audio_Visualizers.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.DisPlayers-Audio-Visualizers]
+2018-05-06 22:36:25 +0000  2018-05-06 22:36:25 +0000  
+
+2018-05-06 22:36:25 +0000  
+2018-05-06 22:36:25 +0000  
+2018-05-06 22:36:25 +0000  
+2018-05-06 22:36:25 +0000  
+2018-05-06 22:36:25 +0000  
+2018-05-06 22:36:25 +0000  
+2018-05-06 22:36:25 +0000  
+2018-05-06 22:36:25 +0000  
+2018-05-06 22:36:25 +0000  2018-05-06 22:36:25 +0000  /usr/bin/codesign exited with 0
+2018-05-06 22:36:25 +0000  
+
+2018-05-06 22:36:25 +0000  Entitlements for <IDEDistributionItem: 0x7fa28cb9c3b0 'org.cocoapods.EZAudio' '<DVTFilePath:0x7fa290bdfec0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/EZAudio.framework'>'>: {
+}
+2018-05-06 22:36:25 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa28cb9c3b0 'org.cocoapods.EZAudio' '<DVTFilePath:0x7fa290bdfec0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/EZAudio.framework'>'> to: /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsPGyqN3
+2018-05-06 22:36:25 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '327EB47AE5E5DD7AF756B063BC0316308AFCC0C0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsPGyqN3' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/EZAudio.framework'
+2018-05-06 22:36:25 +0000  /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/EZAudio.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.EZAudio]
+2018-05-06 22:36:25 +0000  2018-05-06 22:36:25 +0000  
+
+2018-05-06 22:36:25 +0000  
+2018-05-06 22:36:25 +0000  
+2018-05-06 22:36:25 +0000  
+2018-05-06 22:36:25 +0000  
+2018-05-06 22:36:25 +0000  2018-05-06 22:36:25 +0000  
+
+2018-05-06 22:36:25 +0000  
+2018-05-06 22:36:25 +0000  
+2018-05-06 22:36:25 +0000  
+2018-05-06 22:36:25 +0000  /usr/bin/codesign exited with 0
+2018-05-06 22:36:25 +0000  2018-05-06 22:36:25 +0000  
+
+2018-05-06 22:36:25 +0000  Entitlements for <IDEDistributionItem: 0x7fa28ebe1410 'org.cocoapods.FCAlertView' '<DVTFilePath:0x7fa28e2142b0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/FCAlertView.framework'>'>: {
+}
+2018-05-06 22:36:25 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa28ebe1410 'org.cocoapods.FCAlertView' '<DVTFilePath:0x7fa28e2142b0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/FCAlertView.framework'>'> to: /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsGLgr4a
+2018-05-06 22:36:25 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '327EB47AE5E5DD7AF756B063BC0316308AFCC0C0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsGLgr4a' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/FCAlertView.framework'
+2018-05-06 22:36:26 +0000  /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/FCAlertView.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.FCAlertView]
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  /usr/bin/codesign exited with 0
+2018-05-06 22:36:26 +0000  2018-05-06 22:36:26 +0000  
+
+2018-05-06 22:36:26 +0000  Entitlements for <IDEDistributionItem: 0x7fa28e6debf0 'org.cocoapods.GTMSessionFetcher' '<DVTFilePath:0x7fa2905bae60:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/GTMSessionFetcher.framework'>'>: {
+}
+2018-05-06 22:36:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa28e6debf0 'org.cocoapods.GTMSessionFetcher' '<DVTFilePath:0x7fa2905bae60:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/GTMSessionFetcher.framework'>'> to: /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsFp8Iy3
+2018-05-06 22:36:26 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '327EB47AE5E5DD7AF756B063BC0316308AFCC0C0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsFp8Iy3' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/GTMSessionFetcher.framework'
+2018-05-06 22:36:26 +0000  /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/GTMSessionFetcher.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.GTMSessionFetcher]
+2018-05-06 22:36:26 +0000  2018-05-06 22:36:26 +0000  
+
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  2018-05-06 22:36:26 +0000  
+
+2018-05-06 22:36:26 +0000  2018-05-06 22:36:26 +0000  /usr/bin/codesign exited with 0
+2018-05-06 22:36:26 +0000  
+
+2018-05-06 22:36:26 +0000  Entitlements for <IDEDistributionItem: 0x7fa29008f5e0 'org.cocoapods.GoogleToolboxForMac' '<DVTFilePath:0x7fa2905be4f0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/GoogleToolboxForMac.framework'>'>: {
+}
+2018-05-06 22:36:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa29008f5e0 'org.cocoapods.GoogleToolboxForMac' '<DVTFilePath:0x7fa2905be4f0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/GoogleToolboxForMac.framework'>'> to: /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsq0yadu
+2018-05-06 22:36:26 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '327EB47AE5E5DD7AF756B063BC0316308AFCC0C0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsq0yadu' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/GoogleToolboxForMac.framework'
+2018-05-06 22:36:26 +0000  /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/GoogleToolboxForMac.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.GoogleToolboxForMac]
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  2018-05-06 22:36:26 +0000  
+
+2018-05-06 22:36:26 +0000  /usr/bin/codesign exited with 0
+2018-05-06 22:36:26 +0000  2018-05-06 22:36:26 +0000  
+
+2018-05-06 22:36:26 +0000  Entitlements for <IDEDistributionItem: 0x7fa290b53220 'org.cocoapods.LLSimpleCamera' '<DVTFilePath:0x7fa2905a7450:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/LLSimpleCamera.framework'>'>: {
+}
+2018-05-06 22:36:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa290b53220 'org.cocoapods.LLSimpleCamera' '<DVTFilePath:0x7fa2905a7450:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/LLSimpleCamera.framework'>'> to: /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsieX3Sg
+2018-05-06 22:36:26 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '327EB47AE5E5DD7AF756B063BC0316308AFCC0C0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsieX3Sg' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/LLSimpleCamera.framework'
+2018-05-06 22:36:26 +0000  /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/LLSimpleCamera.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.LLSimpleCamera]
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  2018-05-06 22:36:26 +0000  /usr/bin/codesign exited with 0
+2018-05-06 22:36:26 +0000  
+
+2018-05-06 22:36:26 +0000  Entitlements for <IDEDistributionItem: 0x7fa2a37b0a00 'org.cocoapods.Protobuf' '<DVTFilePath:0x7fa2905a34b0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/Protobuf.framework'>'>: {
+}
+2018-05-06 22:36:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa2a37b0a00 'org.cocoapods.Protobuf' '<DVTFilePath:0x7fa2905a34b0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/Protobuf.framework'>'> to: /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsCWoXsz
+2018-05-06 22:36:26 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '327EB47AE5E5DD7AF756B063BC0316308AFCC0C0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsCWoXsz' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/Protobuf.framework'
+2018-05-06 22:36:26 +0000  /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/Protobuf.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.Protobuf]
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  2018-05-06 22:36:26 +0000  
+
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  
+2018-05-06 22:36:26 +0000  2018-05-06 22:36:26 +0000  /usr/bin/codesign exited with 0
+2018-05-06 22:36:26 +0000  
+
+2018-05-06 22:36:26 +0000  Entitlements for <IDEDistributionItem: 0x7fa290095460 'org.cocoapods.TOCropViewController' '<DVTFilePath:0x7fa28e8a4b60:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/TOCropViewController.framework'>'>: {
+}
+2018-05-06 22:36:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa290095460 'org.cocoapods.TOCropViewController' '<DVTFilePath:0x7fa28e8a4b60:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/TOCropViewController.framework'>'> to: /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsQj39zy
+2018-05-06 22:36:26 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '327EB47AE5E5DD7AF756B063BC0316308AFCC0C0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsQj39zy' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/TOCropViewController.framework'
+2018-05-06 22:36:27 +0000  /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/TOCropViewController.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.TOCropViewController]
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  2018-05-06 22:36:27 +0000  
+
+2018-05-06 22:36:27 +0000  2018-05-06 22:36:27 +0000  /usr/bin/codesign exited with 0
+
+2018-05-06 22:36:27 +0000  2018-05-06 22:36:27 +0000  
+
+2018-05-06 22:36:27 +0000  Entitlements for <IDEDistributionItem: 0x7fa2900c12f0 'org.cocoapods.TPCircularBuffer' '<DVTFilePath:0x7fa290215a40:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/TPCircularBuffer.framework'>'>: {
+}
+2018-05-06 22:36:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa2900c12f0 'org.cocoapods.TPCircularBuffer' '<DVTFilePath:0x7fa290215a40:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/TPCircularBuffer.framework'>'> to: /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsfaLBUD
+2018-05-06 22:36:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '327EB47AE5E5DD7AF756B063BC0316308AFCC0C0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsfaLBUD' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/TPCircularBuffer.framework'
+2018-05-06 22:36:27 +0000  /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/TPCircularBuffer.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.TPCircularBuffer]
+2018-05-06 22:36:27 +0000  2018-05-06 22:36:27 +0000  
+
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  2018-05-06 22:36:27 +0000  /usr/bin/codesign exited with 0
+2018-05-06 22:36:27 +0000  
+
+2018-05-06 22:36:27 +0000  Entitlements for <IDEDistributionItem: 0x7fa2a4855370 'org.cocoapods.leveldb' '<DVTFilePath:0x7fa2905b2c10:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/leveldb.framework'>'>: {
+}
+2018-05-06 22:36:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa2a4855370 'org.cocoapods.leveldb' '<DVTFilePath:0x7fa2905b2c10:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/leveldb.framework'>'> to: /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsLW0oUG
+2018-05-06 22:36:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '327EB47AE5E5DD7AF756B063BC0316308AFCC0C0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsLW0oUG' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/leveldb.framework'
+2018-05-06 22:36:27 +0000  /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/leveldb.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.leveldb]
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  /usr/bin/codesign exited with 02018-05-06 22:36:27 +0000  
+
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  Entitlements for <IDEDistributionItem: 0x7fa28e602fb0 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7fa28e7b8d80:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftAVFoundation.dylib'>'>: {
+}
+2018-05-06 22:36:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa28e602fb0 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7fa28e7b8d80:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftAVFoundation.dylib'>'> to: /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementstpA6Oy
+2018-05-06 22:36:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '327EB47AE5E5DD7AF756B063BC0316308AFCC0C0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementstpA6Oy' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftAVFoundation.dylib'
+2018-05-06 22:36:27 +0000  /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftAVFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftAVFoundation]
+2018-05-06 22:36:27 +0000  2018-05-06 22:36:27 +0000  
+
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  2018-05-06 22:36:27 +0000  
+
+2018-05-06 22:36:27 +0000  /usr/bin/codesign exited with 0
+2018-05-06 22:36:27 +0000  2018-05-06 22:36:27 +0000  
+
+2018-05-06 22:36:27 +0000  Entitlements for <IDEDistributionItem: 0x7fa28cbbb220 'com.apple.dt.runtime.swiftAccelerate' '<DVTFilePath:0x7fa290980a60:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftAccelerate.dylib'>'>: {
+}
+2018-05-06 22:36:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa28cbbb220 'com.apple.dt.runtime.swiftAccelerate' '<DVTFilePath:0x7fa290980a60:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftAccelerate.dylib'>'> to: /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsEPMrDs
+2018-05-06 22:36:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '327EB47AE5E5DD7AF756B063BC0316308AFCC0C0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsEPMrDs' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftAccelerate.dylib'
+2018-05-06 22:36:27 +0000  /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftAccelerate.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftAccelerate]
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  2018-05-06 22:36:27 +0000  /usr/bin/codesign exited with 0
+
+2018-05-06 22:36:27 +0000  
+2018-05-06 22:36:27 +0000  Entitlements for <IDEDistributionItem: 0x7fa2900d8370 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fa29021bdb0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftCore.dylib'>'>: {
+}
+2018-05-06 22:36:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa2900d8370 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fa29021bdb0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftCore.dylib'>'> to: /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlements93XYka
+2018-05-06 22:36:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '327EB47AE5E5DD7AF756B063BC0316308AFCC0C0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlements93XYka' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftCore.dylib'
+2018-05-06 22:36:28 +0000  /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2018-05-06 22:36:28 +0000  2018-05-06 22:36:28 +0000  
+
+2018-05-06 22:36:28 +0000  
+2018-05-06 22:36:28 +0000  
+2018-05-06 22:36:28 +0000  
+2018-05-06 22:36:28 +0000  
+2018-05-06 22:36:28 +0000  
+2018-05-06 22:36:28 +0000  
+2018-05-06 22:36:28 +0000  2018-05-06 22:36:28 +0000  /usr/bin/codesign exited with 0
+2018-05-06 22:36:28 +0000  
+
+2018-05-06 22:36:28 +0000  Entitlements for <IDEDistributionItem: 0x7fa2900a44c0 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7fa290525db0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftCoreAudio.dylib'>'>: {
+}
+2018-05-06 22:36:28 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa2900a44c0 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7fa290525db0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftCoreAudio.dylib'>'> to: /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsRAtfsH
+2018-05-06 22:36:28 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '327EB47AE5E5DD7AF756B063BC0316308AFCC0C0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsRAtfsH' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftCoreAudio.dylib'
+2018-05-06 22:36:28 +0000  /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftCoreAudio.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreAudio]
+2018-05-06 22:36:28 +0000  
+2018-05-06 22:36:28 +0000  
+2018-05-06 22:36:28 +0000  
+2018-05-06 22:36:28 +0000  2018-05-06 22:36:28 +0000  
+
+2018-05-06 22:36:28 +0000  
+2018-05-06 22:36:28 +0000  
+2018-05-06 22:36:28 +0000  
+2018-05-06 22:36:28 +0000  2018-05-06 22:36:28 +0000  /usr/bin/codesign exited with 0
+
+2018-05-06 22:36:28 +0000  
+2018-05-06 22:36:28 +0000  
+2018-05-06 22:36:28 +0000  Entitlements for <IDEDistributionItem: 0x7fa29fe3a220 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fa2900410b0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2018-05-06 22:36:28 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa29fe3a220 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fa2900410b0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsiRZqF0
+2018-05-06 22:36:28 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '327EB47AE5E5DD7AF756B063BC0316308AFCC0C0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsiRZqF0' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftCoreFoundation.dylib'
+2018-05-06 22:36:29 +0000  /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2018-05-06 22:36:29 +0000  
+2018-05-06 22:36:29 +0000  2018-05-06 22:36:29 +0000  
+
+2018-05-06 22:36:29 +0000  2018-05-06 22:36:29 +0000  
+
+2018-05-06 22:36:29 +0000  
+2018-05-06 22:36:29 +0000  /usr/bin/codesign exited with 0
+2018-05-06 22:36:29 +0000  2018-05-06 22:36:29 +0000  
+
+2018-05-06 22:36:29 +0000  Entitlements for <IDEDistributionItem: 0x7fa2900c9be0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fa29024f4c0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2018-05-06 22:36:29 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa2900c9be0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fa29024f4c0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsEpmcAE
+2018-05-06 22:36:29 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '327EB47AE5E5DD7AF756B063BC0316308AFCC0C0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsEpmcAE' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftCoreGraphics.dylib'
+2018-05-06 22:36:29 +0000  /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2018-05-06 22:36:29 +0000  
+2018-05-06 22:36:29 +0000  
+2018-05-06 22:36:29 +0000  
+2018-05-06 22:36:29 +0000  
+2018-05-06 22:36:29 +0000  
+2018-05-06 22:36:29 +0000  
+2018-05-06 22:36:29 +0000  
+2018-05-06 22:36:29 +0000  
+2018-05-06 22:36:29 +0000  
+2018-05-06 22:36:29 +0000  2018-05-06 22:36:29 +0000  /usr/bin/codesign exited with 0
+
+2018-05-06 22:36:29 +0000  
+2018-05-06 22:36:29 +0000  Entitlements for <IDEDistributionItem: 0x7fa2900ae4f0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fa28e48b5d0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2018-05-06 22:36:29 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa2900ae4f0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fa28e48b5d0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsp4Urye
+2018-05-06 22:36:29 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '327EB47AE5E5DD7AF756B063BC0316308AFCC0C0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsp4Urye' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftCoreImage.dylib'
+2018-05-06 22:36:29 +0000  /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2018-05-06 22:36:29 +0000  
+2018-05-06 22:36:29 +0000  2018-05-06 22:36:29 +0000  
+
+2018-05-06 22:36:29 +0000  
+2018-05-06 22:36:29 +0000  
+2018-05-06 22:36:29 +0000  2018-05-06 22:36:29 +0000  
+
+2018-05-06 22:36:29 +0000  2018-05-06 22:36:29 +0000  /usr/bin/codesign exited with 0
+
+2018-05-06 22:36:29 +0000  2018-05-06 22:36:29 +0000  
+
+2018-05-06 22:36:29 +0000  Entitlements for <IDEDistributionItem: 0x7fa28c6519e0 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7fa28eb9d320:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftCoreMedia.dylib'>'>: {
+}
+2018-05-06 22:36:29 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa28c6519e0 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7fa28eb9d320:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftCoreMedia.dylib'>'> to: /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementslqfuXX
+2018-05-06 22:36:29 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '327EB47AE5E5DD7AF756B063BC0316308AFCC0C0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementslqfuXX' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftCoreMedia.dylib'
+2018-05-06 22:36:29 +0000  /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftCoreMedia.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreMedia]
+2018-05-06 22:36:29 +0000  
+2018-05-06 22:36:29 +0000  
+2018-05-06 22:36:29 +0000  
+2018-05-06 22:36:29 +0000  
+2018-05-06 22:36:29 +0000  
+2018-05-06 22:36:29 +0000  
+2018-05-06 22:36:29 +0000  2018-05-06 22:36:29 +0000  /usr/bin/codesign exited with 0
+2018-05-06 22:36:29 +0000  
+
+2018-05-06 22:36:29 +0000  Entitlements for <IDEDistributionItem: 0x7fa29009ce20 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fa29003fce0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2018-05-06 22:36:29 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa29009ce20 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fa29003fce0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlements1gFFjE
+2018-05-06 22:36:29 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '327EB47AE5E5DD7AF756B063BC0316308AFCC0C0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlements1gFFjE' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftDarwin.dylib'
+2018-05-06 22:36:29 +0000  /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2018-05-06 22:36:29 +0000  2018-05-06 22:36:29 +0000  
+
+2018-05-06 22:36:29 +0000  
+2018-05-06 22:36:29 +0000  
+2018-05-06 22:36:29 +0000  
+2018-05-06 22:36:29 +0000  
+2018-05-06 22:36:29 +0000  
+2018-05-06 22:36:29 +0000  
+2018-05-06 22:36:29 +0000  2018-05-06 22:36:29 +0000  
+
+2018-05-06 22:36:29 +0000  /usr/bin/codesign exited with 0
+2018-05-06 22:36:29 +0000  
+2018-05-06 22:36:29 +0000  Entitlements for <IDEDistributionItem: 0x7fa28e643d30 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fa2900484a0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2018-05-06 22:36:29 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa28e643d30 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fa2900484a0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementszEGH2Y
+2018-05-06 22:36:29 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '327EB47AE5E5DD7AF756B063BC0316308AFCC0C0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementszEGH2Y' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftDispatch.dylib'
+2018-05-06 22:36:30 +0000  /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2018-05-06 22:36:30 +0000  
+2018-05-06 22:36:30 +0000  
+2018-05-06 22:36:30 +0000  
+2018-05-06 22:36:30 +0000  2018-05-06 22:36:30 +0000  /usr/bin/codesign exited with 02018-05-06 22:36:30 +0000  
+
+
+2018-05-06 22:36:30 +0000  Entitlements for <IDEDistributionItem: 0x7fa28e64dcf0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fa290bd5e50:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2018-05-06 22:36:30 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa28e64dcf0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fa290bd5e50:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsBATpgs
+2018-05-06 22:36:30 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '327EB47AE5E5DD7AF756B063BC0316308AFCC0C0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsBATpgs' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftFoundation.dylib'
+2018-05-06 22:36:30 +0000  /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2018-05-06 22:36:30 +0000  2018-05-06 22:36:30 +0000  
+
+2018-05-06 22:36:30 +0000  /usr/bin/codesign exited with 0
+2018-05-06 22:36:30 +0000  
+2018-05-06 22:36:30 +0000  
+2018-05-06 22:36:30 +0000  Entitlements for <IDEDistributionItem: 0x7fa28efa6710 'com.apple.dt.runtime.swiftGLKit' '<DVTFilePath:0x7fa28cb5f3f0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftGLKit.dylib'>'>: {
+}
+2018-05-06 22:36:30 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa28efa6710 'com.apple.dt.runtime.swiftGLKit' '<DVTFilePath:0x7fa28cb5f3f0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftGLKit.dylib'>'> to: /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsIhkzLX
+2018-05-06 22:36:30 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '327EB47AE5E5DD7AF756B063BC0316308AFCC0C0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsIhkzLX' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftGLKit.dylib'
+2018-05-06 22:36:30 +0000  /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftGLKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftGLKit]
+2018-05-06 22:36:30 +0000  2018-05-06 22:36:30 +0000  
+
+2018-05-06 22:36:30 +0000  
+2018-05-06 22:36:30 +0000  
+2018-05-06 22:36:30 +0000  
+2018-05-06 22:36:30 +0000  
+2018-05-06 22:36:30 +0000  
+2018-05-06 22:36:30 +0000  /usr/bin/codesign exited with 0
+2018-05-06 22:36:30 +0000  
+2018-05-06 22:36:30 +0000  
+2018-05-06 22:36:30 +0000  Entitlements for <IDEDistributionItem: 0x7fa2900a4aa0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fa28c6d7490:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftMetal.dylib'>'>: {
+}
+2018-05-06 22:36:30 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa2900a4aa0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fa28c6d7490:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementstj4Yyw
+2018-05-06 22:36:30 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '327EB47AE5E5DD7AF756B063BC0316308AFCC0C0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementstj4Yyw' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftMetal.dylib'
+2018-05-06 22:36:31 +0000  /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  2018-05-06 22:36:31 +0000  
+
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  /usr/bin/codesign exited with 0
+
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  Entitlements for <IDEDistributionItem: 0x7fa28ef194f0 'com.apple.dt.runtime.swiftModelIO' '<DVTFilePath:0x7fa290aec5a0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftModelIO.dylib'>'>: {
+}
+2018-05-06 22:36:31 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa28ef194f0 'com.apple.dt.runtime.swiftModelIO' '<DVTFilePath:0x7fa290aec5a0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftModelIO.dylib'>'> to: /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsRe6xnT
+2018-05-06 22:36:31 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '327EB47AE5E5DD7AF756B063BC0316308AFCC0C0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsRe6xnT' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftModelIO.dylib'
+2018-05-06 22:36:31 +0000  /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftModelIO.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftModelIO]
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  /usr/bin/codesign exited with 0
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  Entitlements for <IDEDistributionItem: 0x7fa28cbb1840 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fa28e753530:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2018-05-06 22:36:31 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa28cbb1840 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fa28e753530:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsnHxx8s
+2018-05-06 22:36:31 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '327EB47AE5E5DD7AF756B063BC0316308AFCC0C0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsnHxx8s' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftObjectiveC.dylib'
+2018-05-06 22:36:31 +0000  /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  2018-05-06 22:36:31 +0000  
+
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  2018-05-06 22:36:31 +0000  /usr/bin/codesign exited with 0
+
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  Entitlements for <IDEDistributionItem: 0x7fa2900cdb10 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fa28eb34b70:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2018-05-06 22:36:31 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa2900cdb10 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fa28eb34b70:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlements2TDVHp
+2018-05-06 22:36:31 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '327EB47AE5E5DD7AF756B063BC0316308AFCC0C0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlements2TDVHp' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftQuartzCore.dylib'
+2018-05-06 22:36:31 +0000  /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2018-05-06 22:36:31 +0000  2018-05-06 22:36:31 +0000  
+
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  /usr/bin/codesign exited with 0
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  Entitlements for <IDEDistributionItem: 0x7fa2a37b2660 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fa290241220:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftUIKit.dylib'>'>: {
+}
+2018-05-06 22:36:31 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa2a37b2660 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fa290241220:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftUIKit.dylib'>'> to: /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementskHpaYr
+2018-05-06 22:36:31 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '327EB47AE5E5DD7AF756B063BC0316308AFCC0C0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementskHpaYr' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftUIKit.dylib'
+2018-05-06 22:36:31 +0000  /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  
+2018-05-06 22:36:31 +0000  /usr/bin/codesign exited with 0
+2018-05-06 22:36:31 +0000  2018-05-06 22:36:31 +0000  
+
+2018-05-06 22:36:31 +0000  Entitlements for <IDEDistributionItem: 0x7fa28e6ef5b0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fa290042480:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftos.dylib'>'>: {
+}
+2018-05-06 22:36:31 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa28e6ef5b0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fa290042480:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftos.dylib'>'> to: /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsRYfjrh
+2018-05-06 22:36:31 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '327EB47AE5E5DD7AF756B063BC0316308AFCC0C0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsRYfjrh' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftos.dylib'
+2018-05-06 22:36:32 +0000  /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2018-05-06 22:36:32 +0000  2018-05-06 22:36:32 +0000  
+
+2018-05-06 22:36:32 +0000  
+2018-05-06 22:36:32 +0000  
+2018-05-06 22:36:32 +0000  
+2018-05-06 22:36:32 +0000  
+2018-05-06 22:36:32 +0000  
+2018-05-06 22:36:32 +0000  2018-05-06 22:36:32 +0000  /usr/bin/codesign exited with 0
+
+2018-05-06 22:36:32 +0000  
+2018-05-06 22:36:32 +0000  Entitlements for <IDEDistributionItem: 0x7fa2900d5fa0 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7fa2a40a74b0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftsimd.dylib'>'>: {
+}
+2018-05-06 22:36:32 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa2900d5fa0 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7fa2a40a74b0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/libswiftsimd.dylib'>'> to: /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlements14Mvcr
+2018-05-06 22:36:32 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '327EB47AE5E5DD7AF756B063BC0316308AFCC0C0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlements14Mvcr' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftsimd.dylib'
+2018-05-06 22:36:32 +0000  /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/libswiftsimd.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftsimd]
+2018-05-06 22:36:32 +0000  2018-05-06 22:36:32 +0000  
+
+2018-05-06 22:36:32 +0000  
+2018-05-06 22:36:32 +0000  
+2018-05-06 22:36:32 +0000  
+2018-05-06 22:36:32 +0000  2018-05-06 22:36:32 +0000  
+2018-05-06 22:36:32 +0000  
+
+2018-05-06 22:36:32 +0000  /usr/bin/codesign exited with 0
+2018-05-06 22:36:32 +0000  2018-05-06 22:36:32 +0000  
+
+2018-05-06 22:36:32 +0000  Entitlements for <IDEDistributionItem: 0x7fa2900dc400 'org.cocoapods.nanopb' '<DVTFilePath:0x7fa2905a0790:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/nanopb.framework'>'>: {
+}
+2018-05-06 22:36:32 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa2900dc400 'org.cocoapods.nanopb' '<DVTFilePath:0x7fa2905a0790:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app/Frameworks/nanopb.framework'>'> to: /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlements03Z638
+2018-05-06 22:36:32 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '327EB47AE5E5DD7AF756B063BC0316308AFCC0C0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlements03Z638' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/nanopb.framework'
+2018-05-06 22:36:32 +0000  /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app/Frameworks/nanopb.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.nanopb]
+2018-05-06 22:36:32 +0000  2018-05-06 22:36:32 +0000  
+
+2018-05-06 22:36:32 +0000  
+2018-05-06 22:36:32 +0000  
+2018-05-06 22:36:32 +0000  /usr/bin/codesign exited with 02018-05-06 22:36:32 +0000  
+
+2018-05-06 22:36:32 +0000  
+2018-05-06 22:36:32 +0000  Entitlements for <IDEDistributionItem: 0x7fa29008bc10 'com.improvis.carWashingApp' '<DVTFilePath:0x7fa28ec864a0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app'>'>: {
+    "application-identifier" = "GQ4Z5YLXHU.com.improvis.carWashingApp";
+    "com.apple.developer.team-identifier" = GQ4Z5YLXHU;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "GQ4Z5YLXHU.com.improvis.carWashingApp"
+    );
+}
+2018-05-06 22:36:32 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa29008bc10 'com.improvis.carWashingApp' '<DVTFilePath:0x7fa28ec864a0:'/Users/armennikodhosyan/Library/Developer/Xcode/Archives/2018-05-07/ImageUploader 07.05.2018, 2.36.xcarchive/Products/Applications/ImageUploader.app'>'> to: /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsRJtQ38
+2018-05-06 22:36:32 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '327EB47AE5E5DD7AF756B063BC0316308AFCC0C0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/entitlementsRJtQ38' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app'
+2018-05-06 22:36:33 +0000  /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root/Payload/ImageUploader.app: signed app bundle with Mach-O thin (arm64) [com.improvis.carWashingApp]
+2018-05-06 22:36:33 +0000  2018-05-06 22:36:33 +0000  
+
+2018-05-06 22:36:33 +0000  2018-05-06 22:36:33 +0000  
+
+2018-05-06 22:36:33 +0000  
+2018-05-06 22:36:33 +0000  
+2018-05-06 22:36:33 +0000  
+2018-05-06 22:36:33 +0000  2018-05-06 22:36:33 +0000  
+
+2018-05-06 22:36:33 +0000  /usr/bin/codesign exited with 0
+2018-05-06 22:36:33 +0000  
+2018-05-06 22:36:33 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2018-05-06 22:36:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-06 22:36:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-06 22:36:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-06 22:36:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-06 22:36:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-06 22:36:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-06 22:36:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-06 22:36:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-06 22:36:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-06 22:36:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-06 22:36:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-06 22:36:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-06 22:36:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-06 22:36:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-06 22:36:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-06 22:36:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-06 22:36:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-06 22:36:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-06 22:36:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-06 22:36:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-06 22:36:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-06 22:36:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-06 22:36:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-06 22:36:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-06 22:36:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-06 22:36:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-06 22:36:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-06 22:36:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-06 22:36:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-06 22:36:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-06 22:36:33 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-06 22:36:33 +0000  Processing step: IDEDistributionCreateIPAStep
+2018-05-06 22:36:33 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root' '/var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Packages/ImageUploader.ipa'
+2018-05-06 22:36:33 +0000  >>> Copying /var/folders/ml/976n_36166sff78w4njdzpz80000gn/T/XcodeDistPipeline.yon/Root 
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/_CodeSignature/CodeResources ... 
+2018-05-06 22:36:33 +0000  49597 bytes for ./Payload/ImageUploader.app/_CodeSignature/CodeResources
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/ImageUploader ... 
+2018-05-06 22:36:33 +0000  3422144 bytes for ./Payload/ImageUploader.app/ImageUploader
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/SearchTableViewCell.nib ... 
+2018-05-06 22:36:33 +0000  3496 bytes for ./Payload/ImageUploader.app/SearchTableViewCell.nib
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/AudioPlayerView.nib ... 
+2018-05-06 22:36:33 +0000  3862 bytes for ./Payload/ImageUploader.app/AudioPlayerView.nib
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/PhotosCollectionViewCell.nib ... 
+2018-05-06 22:36:33 +0000  4025 bytes for ./Payload/ImageUploader.app/PhotosCollectionViewCell.nib
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/VideoCollectionViewCell.nib ... 
+2018-05-06 22:36:33 +0000  4492 bytes for ./Payload/ImageUploader.app/VideoCollectionViewCell.nib
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/GoogleService-Info.plist ... 
+2018-05-06 22:36:33 +0000  879 bytes for ./Payload/ImageUploader.app/GoogleService-Info.plist
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/videoVC.nib ... 
+2018-05-06 22:36:33 +0000  988 bytes for ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/videoVC.nib
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/jXQ-3p-fHh-view-FJt-P8-aYJ.nib ... 
+2018-05-06 22:36:33 +0000  11782 bytes for ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/jXQ-3p-fHh-view-FJt-P8-aYJ.nib
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/s7C-3F-9gN-view-vDS-IU-h4F.nib ... 
+2018-05-06 22:36:33 +0000  3373 bytes for ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/s7C-3F-9gN-view-vDS-IU-h4F.nib
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/CameraViewController.nib ... 
+2018-05-06 22:36:33 +0000  1076 bytes for ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/CameraViewController.nib
+copying file ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/RgG-mH-IfV-view-JoU-Uh-FXu.nib ... 
+2018-05-06 22:36:33 +0000  1149 bytes for ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/RgG-mH-IfV-view-JoU-Uh-FXu.nib
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/eb7-0T-r65-view-Yyi-qL-Zbg.nib ... 
+2018-05-06 22:36:33 +0000  5085 bytes for ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/eb7-0T-r65-view-Yyi-qL-Zbg.nib
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/cropVC.nib ... 
+2018-05-06 22:36:33 +0000  1351 bytes for ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/cropVC.nib
+copying file ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/resultsViewController.nib ... 
+2018-05-06 22:36:33 +0000  1078 bytes for ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/resultsViewController.nib
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/uad-IB-cQb-view-ppl-d8-Gz6.nib ... 
+2018-05-06 22:36:33 +0000  13299 bytes for ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/uad-IB-cQb-view-ppl-d8-Gz6.nib
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/5Q1-yf-U7v-view-oOX-9j-cOi.nib ... 
+2018-05-06 22:36:33 +0000  13774 bytes for ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/5Q1-yf-U7v-view-oOX-9j-cOi.nib
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/NQ2-GK-1ua-view-2YN-aD-kdh.nib ... 
+2018-05-06 22:36:33 +0000  1149 bytes for ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/NQ2-GK-1ua-view-2YN-aD-kdh.nib
+copying file ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/joB-nG-D9y-view-wio-n9-vNV.nib ... 
+2018-05-06 22:36:33 +0000  3653 bytes for ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/joB-nG-D9y-view-wio-n9-vNV.nib
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/HfQ-bV-Swi-view-HE9-02-JYm.nib ... 
+2018-05-06 22:36:33 +0000  1149 bytes for ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/HfQ-bV-Swi-view-HE9-02-JYm.nib
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/Rin-0T-gvU-view-sC6-P6-zq8.nib ... 
+2018-05-06 22:36:33 +0000  6760 bytes for ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/Rin-0T-gvU-view-sC6-P6-zq8.nib
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/UIViewController-Mlx-ow-gbm.nib ... 
+2018-05-06 22:36:33 +0000  1265 bytes for ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/UIViewController-Mlx-ow-gbm.nib
+copying file ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/searchViewController.nib ... 
+2018-05-06 22:36:33 +0000  1443 bytes for ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/searchViewController.nib
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/AudioRecorder.nib ... 
+2018-05-06 22:36:33 +0000  1076 bytes for ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/AudioRecorder.nib
+copying file ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/homeVC.nib ... 
+2018-05-06 22:36:33 +0000  991 bytes for ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/homeVC.nib
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/SaU-ZN-eyW-view-pfB-op-nnD.nib ... 
+2018-05-06 22:36:33 +0000  4965 bytes for ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/SaU-ZN-eyW-view-pfB-op-nnD.nib
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/qD4-W6-bYX-view-95c-RF-gxg.nib ... 
+2018-05-06 22:36:33 +0000  3917 bytes for ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/qD4-W6-bYX-view-95c-RF-gxg.nib
+copying file ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/UIViewController-jXQ-3p-fHh.nib ... 
+2018-05-06 22:36:33 +0000  1284 bytes for ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/UIViewController-jXQ-3p-fHh.nib
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/UIViewController-5Q1-yf-U7v.nib ... 
+2018-05-06 22:36:33 +0000  1285 bytes for ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/UIViewController-5Q1-yf-U7v.nib
+copying file ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/TackPhotto.nib ... 
+2018-05-06 22:36:33 +0000  1070 bytes for ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/TackPhotto.nib
+copying file ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/signUP.nib ... 
+2018-05-06 22:36:33 +0000  1448 bytes for ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/signUP.nib
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/Mlx-ow-gbm-view-Cuh-3Z-CBS.nib ... 
+2018-05-06 22:36:33 +0000  9636 bytes for ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/Mlx-ow-gbm-view-Cuh-3Z-CBS.nib
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/8Rj-Da-Slq-view-JES-b8-is8.nib ... 
+2018-05-06 22:36:33 +0000  27285 bytes for ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/8Rj-Da-Slq-view-JES-b8-is8.nib
+copying file ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/userB.nib ... 
+2018-05-06 22:36:33 +0000  1298 bytes for ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/userB.nib
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2018-05-06 22:36:33 +0000  785 bytes for ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/UIViewController-8Rj-Da-Slq.nib ... 
+2018-05-06 22:36:33 +0000  999 bytes for ./Payload/ImageUploader.app/Base.lproj/Main.storyboardc/UIViewController-8Rj-Da-Slq.nib
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-05-06 22:36:33 +0000  1136 bytes for ./Payload/ImageUploader.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-05-06 22:36:33 +0000  832 bytes for ./Payload/ImageUploader.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/ImageUploader.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-05-06 22:36:33 +0000  258 bytes for ./Payload/ImageUploader.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/Assets.car ... 
+2018-05-06 22:36:33 +0000  993384 bytes for ./Payload/ImageUploader.app/Assets.car
+copying file ./Payload/ImageUploader.app/ResultsCell.nib ... 
+2018-05-06 22:36:33 +0000  9576 bytes for ./Payload/ImageUploader.app/ResultsCell.nib
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/Frameworks/Protobuf.framework/_CodeSignature/CodeResources ... 
+2018-05-06 22:36:33 +0000  2202 bytes for ./Payload/ImageUploader.app/Frameworks/Protobuf.framework/_CodeSignature/CodeResources
+copying file ./Payload/ImageUploader.app/Frameworks/Protobuf.framework/Protobuf ... 
+2018-05-06 22:36:33 +0000  1095744 bytes for ./Payload/ImageUploader.app/Frameworks/Protobuf.framework/Protobuf
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/Frameworks/Protobuf.framework/Info.plist ... 
+737 bytes for ./Payload/ImageUploader.app/Frameworks/Protobuf.framework/Info.plist
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/Frameworks/LLSimpleCamera.framework/_CodeSignature/CodeResources ... 
+2018-05-06 22:36:33 +0000  2202 bytes for ./Payload/ImageUploader.app/Frameworks/LLSimpleCamera.framework/_CodeSignature/CodeResources
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/Frameworks/LLSimpleCamera.framework/LLSimpleCamera ... 
+2018-05-06 22:36:33 +0000  157632 bytes for ./Payload/ImageUploader.app/Frameworks/LLSimpleCamera.framework/LLSimpleCamera
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/Frameworks/LLSimpleCamera.framework/Info.plist ... 
+2018-05-06 22:36:33 +0000  749 bytes for ./Payload/ImageUploader.app/Frameworks/LLSimpleCamera.framework/Info.plist
+copying file ./Payload/ImageUploader.app/Frameworks/libswiftCoreImage.dylib ... 
+2018-05-06 22:36:33 +0000  209264 bytes for ./Payload/ImageUploader.app/Frameworks/libswiftCoreImage.dylib
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/Frameworks/libswiftObjectiveC.dylib ... 
+2018-05-06 22:36:33 +0000  258288 bytes for ./Payload/ImageUploader.app/Frameworks/libswiftObjectiveC.dylib
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/Frameworks/GTMSessionFetcher.framework/_CodeSignature/CodeResources ... 
+2018-05-06 22:36:33 +0000  2202 bytes for ./Payload/ImageUploader.app/Frameworks/GTMSessionFetcher.framework/_CodeSignature/CodeResources
+copying file ./Payload/ImageUploader.app/Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher ... 
+2018-05-06 22:36:33 +0000  450016 bytes for ./Payload/ImageUploader.app/Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher
+copying file ./Payload/ImageUploader.app/Frameworks/GTMSessionFetcher.framework/Info.plist ... 
+2018-05-06 22:36:33 +0000  758 bytes for ./Payload/ImageUploader.app/Frameworks/GTMSessionFetcher.framework/Info.plist
+2018-05-06 22:36:33 +0000  copying file ./Payload/ImageUploader.app/Frameworks/libswiftCore.dylib ... 
+2018-05-06 22:36:34 +0000  18063840 bytes for ./Payload/ImageUploader.app/Frameworks/libswiftCore.dylib
+2018-05-06 22:36:34 +0000  copying file ./Payload/ImageUploader.app/Frameworks/DisPlayers_Audio_Visualizers.framework/_CodeSignature/CodeResources ... 
+2018-05-06 22:36:34 +0000  2202 bytes for ./Payload/ImageUploader.app/Frameworks/DisPlayers_Audio_Visualizers.framework/_CodeSignature/CodeResources
+2018-05-06 22:36:34 +0000  copying file ./Payload/ImageUploader.app/Frameworks/DisPlayers_Audio_Visualizers.framework/DisPlayers_Audio_Visualizers ... 
+2018-05-06 22:36:34 +0000  158448 bytes for ./Payload/ImageUploader.app/Frameworks/DisPlayers_Audio_Visualizers.framework/DisPlayers_Audio_Visualizers
+copying file ./Payload/ImageUploader.app/Frameworks/DisPlayers_Audio_Visualizers.framework/Info.plist ... 
+2018-05-06 22:36:34 +0000  779 bytes for ./Payload/ImageUploader.app/Frameworks/DisPlayers_Audio_Visualizers.framework/Info.plist
+2018-05-06 22:36:34 +0000  copying file ./Payload/ImageUploader.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2018-05-06 22:36:35 +0000  608944 bytes for ./Payload/ImageUploader.app/Frameworks/libswiftCoreGraphics.dylib
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/libswiftUIKit.dylib ... 
+2018-05-06 22:36:35 +0000  451056 bytes for ./Payload/ImageUploader.app/Frameworks/libswiftUIKit.dylib
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/libswiftMetal.dylib ... 
+2018-05-06 22:36:35 +0000  251808 bytes for ./Payload/ImageUploader.app/Frameworks/libswiftMetal.dylib
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/libswiftDispatch.dylib ... 
+2018-05-06 22:36:35 +0000  978464 bytes for ./Payload/ImageUploader.app/Frameworks/libswiftDispatch.dylib
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/libswiftos.dylib ... 
+2018-05-06 22:36:35 +0000  250704 bytes for ./Payload/ImageUploader.app/Frameworks/libswiftos.dylib
+copying file ./Payload/ImageUploader.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2018-05-06 22:36:35 +0000  208736 bytes for ./Payload/ImageUploader.app/Frameworks/libswiftCoreFoundation.dylib
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/libswiftDarwin.dylib ... 
+2018-05-06 22:36:35 +0000  362080 bytes for ./Payload/ImageUploader.app/Frameworks/libswiftDarwin.dylib
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/GoogleToolboxForMac.framework/_CodeSignature/CodeResources ... 
+2018-05-06 22:36:35 +0000  2202 bytes for ./Payload/ImageUploader.app/Frameworks/GoogleToolboxForMac.framework/_CodeSignature/CodeResources
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac ... 
+2018-05-06 22:36:35 +0000  135408 bytes for ./Payload/ImageUploader.app/Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/GoogleToolboxForMac.framework/Info.plist ... 
+761 bytes for ./Payload/ImageUploader.app/Frameworks/GoogleToolboxForMac.framework/Info.plist
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/nanopb.framework/_CodeSignature/CodeResources ... 
+2018-05-06 22:36:35 +0000  2202 bytes for ./Payload/ImageUploader.app/Frameworks/nanopb.framework/_CodeSignature/CodeResources
+copying file ./Payload/ImageUploader.app/Frameworks/nanopb.framework/nanopb ... 
+2018-05-06 22:36:35 +0000  117648 bytes for ./Payload/ImageUploader.app/Frameworks/nanopb.framework/nanopb
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/nanopb.framework/Info.plist ... 
+733 bytes for ./Payload/ImageUploader.app/Frameworks/nanopb.framework/Info.plist
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/TPCircularBuffer.framework/_CodeSignature/CodeResources ... 
+2018-05-06 22:36:35 +0000  2202 bytes for ./Payload/ImageUploader.app/Frameworks/TPCircularBuffer.framework/_CodeSignature/CodeResources
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/TPCircularBuffer.framework/Info.plist ... 
+2018-05-06 22:36:35 +0000  755 bytes for ./Payload/ImageUploader.app/Frameworks/TPCircularBuffer.framework/Info.plist
+copying file ./Payload/ImageUploader.app/Frameworks/TPCircularBuffer.framework/TPCircularBuffer ... 
+2018-05-06 22:36:35 +0000  96960 bytes for ./Payload/ImageUploader.app/Frameworks/TPCircularBuffer.framework/TPCircularBuffer
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/EZAudio.framework/_CodeSignature/CodeResources ... 
+2018-05-06 22:36:35 +0000  2202 bytes for ./Payload/ImageUploader.app/Frameworks/EZAudio.framework/_CodeSignature/CodeResources
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/EZAudio.framework/EZAudio ... 
+2018-05-06 22:36:35 +0000  302960 bytes for ./Payload/ImageUploader.app/Frameworks/EZAudio.framework/EZAudio
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/EZAudio.framework/Info.plist ... 
+735 bytes for ./Payload/ImageUploader.app/Frameworks/EZAudio.framework/Info.plist
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/libswiftQuartzCore.dylib ... 
+2018-05-06 22:36:35 +0000  212240 bytes for ./Payload/ImageUploader.app/Frameworks/libswiftQuartzCore.dylib
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/leveldb.framework/_CodeSignature/CodeResources ... 
+2018-05-06 22:36:35 +0000  2202 bytes for ./Payload/ImageUploader.app/Frameworks/leveldb.framework/_CodeSignature/CodeResources
+copying file ./Payload/ImageUploader.app/Frameworks/leveldb.framework/leveldb ... 
+2018-05-06 22:36:35 +0000  547440 bytes for ./Payload/ImageUploader.app/Frameworks/leveldb.framework/leveldb
+copying file ./Payload/ImageUploader.app/Frameworks/leveldb.framework/Info.plist ... 
+2018-05-06 22:36:35 +0000  736 bytes for ./Payload/ImageUploader.app/Frameworks/leveldb.framework/Info.plist
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/libswiftCoreAudio.dylib ... 
+2018-05-06 22:36:35 +0000  331344 bytes for ./Payload/ImageUploader.app/Frameworks/libswiftCoreAudio.dylib
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/libswiftAVFoundation.dylib ... 
+2018-05-06 22:36:35 +0000  504624 bytes for ./Payload/ImageUploader.app/Frameworks/libswiftAVFoundation.dylib
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/_CodeSignature/CodeResources ... 
+2018-05-06 22:36:35 +0000  13200 bytes for ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/_CodeSignature/CodeResources
+copying file ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewController ... 
+2018-05-06 22:36:35 +0000  350160 bytes for ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewController
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/de.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:35 +0000  116 bytes for ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/de.lproj/TOCropViewControllerLocalizable.strings
+copying file ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/ar.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:35 +0000  130 bytes for ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/ar.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/zh-Hans.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:35 +0000  106 bytes for ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/zh-Hans.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/ja.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:35 +0000  124 bytes for ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/ja.lproj/TOCropViewControllerLocalizable.strings
+copying file ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/en.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:35 +0000  102 bytes for ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/en.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/es.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:35 +0000  112 bytes for ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/es.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/da.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:35 +0000  107 bytes for ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/da.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/it.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:35 +0000  113 bytes for ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/it.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/ms.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:35 +0000  105 bytes for ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/ms.lproj/TOCropViewControllerLocalizable.strings
+copying file ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/ko.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:35 +0000  110 bytes for ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/ko.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/Base.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:35 +0000  102 bytes for ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/Base.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/zh-Hant.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:35 +0000  109 bytes for ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/zh-Hant.lproj/TOCropViewControllerLocalizable.strings
+copying file ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/tr.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:35 +0000  105 bytes for ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/tr.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/pl.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:35 +0000  107 bytes for ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/pl.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/vi.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:35 +0000  106 bytes for ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/vi.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/ru.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:35 +0000  148 bytes for ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/ru.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/fr.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:35 +0000  113 bytes for ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/fr.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/id.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:35 +0000  109 bytes for ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/id.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/nl.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:35 +0000  111 bytes for ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/nl.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/pt.lproj/TOCropViewControllerLocalizable.strings ... 
+2018-05-06 22:36:35 +0000  108 bytes for ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/pt.lproj/TOCropViewControllerLocalizable.strings
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/Info.plist ... 
+2018-05-06 22:36:35 +0000  750 bytes for ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/TOCropViewControllerBundle.bundle/Info.plist
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/Info.plist ... 
+2018-05-06 22:36:35 +0000  763 bytes for ./Payload/ImageUploader.app/Frameworks/TOCropViewController.framework/Info.plist
+copying file ./Payload/ImageUploader.app/Frameworks/libswiftModelIO.dylib ... 
+2018-05-06 22:36:35 +0000  308224 bytes for ./Payload/ImageUploader.app/Frameworks/libswiftModelIO.dylib
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/libswiftAccelerate.dylib ... 
+2018-05-06 22:36:35 +0000  255824 bytes for ./Payload/ImageUploader.app/Frameworks/libswiftAccelerate.dylib
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/libswiftFoundation.dylib ... 
+2018-05-06 22:36:35 +0000  8561008 bytes for ./Payload/ImageUploader.app/Frameworks/libswiftFoundation.dylib
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/libswiftCoreMedia.dylib ... 
+2018-05-06 22:36:35 +0000  253776 bytes for ./Payload/ImageUploader.app/Frameworks/libswiftCoreMedia.dylib
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/FCAlertView.framework/_CodeSignature/CodeResources ... 
+2018-05-06 22:36:35 +0000  4138 bytes for ./Payload/ImageUploader.app/Frameworks/FCAlertView.framework/_CodeSignature/CodeResources
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/FCAlertView.framework/FCAlertView ... 
+2018-05-06 22:36:35 +0000  218096 bytes for ./Payload/ImageUploader.app/Frameworks/FCAlertView.framework/FCAlertView
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/FCAlertView.framework/FCAlertView.bundle/alert-round.png ... 
+2018-05-06 22:36:35 +0000  6335 bytes for ./Payload/ImageUploader.app/Frameworks/FCAlertView.framework/FCAlertView.bundle/alert-round.png
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/FCAlertView.framework/FCAlertView.bundle/heart.png ... 
+2018-05-06 22:36:35 +0000  2714 bytes for ./Payload/ImageUploader.app/Frameworks/FCAlertView.framework/FCAlertView.bundle/heart.png
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/FCAlertView.framework/FCAlertView.bundle/close-round.png ... 
+2018-05-06 22:36:35 +0000  2510 bytes for ./Payload/ImageUploader.app/Frameworks/FCAlertView.framework/FCAlertView.bundle/close-round.png
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/FCAlertView.framework/FCAlertView.bundle/checkmark-round.png ... 
+2018-05-06 22:36:35 +0000  2854 bytes for ./Payload/ImageUploader.app/Frameworks/FCAlertView.framework/FCAlertView.bundle/checkmark-round.png
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/FCAlertView.framework/FCAlertView.bundle/star.png ... 
+2018-05-06 22:36:35 +0000  2834 bytes for ./Payload/ImageUploader.app/Frameworks/FCAlertView.framework/FCAlertView.bundle/star.png
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/FCAlertView.framework/FCAlertView.bundle/Info.plist ... 
+2018-05-06 22:36:35 +0000  718 bytes for ./Payload/ImageUploader.app/Frameworks/FCAlertView.framework/FCAlertView.bundle/Info.plist
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/FCAlertView.framework/Info.plist ... 
+2018-05-06 22:36:35 +0000  743 bytes for ./Payload/ImageUploader.app/Frameworks/FCAlertView.framework/Info.plist
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/libswiftGLKit.dylib ... 
+2018-05-06 22:36:35 +0000  210176 bytes for ./Payload/ImageUploader.app/Frameworks/libswiftGLKit.dylib
+2018-05-06 22:36:35 +0000  copying file ./Payload/ImageUploader.app/Frameworks/libswiftsimd.dylib ... 
+2018-05-06 22:36:36 +0000  1879184 bytes for ./Payload/ImageUploader.app/Frameworks/libswiftsimd.dylib
+2018-05-06 22:36:36 +0000  copying file ./Payload/ImageUploader.app/embedded.mobileprovision ... 
+2018-05-06 22:36:36 +0000  9694 bytes for ./Payload/ImageUploader.app/embedded.mobileprovision
+2018-05-06 22:36:36 +0000  copying file ./Payload/ImageUploader.app/Info.plist ... 
+2018-05-06 22:36:36 +0000  1566 bytes for ./Payload/ImageUploader.app/Info.plist
+copying file ./Payload/ImageUploader.app/PkgInfo ... 
+2018-05-06 22:36:36 +0000  8 bytes for ./Payload/ImageUploader.app/PkgInfo
+2018-05-06 22:36:36 +0000  copying file ./AppThinning.plist ... 
+2018-05-06 22:36:36 +0000  228 bytes for ./AppThinning.plist
+2018-05-06 22:36:36 +0000  
+2018-05-06 22:36:36 +0000  
+2018-05-06 22:36:36 +0000  2018-05-06 22:36:36 +0000  /usr/bin/ditto exited with 0
+
+2018-05-06 22:36:36 +0000  
+2018-05-06 22:36:36 +0000  Processing step: IDEDistributionCreateManifestStep
