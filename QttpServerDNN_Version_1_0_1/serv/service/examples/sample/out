@@ -1,0 +1,473 @@
+g++ -c -pipe -g -O0 -lm -lpthread -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -std=c++0x -O2 -std=gnu++11 -Wall -W -D_REENTRANT -fPIC -DQTTP_OMIT_ASSERTIONS -DQT_NO_DEBUG -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -isystem /usr/local/include -I../../src -I../../lib/http-parser -I../../lib/libuv -I../../lib/libuv/include -I../../lib/http/include -I../../lib/http/include/native -I../../lib/http/qttp -I/opt/Qt/5.10.1/gcc_64/include -I/opt/Qt/5.10.1/gcc_64/include/QtNetwork -I/opt/Qt/5.10.1/gcc_64/include/QtCore -I../../build/qtrelease -I/opt/Qt/5.10.1/gcc_64/mkspecs/linux-g++ -o ../../build/qtrelease/main.o main.cpp
+main.cpp: In member function ‘virtual void Simple::onPost(qttp::HttpData&)’:
+main.cpp:391:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+             for (int i = 0; i < resVec.size(); ++i) {
+                               ^
+main.cpp:326:91: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+         std::system((QString("mkdir /var/www/html/videos/") + date).toStdString().c_str());
+                                                                                           ^
+main.cpp:335:72: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+         std::system((QString("mkdir ") + resDir).toStdString().c_str()); 
+                                                                        ^
+main.cpp:336:74: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+         std::system((QString("mkdir ") + inputDir).toStdString().c_str());
+                                                                          ^
+g++ -c -pipe -g -O0 -lm -lpthread -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -std=c++0x -O2 -std=gnu++11 -Wall -W -D_REENTRANT -fPIC -DQTTP_OMIT_ASSERTIONS -DQT_NO_DEBUG -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -isystem /usr/local/include -I../../src -I../../lib/http-parser -I../../lib/libuv -I../../lib/libuv/include -I../../lib/http/include -I../../lib/http/include/native -I../../lib/http/qttp -I/opt/Qt/5.10.1/gcc_64/include -I/opt/Qt/5.10.1/gcc_64/include/QtNetwork -I/opt/Qt/5.10.1/gcc_64/include/QtCore -I../../build/qtrelease -I/opt/Qt/5.10.1/gcc_64/mkspecs/linux-g++ -o ../../build/qtrelease/action.o ../../src/action.cpp
+g++ -c -pipe -g -O0 -lm -lpthread -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -std=c++0x -O2 -std=gnu++11 -Wall -W -D_REENTRANT -fPIC -DQTTP_OMIT_ASSERTIONS -DQT_NO_DEBUG -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -isystem /usr/local/include -I../../src -I../../lib/http-parser -I../../lib/libuv -I../../lib/libuv/include -I../../lib/http/include -I../../lib/http/include/native -I../../lib/http/qttp -I/opt/Qt/5.10.1/gcc_64/include -I/opt/Qt/5.10.1/gcc_64/include/QtNetwork -I/opt/Qt/5.10.1/gcc_64/include/QtCore -I../../build/qtrelease -I/opt/Qt/5.10.1/gcc_64/mkspecs/linux-g++ -o ../../build/qtrelease/defaults.o ../../src/defaults.cpp
+g++ -c -pipe -g -O0 -lm -lpthread -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -std=c++0x -O2 -std=gnu++11 -Wall -W -D_REENTRANT -fPIC -DQTTP_OMIT_ASSERTIONS -DQT_NO_DEBUG -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -isystem /usr/local/include -I../../src -I../../lib/http-parser -I../../lib/libuv -I../../lib/libuv/include -I../../lib/http/include -I../../lib/http/include/native -I../../lib/http/qttp -I/opt/Qt/5.10.1/gcc_64/include -I/opt/Qt/5.10.1/gcc_64/include/QtNetwork -I/opt/Qt/5.10.1/gcc_64/include/QtCore -I../../build/qtrelease -I/opt/Qt/5.10.1/gcc_64/mkspecs/linux-g++ -o ../../build/qtrelease/fileutils.o ../../src/fileutils.cpp
+g++ -c -pipe -g -O0 -lm -lpthread -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -std=c++0x -O2 -std=gnu++11 -Wall -W -D_REENTRANT -fPIC -DQTTP_OMIT_ASSERTIONS -DQT_NO_DEBUG -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -isystem /usr/local/include -I../../src -I../../lib/http-parser -I../../lib/libuv -I../../lib/libuv/include -I../../lib/http/include -I../../lib/http/include/native -I../../lib/http/qttp -I/opt/Qt/5.10.1/gcc_64/include -I/opt/Qt/5.10.1/gcc_64/include/QtNetwork -I/opt/Qt/5.10.1/gcc_64/include/QtCore -I../../build/qtrelease -I/opt/Qt/5.10.1/gcc_64/mkspecs/linux-g++ -o ../../build/qtrelease/httpdata.o ../../src/httpdata.cpp
+g++ -c -pipe -g -O0 -lm -lpthread -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -std=c++0x -O2 -std=gnu++11 -Wall -W -D_REENTRANT -fPIC -DQTTP_OMIT_ASSERTIONS -DQT_NO_DEBUG -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -isystem /usr/local/include -I../../src -I../../lib/http-parser -I../../lib/libuv -I../../lib/libuv/include -I../../lib/http/include -I../../lib/http/include/native -I../../lib/http/qttp -I/opt/Qt/5.10.1/gcc_64/include -I/opt/Qt/5.10.1/gcc_64/include/QtNetwork -I/opt/Qt/5.10.1/gcc_64/include/QtCore -I../../build/qtrelease -I/opt/Qt/5.10.1/gcc_64/mkspecs/linux-g++ -o ../../build/qtrelease/httpevent.o ../../src/httpevent.cpp
+g++ -c -pipe -g -O0 -lm -lpthread -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -std=c++0x -O2 -std=gnu++11 -Wall -W -D_REENTRANT -fPIC -DQTTP_OMIT_ASSERTIONS -DQT_NO_DEBUG -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -isystem /usr/local/include -I../../src -I../../lib/http-parser -I../../lib/libuv -I../../lib/libuv/include -I../../lib/http/include -I../../lib/http/include/native -I../../lib/http/qttp -I/opt/Qt/5.10.1/gcc_64/include -I/opt/Qt/5.10.1/gcc_64/include/QtNetwork -I/opt/Qt/5.10.1/gcc_64/include/QtCore -I../../build/qtrelease -I/opt/Qt/5.10.1/gcc_64/mkspecs/linux-g++ -o ../../build/qtrelease/httprequest.o ../../src/httprequest.cpp
+g++ -c -pipe -g -O0 -lm -lpthread -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -std=c++0x -O2 -std=gnu++11 -Wall -W -D_REENTRANT -fPIC -DQTTP_OMIT_ASSERTIONS -DQT_NO_DEBUG -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -isystem /usr/local/include -I../../src -I../../lib/http-parser -I../../lib/libuv -I../../lib/libuv/include -I../../lib/http/include -I../../lib/http/include/native -I../../lib/http/qttp -I/opt/Qt/5.10.1/gcc_64/include -I/opt/Qt/5.10.1/gcc_64/include/QtNetwork -I/opt/Qt/5.10.1/gcc_64/include/QtCore -I../../build/qtrelease -I/opt/Qt/5.10.1/gcc_64/mkspecs/linux-g++ -o ../../build/qtrelease/httpresponse.o ../../src/httpresponse.cpp
+g++ -c -pipe -g -O0 -lm -lpthread -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -std=c++0x -O2 -std=gnu++11 -Wall -W -D_REENTRANT -fPIC -DQTTP_OMIT_ASSERTIONS -DQT_NO_DEBUG -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -isystem /usr/local/include -I../../src -I../../lib/http-parser -I../../lib/libuv -I../../lib/libuv/include -I../../lib/http/include -I../../lib/http/include/native -I../../lib/http/qttp -I/opt/Qt/5.10.1/gcc_64/include -I/opt/Qt/5.10.1/gcc_64/include/QtNetwork -I/opt/Qt/5.10.1/gcc_64/include/QtCore -I../../build/qtrelease -I/opt/Qt/5.10.1/gcc_64/mkspecs/linux-g++ -o ../../build/qtrelease/httproute.o ../../src/httproute.cpp
+g++ -c -pipe -g -O0 -lm -lpthread -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -std=c++0x -O2 -std=gnu++11 -Wall -W -D_REENTRANT -fPIC -DQTTP_OMIT_ASSERTIONS -DQT_NO_DEBUG -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -isystem /usr/local/include -I../../src -I../../lib/http-parser -I../../lib/libuv -I../../lib/libuv/include -I../../lib/http/include -I../../lib/http/include/native -I../../lib/http/qttp -I/opt/Qt/5.10.1/gcc_64/include -I/opt/Qt/5.10.1/gcc_64/include/QtNetwork -I/opt/Qt/5.10.1/gcc_64/include/QtCore -I../../build/qtrelease -I/opt/Qt/5.10.1/gcc_64/mkspecs/linux-g++ -o ../../build/qtrelease/httpserver.o ../../src/httpserver.cpp
+g++ -c -pipe -g -O0 -lm -lpthread -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -std=c++0x -O2 -std=gnu++11 -Wall -W -D_REENTRANT -fPIC -DQTTP_OMIT_ASSERTIONS -DQT_NO_DEBUG -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -isystem /usr/local/include -I../../src -I../../lib/http-parser -I../../lib/libuv -I../../lib/libuv/include -I../../lib/http/include -I../../lib/http/include/native -I../../lib/http/qttp -I/opt/Qt/5.10.1/gcc_64/include -I/opt/Qt/5.10.1/gcc_64/include/QtNetwork -I/opt/Qt/5.10.1/gcc_64/include/QtCore -I../../build/qtrelease -I/opt/Qt/5.10.1/gcc_64/mkspecs/linux-g++ -o ../../build/qtrelease/httpurl.o ../../src/httpurl.cpp
+g++ -c -pipe -g -O0 -lm -lpthread -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -std=c++0x -O2 -std=gnu++11 -Wall -W -D_REENTRANT -fPIC -DQTTP_OMIT_ASSERTIONS -DQT_NO_DEBUG -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -isystem /usr/local/include -I../../src -I../../lib/http-parser -I../../lib/libuv -I../../lib/libuv/include -I../../lib/http/include -I../../lib/http/include/native -I../../lib/http/qttp -I/opt/Qt/5.10.1/gcc_64/include -I/opt/Qt/5.10.1/gcc_64/include/QtNetwork -I/opt/Qt/5.10.1/gcc_64/include/QtCore -I../../build/qtrelease -I/opt/Qt/5.10.1/gcc_64/mkspecs/linux-g++ -o ../../build/qtrelease/qttp_global.o ../../src/qttp_global.cpp
+g++ -c -pipe -g -O0 -lm -lpthread -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -std=c++0x -O2 -std=gnu++11 -Wall -W -D_REENTRANT -fPIC -DQTTP_OMIT_ASSERTIONS -DQT_NO_DEBUG -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -isystem /usr/local/include -I../../src -I../../lib/http-parser -I../../lib/libuv -I../../lib/libuv/include -I../../lib/http/include -I../../lib/http/include/native -I../../lib/http/qttp -I/opt/Qt/5.10.1/gcc_64/include -I/opt/Qt/5.10.1/gcc_64/include/QtNetwork -I/opt/Qt/5.10.1/gcc_64/include/QtCore -I../../build/qtrelease -I/opt/Qt/5.10.1/gcc_64/mkspecs/linux-g++ -o ../../build/qtrelease/swagger.o ../../src/swagger.cpp
+g++ -c -pipe -g -O0 -lm -lpthread -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -std=c++0x -O2 -std=gnu++11 -Wall -W -D_REENTRANT -fPIC -DQTTP_OMIT_ASSERTIONS -DQT_NO_DEBUG -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -isystem /usr/local/include -I../../src -I../../lib/http-parser -I../../lib/libuv -I../../lib/libuv/include -I../../lib/http/include -I../../lib/http/include/native -I../../lib/http/qttp -I/opt/Qt/5.10.1/gcc_64/include -I/opt/Qt/5.10.1/gcc_64/include/QtNetwork -I/opt/Qt/5.10.1/gcc_64/include/QtCore -I../../build/qtrelease -I/opt/Qt/5.10.1/gcc_64/mkspecs/linux-g++ -o ../../build/qtrelease/utils.o ../../src/utils.cpp
+g++ -pipe -g -O0 -lm -lpthread -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -std=c++0x -O2 -std=gnu++11 -Wall -W -dM -E -o ../../build/qtrelease/moc_predefs.h /opt/Qt/5.10.1/gcc_64/mkspecs/features/data/dummy.cpp
+/opt/Qt/5.10.1/gcc_64/bin/moc -DQTTP_OMIT_ASSERTIONS -DQT_NO_DEBUG -DQT_NETWORK_LIB -DQT_CORE_LIB --include /root/Desktop/service/build/qtrelease/moc_predefs.h -I/opt/Qt/5.10.1/gcc_64/mkspecs/linux-g++ -I/root/Desktop/service/examples/sample -I/usr/local/include -I/root/Desktop/service/src -I/root/Desktop/service/lib/http-parser -I/root/Desktop/service/lib/libuv -I/root/Desktop/service/lib/libuv/include -I/root/Desktop/service/lib/http/include -I/root/Desktop/service/lib/http/include/native -I/root/Desktop/service/lib/http/qttp -I/opt/Qt/5.10.1/gcc_64/include -I/opt/Qt/5.10.1/gcc_64/include/QtNetwork -I/opt/Qt/5.10.1/gcc_64/include/QtCore -I/usr/include/c++/4.9 -I/usr/include/x86_64-linux-gnu/c++/4.9 -I/usr/include/c++/4.9/backward -I/usr/lib/gcc/x86_64-linux-gnu/4.9/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include ../../src/httpserver.h -o ../../build/qtrelease/moc_httpserver.cpp
+g++ -c -pipe -g -O0 -lm -lpthread -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -std=c++0x -O2 -std=gnu++11 -Wall -W -D_REENTRANT -fPIC -DQTTP_OMIT_ASSERTIONS -DQT_NO_DEBUG -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -isystem /usr/local/include -I../../src -I../../lib/http-parser -I../../lib/libuv -I../../lib/libuv/include -I../../lib/http/include -I../../lib/http/include/native -I../../lib/http/qttp -I/opt/Qt/5.10.1/gcc_64/include -I/opt/Qt/5.10.1/gcc_64/include/QtNetwork -I/opt/Qt/5.10.1/gcc_64/include/QtCore -I../../build/qtrelease -I/opt/Qt/5.10.1/gcc_64/mkspecs/linux-g++ -o ../../build/qtrelease/moc_httpserver.o ../../build/qtrelease/moc_httpserver.cpp
+/opt/Qt/5.10.1/gcc_64/bin/moc -DQTTP_OMIT_ASSERTIONS -DQT_NO_DEBUG -DQT_NETWORK_LIB -DQT_CORE_LIB --include /root/Desktop/service/build/qtrelease/moc_predefs.h -I/opt/Qt/5.10.1/gcc_64/mkspecs/linux-g++ -I/root/Desktop/service/examples/sample -I/usr/local/include -I/root/Desktop/service/src -I/root/Desktop/service/lib/http-parser -I/root/Desktop/service/lib/libuv -I/root/Desktop/service/lib/libuv/include -I/root/Desktop/service/lib/http/include -I/root/Desktop/service/lib/http/include/native -I/root/Desktop/service/lib/http/qttp -I/opt/Qt/5.10.1/gcc_64/include -I/opt/Qt/5.10.1/gcc_64/include/QtNetwork -I/opt/Qt/5.10.1/gcc_64/include/QtCore -I/usr/include/c++/4.9 -I/usr/include/x86_64-linux-gnu/c++/4.9 -I/usr/include/c++/4.9/backward -I/usr/lib/gcc/x86_64-linux-gnu/4.9/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include ../../src/utils.h -o ../../build/qtrelease/moc_utils.cpp
+g++ -c -pipe -g -O0 -lm -lpthread -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -std=c++0x -O2 -std=gnu++11 -Wall -W -D_REENTRANT -fPIC -DQTTP_OMIT_ASSERTIONS -DQT_NO_DEBUG -DQT_NETWORK_LIB -DQT_CORE_LIB -I. -isystem /usr/local/include -I../../src -I../../lib/http-parser -I../../lib/libuv -I../../lib/libuv/include -I../../lib/http/include -I../../lib/http/include/native -I../../lib/http/qttp -I/opt/Qt/5.10.1/gcc_64/include -I/opt/Qt/5.10.1/gcc_64/include/QtNetwork -I/opt/Qt/5.10.1/gcc_64/include/QtCore -I../../build/qtrelease -I/opt/Qt/5.10.1/gcc_64/mkspecs/linux-g++ -o ../../build/qtrelease/moc_utils.o ../../build/qtrelease/moc_utils.cpp
+g++ -Wl,-O1 -Wl,-rpath,/opt/Qt/5.10.1/gcc_64/lib -o sample ../../build/qtrelease/main.o ../../build/qtrelease/action.o ../../build/qtrelease/defaults.o ../../build/qtrelease/fileutils.o ../../build/qtrelease/httpdata.o ../../build/qtrelease/httpevent.o ../../build/qtrelease/httprequest.o ../../build/qtrelease/httpresponse.o ../../build/qtrelease/httproute.o ../../build/qtrelease/httpserver.o ../../build/qtrelease/httpurl.o ../../build/qtrelease/qttp_global.o ../../build/qtrelease/swagger.o ../../build/qtrelease/utils.o ../../build/qtrelease/moc_httpserver.o ../../build/qtrelease/moc_utils.o   -L/opt/Qt5.10.0/5.10.0/gcc_64/lib -L/usr/local/lib -L/usr/lib/x86_64-linux-gnu -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_videoio -lopencv_imgcodecs -lopencv_video -lnode_native -luv -lhttp_parser -L/root/Desktop/service/build/out/Release -L/opt/Qt/5.10.1/gcc_64/lib -lQt5Network -lQt5Core -lpthread 
+../../build/qtrelease/main.o: In function `QJsonValue':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonvalue.h:85: undefined reference to `QJsonValue::stringDataFromQStringHelper(QString const&)'
+../../build/qtrelease/main.o:(.qtversion[qt_version_tag]+0x0): undefined reference to `qt_version_tag'
+../../build/qtrelease/main.o: In function `QJsonValue':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonvalue.h:85: undefined reference to `QJsonValue::stringDataFromQStringHelper(QString const&)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonvalue.h:85: undefined reference to `QJsonValue::stringDataFromQStringHelper(QString const&)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonvalue.h:85: undefined reference to `QJsonValue::stringDataFromQStringHelper(QString const&)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonvalue.h:85: undefined reference to `QJsonValue::stringDataFromQStringHelper(QString const&)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonvalue.h:85: undefined reference to `QJsonValue::stringDataFromQStringHelper(QString const&)'
+../../build/qtrelease/main.o:/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonvalue.h:85: more undefined references to `QJsonValue::stringDataFromQStringHelper(QString const&)' follow
+../../build/qtrelease/main.o: In function `QString::toUtf8() const &':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qstring.h:540: undefined reference to `QString::toUtf8_helper(QString const&)'
+../../build/qtrelease/main.o: In function `QJsonValue::QJsonValue(char const*)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonvalue.h:85: undefined reference to `QJsonValue::stringDataFromQStringHelper(QString const&)'
+../../build/qtrelease/main.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/main.o: In function `std::shared_ptr<qttp::Action> qttp::HttpServer::addAction<AddImageIntoTrainData>()':
+/root/Desktop/service/examples/sample/../../src/httpserver.h:74: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.h:74: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/main.o: In function `AddImageIntoTrainData::onPost(qttp::HttpData&)':
+/root/Desktop/service/examples/sample/main.cpp:187: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/main.cpp:188: undefined reference to `QJsonValue::toString() const'
+../../build/qtrelease/main.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/main.o: In function `AddImageIntoTrainData::onPost(qttp::HttpData&)':
+/root/Desktop/service/examples/sample/main.cpp:191: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/main.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/main.o: In function `AddImageIntoTrainData::onPost(qttp::HttpData&)':
+/root/Desktop/service/examples/sample/main.cpp:206: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/main.o: In function `QJsonValue':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonvalue.h:85: undefined reference to `QJsonValue::stringDataFromQStringHelper(QString const&)'
+../../build/qtrelease/main.o: In function `AddImageIntoTrainData::onPost(qttp::HttpData&)':
+/root/Desktop/service/examples/sample/main.cpp:206: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/main.cpp:187: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/main.cpp:191: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/main.o: In function `QJsonObject':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonobject.h:66: undefined reference to `QJsonObject::initialize()'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonobject.h:66: undefined reference to `QJsonObject::initialize()'
+../../build/qtrelease/main.o: In function `QueryImageFromTrainData::onPost(qttp::HttpData&)':
+/root/Desktop/service/examples/sample/main.cpp:74: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/main.o: In function `QJsonValue':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonvalue.h:85: undefined reference to `QJsonValue::stringDataFromQStringHelper(QString const&)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonvalue.h:85: undefined reference to `QJsonValue::stringDataFromQStringHelper(QString const&)'
+../../build/qtrelease/main.o: In function `QJsonObject':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonobject.h:66: undefined reference to `QJsonObject::initialize()'
+../../build/qtrelease/main.o: In function `QJsonValue':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonvalue.h:85: undefined reference to `QJsonValue::stringDataFromQStringHelper(QString const&)'
+../../build/qtrelease/main.o: In function `QueryImageFromTrainData::onPost(qttp::HttpData&)':
+/root/Desktop/service/examples/sample/main.cpp:74: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/main.o: In function `QJsonObject':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonobject.h:66: undefined reference to `QJsonObject::initialize()'
+../../build/qtrelease/main.o: In function `Simple::onPost(qttp::HttpData&)':
+/root/Desktop/service/examples/sample/main.cpp:323: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/main.o: In function `QString::toUtf8() const &':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qstring.h:540: undefined reference to `QString::toUtf8_helper(QString const&)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qstring.h:540: undefined reference to `QString::toUtf8_helper(QString const&)'
+../../build/qtrelease/main.o: In function `Simple::onPost(qttp::HttpData&)':
+/root/Desktop/service/examples/sample/main.cpp:359: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/main.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/main.o: In function `Simple::onPost(qttp::HttpData&)':
+/root/Desktop/service/examples/sample/main.cpp:371: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/main.cpp:373: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/main.cpp:397: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/main.cpp:399: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/main.o: In function `QJsonObject':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonobject.h:66: undefined reference to `QJsonObject::initialize()'
+../../build/qtrelease/main.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/main.o: In function `Simple::onPost(qttp::HttpData&)':
+/root/Desktop/service/examples/sample/main.cpp:427: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/main.cpp:378: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/main.cpp:380: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/main.o: In function `QString::toUtf8() const &':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qstring.h:540: undefined reference to `QString::toUtf8_helper(QString const&)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qstring.h:540: undefined reference to `QString::toUtf8_helper(QString const&)'
+../../build/qtrelease/main.o: In function `Simple::onPost(qttp::HttpData&)':
+/root/Desktop/service/examples/sample/main.cpp:389: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/main.cpp:399: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/main.cpp:397: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/main.cpp:378: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/main.cpp:427: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/main.o:/root/Desktop/service/examples/sample/main.cpp:380: more undefined references to `QDebug::~QDebug()' follow
+../../build/qtrelease/httprequest.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/httprequest.o: In function `qttp::HttpRequest::getJson() const':
+/root/Desktop/service/examples/sample/../../src/httprequest.cpp:81: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httprequest.cpp:81: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/httpserver.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/httpserver.o: In function `qttp::HttpServer::initHttpDirectory(QString const&)':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:407: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/httpserver.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/httpserver.o: In function `qttp::HttpServer::initHttpDirectory(QString const&)':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:416: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:407: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:416: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/httpserver.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/httpserver.o: In function `qttp::HttpServer::eventFilter(QObject*, QEvent*)':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:927: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:927: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/httpserver.o: In function `QString::toUtf8() const &':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qstring.h:540: undefined reference to `QString::toUtf8_helper(QString const&)'
+../../build/qtrelease/httpserver.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/httpserver.o: In function `qttp::HttpServer::createAction(QString const&, std::function<void (qttp::HttpData&)>)':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:979: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:979: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/httpserver.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/httpserver.o: In function `qttp::HttpServer::registerRoute(qttp::HttpMethod, qttp::Route const&)':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:1079: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/httpserver.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/httpserver.o: In function `qttp::HttpServer::registerRoute(qttp::HttpMethod, qttp::Route const&)':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:1071: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:1079: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/httpserver.o: In function `QJsonArray::begin()':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonarray.h:214: undefined reference to `QJsonArray::detach2(unsigned int)'
+../../build/qtrelease/httpserver.o: In function `QJsonArray::end()':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonarray.h:217: undefined reference to `QJsonArray::detach2(unsigned int)'
+../../build/qtrelease/httpserver.o: In function `QJsonValueRef::toString() const':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonvalue.h:196: undefined reference to `QJsonValue::toString() const'
+../../build/qtrelease/httpserver.o: In function `QString::trimmed() &&':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qstring.h:432: undefined reference to `QString::trimmed_helper(QString&)'
+../../build/qtrelease/httpserver.o: In function `QJsonValueRef::toString() const':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonvalue.h:196: undefined reference to `QJsonValue::toString() const'
+../../build/qtrelease/httpserver.o: In function `QString::trimmed() &&':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qstring.h:432: undefined reference to `QString::trimmed_helper(QString&)'
+../../build/qtrelease/httpserver.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/httpserver.o: In function `qttp::HttpServer::addProcessor(std::shared_ptr<qttp::Processor>&)':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:1098: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:1098: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/httpserver.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/httpserver.o: In function `qttp::HttpServer::addDefaultProcessor(std::shared_ptr<qttp::Processor>&)':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:1112: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:1112: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/httpserver.o: In function `qttp::HttpServer::initGlobal(QString const&)':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:213: undefined reference to `QMessageLogger::info() const'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:213: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:217: undefined reference to `QMessageLogger::info() const'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:217: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:217: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:217: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:218: undefined reference to `QMessageLogger::info() const'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:218: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:218: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:218: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/httpserver.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/httpserver.o: In function `qttp::HttpServer::initGlobal(QString const&)':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:298: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:296: undefined reference to `QJsonValue::toString() const'
+../../build/qtrelease/httpserver.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/httpserver.o: In function `qttp::HttpServer::initGlobal(QString const&)':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:319: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/httpserver.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/httpserver.o: In function `qttp::HttpServer::initGlobal(QString const&)':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:306: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/httpserver.o: In function `QString::trimmed() &&':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qstring.h:432: undefined reference to `QString::trimmed_helper(QString&)'
+../../build/qtrelease/httpserver.o: In function `qttp::HttpServer::initGlobal(QString const&)':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:273: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:277: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:268: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:257: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:262: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/httpserver.o:/root/Desktop/service/examples/sample/../../src/httpserver.cpp:262: more undefined references to `QDebug::~QDebug()' follow
+../../build/qtrelease/httpserver.o: In function `qttp::HttpServer::matchUrl(QStringList const&, QString const&, QUrlQuery&)':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:753: undefined reference to `QString::splitRef(QChar, QString::SplitBehavior, Qt::CaseSensitivity) const'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:798: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:798: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/httpserver.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/httpserver.o: In function `qttp::HttpServer::generateActionName() const':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:955: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:955: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/httpserver.o: In function `QString::toUpper() const &':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qstring.h:422: undefined reference to `QString::toUpper_helper(QString const&)'
+../../build/qtrelease/httpserver.o: In function `qttp::HttpServer::initRoutes(QString const&)':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:360: undefined reference to `QMessageLogger::info() const'
+../../build/qtrelease/httpserver.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/httpserver.o: In function `qttp::HttpServer::initRoutes(QString const&)':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:360: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:360: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/httpserver.o: In function `qttp::HttpServer::initConfigDirectory(QString const&)':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:398: undefined reference to `QMessageLogger::info() const'
+../../build/qtrelease/httpserver.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/httpserver.o: In function `qttp::HttpServer::initConfigDirectory(QString const&)':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:398: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:398: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/httpserver.o: In function `qttp::HttpServer::initialize()':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:77: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:94: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:124: undefined reference to `QCommandLineParser::addOptions(QList<QCommandLineOption> const&)'
+../../build/qtrelease/httpserver.o: In function `QString::trimmed() const &':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qstring.h:430: undefined reference to `QString::trimmed_helper(QString const&)'
+../../build/qtrelease/httpserver.o: In function `qttp::HttpServer::initialize()':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:134: undefined reference to `QMessageLogger::info() const'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:134: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:180: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:85: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:184: undefined reference to `QJsonValue::toString() const'
+../../build/qtrelease/httpserver.o: In function `QString::trimmed() &&':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qstring.h:432: undefined reference to `QString::trimmed_helper(QString&)'
+../../build/qtrelease/httpserver.o: In function `qttp::HttpServer::initialize()':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:186: undefined reference to `QJsonValue::toString() const'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:188: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:192: undefined reference to `QJsonValue::toString() const'
+../../build/qtrelease/httpserver.o: In function `QString::trimmed() &&':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qstring.h:432: undefined reference to `QString::trimmed_helper(QString&)'
+../../build/qtrelease/httpserver.o: In function `qttp::HttpServer::initialize()':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:196: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:139: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:174: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:144: undefined reference to `QJsonValue::toString() const'
+../../build/qtrelease/httpserver.o: In function `QString::trimmed() &&':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qstring.h:432: undefined reference to `QString::trimmed_helper(QString&)'
+../../build/qtrelease/httpserver.o: In function `qttp::HttpServer::initialize()':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:146: undefined reference to `QJsonValue::toString() const'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:200: undefined reference to `QJsonValue::toString() const'
+../../build/qtrelease/httpserver.o: In function `QString::trimmed() &&':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qstring.h:432: undefined reference to `QString::trimmed_helper(QString&)'
+../../build/qtrelease/httpserver.o: In function `qttp::HttpServer::initialize()':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:202: undefined reference to `QJsonValue::toString() const'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:203: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:203: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:203: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:161: undefined reference to `QJsonValue::toString() const'
+../../build/qtrelease/httpserver.o: In function `QString::trimmed() &&':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qstring.h:432: undefined reference to `QString::trimmed_helper(QString&)'
+../../build/qtrelease/httpserver.o: In function `qttp::HttpServer::initialize()':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:163: undefined reference to `QJsonValue::toString() const'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:151: undefined reference to `QJsonValue::toString() const'
+../../build/qtrelease/httpserver.o: In function `QString::trimmed() &&':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qstring.h:432: undefined reference to `QString::trimmed_helper(QString&)'
+../../build/qtrelease/httpserver.o: In function `qttp::HttpServer::initialize()':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:153: undefined reference to `QJsonValue::toString() const'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:203: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:203: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:139: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:174: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:188: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/httpserver.o:/root/Desktop/service/examples/sample/../../src/httpserver.cpp:85: more undefined references to `QDebug::~QDebug()' follow
+../../build/qtrelease/httpserver.o: In function `QString::trimmed() const &':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qstring.h:430: undefined reference to `QString::trimmed_helper(QString const&)'
+../../build/qtrelease/httpserver.o: In function `QString::toUpper() &&':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qstring.h:424: undefined reference to `QString::toUpper_helper(QString&)'
+../../build/qtrelease/httpserver.o: In function `QString::trimmed() &&':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qstring.h:432: undefined reference to `QString::trimmed_helper(QString&)'
+../../build/qtrelease/httpserver.o: In function `QString::toUtf8() const &':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qstring.h:540: undefined reference to `QString::toUtf8_helper(QString const&)'
+../../build/qtrelease/httpserver.o: In function `qttp::HttpServer::start()':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:510: undefined reference to `QMessageLogger::info() const'
+../../build/qtrelease/httpserver.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/httpserver.o: In function `qttp::HttpServer::start()':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:510: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:499: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:506: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:499: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:510: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/httpserver.o:/root/Desktop/service/examples/sample/../../src/httpserver.cpp:506: more undefined references to `QDebug::~QDebug()' follow
+../../build/qtrelease/httpserver.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/httpserver.o: In function `qttp::HttpServer::searchAndServeFile(qttp::HttpData&) const':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:869: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:896: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:881: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:892: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:886: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/httpserver.o:/root/Desktop/service/examples/sample/../../src/httpserver.cpp:896: more undefined references to `QDebug::~QDebug()' follow
+../../build/qtrelease/httpserver.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/httpserver.o: In function `operator()':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:598: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/httpserver.o: In function `QJsonValue':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonvalue.h:85: undefined reference to `QJsonValue::stringDataFromQStringHelper(QString const&)'
+../../build/qtrelease/httpserver.o: In function `operator()':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:743: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/httpserver.o: In function `QJsonValue':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonvalue.h:85: undefined reference to `QJsonValue::stringDataFromQStringHelper(QString const&)'
+../../build/qtrelease/httpserver.o: In function `operator()':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:656: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/httpserver.o: In function `QJsonValue':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonvalue.h:85: undefined reference to `QJsonValue::stringDataFromQStringHelper(QString const&)'
+../../build/qtrelease/httpserver.o: In function `operator()':
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:702: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:702: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:702: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:702: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/httpserver.cpp:702: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/httpserver.o:/root/Desktop/service/examples/sample/../../src/httpserver.cpp:695: more undefined references to `QDebug::~QDebug()' follow
+../../build/qtrelease/httpserver.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/httpserver.o: In function `QJsonValueRef::toString() const':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonvalue.h:196: undefined reference to `QJsonValue::toString() const'
+../../build/qtrelease/swagger.o: In function `QJsonValue':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonvalue.h:85: undefined reference to `QJsonValue::stringDataFromQStringHelper(QString const&)'
+../../build/qtrelease/swagger.o: In function `QJsonObject':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonobject.h:66: undefined reference to `QJsonObject::initialize()'
+../../build/qtrelease/swagger.o: In function `QJsonValue':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonvalue.h:85: undefined reference to `QJsonValue::stringDataFromQStringHelper(QString const&)'
+../../build/qtrelease/swagger.o: In function `QJsonObject':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonobject.h:66: undefined reference to `QJsonObject::initialize()'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonobject.h:66: undefined reference to `QJsonObject::initialize()'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonobject.h:66: undefined reference to `QJsonObject::initialize()'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonobject.h:66: undefined reference to `QJsonObject::initialize()'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonobject.h:66: undefined reference to `QJsonObject::initialize()'
+../../build/qtrelease/swagger.o:/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonobject.h:66: more undefined references to `QJsonObject::initialize()' follow
+../../build/qtrelease/swagger.o: In function `QJsonValue':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonvalue.h:85: undefined reference to `QJsonValue::stringDataFromQStringHelper(QString const&)'
+../../build/qtrelease/swagger.o: In function `QJsonObject':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonobject.h:66: undefined reference to `QJsonObject::initialize()'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonobject.h:66: undefined reference to `QJsonObject::initialize()'
+../../build/qtrelease/swagger.o: In function `QJsonValue':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonvalue.h:85: undefined reference to `QJsonValue::stringDataFromQStringHelper(QString const&)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonvalue.h:85: undefined reference to `QJsonValue::stringDataFromQStringHelper(QString const&)'
+../../build/qtrelease/swagger.o: In function `QJsonObject':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonobject.h:66: undefined reference to `QJsonObject::initialize()'
+../../build/qtrelease/swagger.o: In function `QJsonValue':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonvalue.h:85: undefined reference to `QJsonValue::stringDataFromQStringHelper(QString const&)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonvalue.h:85: undefined reference to `QJsonValue::stringDataFromQStringHelper(QString const&)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonvalue.h:85: undefined reference to `QJsonValue::stringDataFromQStringHelper(QString const&)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonvalue.h:85: undefined reference to `QJsonValue::stringDataFromQStringHelper(QString const&)'
+../../build/qtrelease/swagger.o: In function `QJsonObject':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonobject.h:66: undefined reference to `QJsonObject::initialize()'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qjsonobject.h:66: undefined reference to `QJsonObject::initialize()'
+../../build/qtrelease/utils.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/utils.o: In function `qttp::LogTrace::LogTrace(QString, unsigned int)':
+/root/Desktop/service/examples/sample/../../src/utils.cpp:10: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/utils.cpp:10: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/utils.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/utils.o: In function `qttp::LogTrace::~LogTrace()':
+/root/Desktop/service/examples/sample/../../src/utils.cpp:15: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/utils.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/utils.o: In function `qttp::Utils::toString(qttp::HttpMethod)':
+/root/Desktop/service/examples/sample/../../src/utils.cpp:64: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/utils.cpp:64: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/utils.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/utils.o: In function `qttp::Utils::toStringLower(qttp::HttpMethod)':
+/root/Desktop/service/examples/sample/../../src/utils.cpp:101: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/utils.cpp:101: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/utils.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/utils.o: In function `qttp::Utils::readJson(QString const&)':
+/root/Desktop/service/examples/sample/../../src/utils.cpp:111: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/utils.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/utils.o: In function `qttp::Utils::readJson(QString const&)':
+/root/Desktop/service/examples/sample/../../src/utils.cpp:116: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/utils.cpp:116: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/utils.cpp:111: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/utils.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/utils.o: In function `qttp::LoggingUtils::initializeFile(QString const&, unsigned int)':
+/root/Desktop/service/examples/sample/../../src/utils.cpp:181: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/utils.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/utils.o: In function `qttp::LoggingUtils::initializeFile(QString const&, unsigned int)':
+/root/Desktop/service/examples/sample/../../src/utils.cpp:187: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/utils.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/utils.o: In function `qttp::LoggingUtils::initializeFile(QString const&, unsigned int)':
+/root/Desktop/service/examples/sample/../../src/utils.cpp:198: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/utils.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/utils.o: In function `qttp::LoggingUtils::initializeFile(QString const&, unsigned int)':
+/root/Desktop/service/examples/sample/../../src/utils.cpp:208: undefined reference to `QDebug::~QDebug()'
+../../build/qtrelease/utils.o: In function `QDebug::operator<<(QString const&)':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qdebug.h:155: undefined reference to `QDebug::putString(QChar const*, unsigned long)'
+../../build/qtrelease/utils.o: In function `qttp::LoggingUtils::initializeFile(QString const&, unsigned int)':
+/root/Desktop/service/examples/sample/../../src/utils.cpp:203: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/utils.cpp:198: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/utils.cpp:203: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/examples/sample/../../src/utils.cpp:208: undefined reference to `QDebug::~QDebug()'
+/root/Desktop/service/build/out/Release/libnode_native.a(qttp.o): In function `QString::toUtf8() const &':
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qstring.h:540: undefined reference to `QString::toUtf8_helper(QString const&)'
+/opt/Qt/5.10.1/gcc_64/include/QtCore/qstring.h:540: undefined reference to `QString::toUtf8_helper(QString const&)'
+collect2: error: ld returned 1 exit status
+make: *** [sample] Error 1

@@ -1,0 +1,11 @@
+HEADERS += $$PWD/*.h
+
+!contains(CONFIG, QTTP_LIBRARY) {
+  SOURCES += $$PWD/*.cpp
+}
+
+INCLUDEPATH += $$PWD
+
+INCLUDEPATH = $$unique(INCLUDEPATH)
+HEADERS = $$unique(HEADERS)
+SOURCES = $$unique(SOURCES)

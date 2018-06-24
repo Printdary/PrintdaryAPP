@@ -1,0 +1,17 @@
+{
+  "get": [
+    {
+      "path": "/person/:name/data",
+      "action": "getPerson"
+    }
+  ],
+
+  "post": [
+  ],
+
+  "put": [
+  ],
+
+  "delete": [
+  ]
+}

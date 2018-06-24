@@ -1,0 +1,8 @@
+export CUDNN_PATH=/usr/local/cuda/lib64/libcudnn.so.5
+echo "Started Scrypt"
+cd /root/multipathnet
+rm /root/service/serverrestbackend/examples/sample/voice.jpg
+rm res.jpg
+/root/improvis/torch/install/bin/th demo.lua -img /root/service/serverrestbackend/examples/sample/receivedFile.jpg
+cp res.jpg /root/service/serverrestbackend/examples/sample/voice.jpg
+

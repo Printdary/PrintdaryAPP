@@ -1,0 +1,1088 @@
+2018/03/17-14:24:37:038 ENTER main.cpp:main:427
+"2018/03/17-14:24:37:038 DEBUG" "httpserver.cpp:initialize:94" Working directory "/home/paperspace/service/examples/sample"
+"2018/03/17-14:24:37:038 INFO " "httpserver.cpp:initGlobal:213" Processing filepath [ "./config/global.json" ]
+"2018/03/17-14:24:37:038 INFO " "httpserver.cpp:initGlobal:217" QJsonValue(string, "10.64.41.41")
+"2018/03/17-14:24:37:039 INFO " "httpserver.cpp:initGlobal:218" QJsonValue(double, 6969)
+"2018/03/17-14:24:37:039 DEBUG" "httpserver.cpp:initGlobal:306" Did not read headers in config file, using default headers
+"2018/03/17-14:24:37:039 INFO " "httpserver.cpp:initRoutes:360" Processing filepath [ "./config/routes.json" ]
+"2018/03/17-14:24:37:039 DEBUG" "httpserver.cpp:initialize:174" CmdLine meta-data false
+"2018/03/17-14:24:37:039 DEBUG" "httpserver.cpp:initialize:180" CmdLine swagger false
+"2018/03/17-14:24:37:039 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{0f010084-8d95-4fe6-a211-e5daec266802}" ] path [ "/helloworld" ]
+"2018/03/17-14:24:37:039 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{56e5fbe1-cb6b-4ac2-a76c-b865bc89e84f}" ] path [ "/echobody" ]
+"2018/03/17-14:24:37:039 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{56e5fbe1-cb6b-4ac2-a76c-b865bc89e84f}" ] path [ "/echobody2" ]
+"2018/03/17-14:24:37:039 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "{56e5fbe1-cb6b-4ac2-a76c-b865bc89e84f}" ] path [ "/echobody3" ]
+"2018/03/17-14:24:37:039 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "addImageIntoTrainData" ] path [ "/addImageIntoTrainData/:tag" ]
+"2018/03/17-14:24:37:039 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "addImageIntoTrainData" ] path [ "/addImageIntoTrainData/:tag" ]
+"2018/03/17-14:24:37:039 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "queryImageFromTrainData" ] path [ "/queryImageFromTrainData" ]
+"2018/03/17-14:24:37:039 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "queryImageFromTrainData" ] path [ "/queryImageFromTrainData" ]
+"2018/03/17-14:24:37:039 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-14:24:37:039 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-14:24:37:039 DEBUG" "httpserver.cpp:registerRoute:1081" method [ PUT ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-14:24:37:039 DEBUG" "httpserver.cpp:registerRoute:1081" method [ PATCH ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-14:24:37:039 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "another" ] path [ "/another" ]
+"2018/03/17-14:24:37:039 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "another" ] path [ "/another" ]
+"2018/03/17-14:24:37:039 DEBUG" "httpserver.cpp:addDefaultProcessor:1112" Processor not enabled [ options ]
+"2018/03/17-14:24:37:039 INFO " "httpserver.cpp:start:511" Server pid 15748 running at "10.64.41.41" 6969
+"2018/03/17-14:25:04:726 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/addImageIntoTrainData/hello"
+QIODevice::read (QFile, "voice.jpg"): device not open
+2018/03/17-14:25:04:726 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:25:04:726 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:25:04:896 DEBUG" "httpserver.cpp:operator():657" No route found for "/favicon.ico" , checking default routes
+2018/03/17-14:25:04:896 ENTER httpserver.cpp:searchAndServeFile:852
+"2018/03/17-14:25:04:896 ERROR" "httpserver.cpp:searchAndServeFile:886" File not in lookup list [ "/usr/local/qttpfiles/favicon.ico" ]
+2018/03/17-14:25:04:896 EXIT  httpserver.cpp:searchAndServeFile:852
+2018/03/17-14:25:04:896 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:25:04:896 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:31:51:312 DEBUG" "httpserver.cpp:operator():657" No route found for "/addImageIntoTrainData" , checking default routes
+2018/03/17-14:31:51:312 ENTER httpserver.cpp:searchAndServeFile:852
+"2018/03/17-14:31:51:312 ERROR" "httpserver.cpp:searchAndServeFile:886" File not in lookup list [ "/usr/local/qttpfiles/addImageIntoTrainData" ]
+2018/03/17-14:31:51:312 EXIT  httpserver.cpp:searchAndServeFile:852
+2018/03/17-14:31:51:312 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:31:51:312 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:31:55:643 DEBUG" "httpserver.cpp:operator():657" No route found for "/addImageIntoTrainData/" , checking default routes
+2018/03/17-14:31:55:643 ENTER httpserver.cpp:searchAndServeFile:852
+"2018/03/17-14:31:55:643 ERROR" "httpserver.cpp:searchAndServeFile:886" File not in lookup list [ "/usr/local/qttpfiles/addImageIntoTrainData" ]
+2018/03/17-14:31:55:643 EXIT  httpserver.cpp:searchAndServeFile:852
+2018/03/17-14:31:55:643 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:31:55:643 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:32:00:888 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/addImageIntoTrainData/h"
+QIODevice::read (QFile, "voice.jpg"): device not open
+2018/03/17-14:32:00:888 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:32:00:888 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:36:47:376 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/addImageIntoTrainData/hello"
+onPost
+2018/03/17-14:36:47:376 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:36:47:376 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:42:41:917 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/addImageIntoTrainData/hello"
+onPost
+"2018/03/17-14:42:41:917 WARN " "httprequest.cpp:getJson:81" "illegal value"
+2018/03/17-14:42:41:918 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:42:41:918 EXIT  httpresponse.cpp:finish:85
+2018/03/17-14:49:37:287 ENTER main.cpp:main:431
+"2018/03/17-14:49:37:288 DEBUG" "httpserver.cpp:initialize:94" Working directory "/home/paperspace/service/examples/sample"
+"2018/03/17-14:49:37:288 INFO " "httpserver.cpp:initGlobal:213" Processing filepath [ "./config/global.json" ]
+"2018/03/17-14:49:37:288 INFO " "httpserver.cpp:initGlobal:217" QJsonValue(string, "10.64.41.41")
+"2018/03/17-14:49:37:288 INFO " "httpserver.cpp:initGlobal:218" QJsonValue(double, 6969)
+"2018/03/17-14:49:37:288 DEBUG" "httpserver.cpp:initGlobal:306" Did not read headers in config file, using default headers
+"2018/03/17-14:49:37:288 INFO " "httpserver.cpp:initRoutes:360" Processing filepath [ "./config/routes.json" ]
+"2018/03/17-14:49:37:288 DEBUG" "httpserver.cpp:initialize:174" CmdLine meta-data false
+"2018/03/17-14:49:37:288 DEBUG" "httpserver.cpp:initialize:180" CmdLine swagger false
+"2018/03/17-14:49:37:288 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{35d69374-09a0-4829-8839-beaa21253e39}" ] path [ "/helloworld" ]
+"2018/03/17-14:49:37:288 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{2fa3c998-bc21-4f03-a29e-98c9895333df}" ] path [ "/echobody" ]
+"2018/03/17-14:49:37:288 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{2fa3c998-bc21-4f03-a29e-98c9895333df}" ] path [ "/echobody2" ]
+"2018/03/17-14:49:37:288 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "{2fa3c998-bc21-4f03-a29e-98c9895333df}" ] path [ "/echobody3" ]
+"2018/03/17-14:49:37:288 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "addImageIntoTrainData" ] path [ "/addImageIntoTrainData/:tag" ]
+"2018/03/17-14:49:37:288 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "queryImageFromTrainData" ] path [ "/queryImageFromTrainData" ]
+"2018/03/17-14:49:37:288 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "queryImageFromTrainData" ] path [ "/queryImageFromTrainData" ]
+"2018/03/17-14:49:37:288 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-14:49:37:288 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-14:49:37:288 DEBUG" "httpserver.cpp:registerRoute:1081" method [ PUT ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-14:49:37:288 DEBUG" "httpserver.cpp:registerRoute:1081" method [ PATCH ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-14:49:37:288 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "another" ] path [ "/another" ]
+"2018/03/17-14:49:37:288 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "another" ] path [ "/another" ]
+"2018/03/17-14:49:37:288 DEBUG" "httpserver.cpp:addDefaultProcessor:1112" Processor not enabled [ options ]
+"2018/03/17-14:49:37:288 INFO " "httpserver.cpp:start:511" Server pid 17012 running at "10.64.41.41" 6969
+"2018/03/17-14:49:43:404 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/addImageIntoTrainData/hello"
+onPost TrainData
+"2018/03/17-14:49:43:405 WARN " "httprequest.cpp:getJson:81" "illegal value"
+TrainData New file Created :  "/home/trainDataImages/17_3_2018_14_49_43_476707713_hello"
+TrainData New file stored :  "/home/trainDataImages/17_3_2018_14_49_43_476707713_hello"
+2018/03/17-14:49:43:405 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:49:43:405 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:56:01:227 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-14:56:01:228 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:56:01:229 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:56:01:941 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-14:56:01:945 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:56:01:948 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:56:02:571 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-14:56:02:575 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:56:02:577 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:56:03:430 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-14:56:03:434 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:56:03:437 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:56:04:253 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-14:56:04:255 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:56:04:255 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:56:05:032 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-14:56:05:037 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:56:05:039 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:56:05:957 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-14:56:05:961 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:56:05:963 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:56:06:876 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-14:56:06:880 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:56:06:882 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:56:07:798 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-14:56:07:800 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:56:07:800 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:56:08:627 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-14:56:08:631 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:56:08:634 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:56:09:510 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-14:56:09:514 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:56:09:517 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:56:10:621 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-14:56:10:622 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:56:10:622 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:56:11:320 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-14:56:11:324 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:56:11:327 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:56:12:251 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-14:56:12:254 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:56:12:254 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:56:12:949 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-14:56:12:952 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:56:12:955 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:56:13:874 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-14:56:13:875 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:56:13:875 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:56:14:665 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-14:56:14:667 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:56:14:667 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:56:15:516 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-14:56:15:520 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:56:15:522 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:56:16:749 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-14:56:16:753 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:56:16:755 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:56:17:564 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-14:56:17:568 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:56:17:571 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:56:18:398 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-14:56:18:403 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:56:18:405 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:56:19:221 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-14:56:19:226 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:56:19:229 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:56:20:135 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-14:56:20:138 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:56:20:141 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:56:21:330 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-14:56:21:334 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:56:21:337 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:56:21:944 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-14:56:21:949 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:56:21:951 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:56:22:722 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-14:56:22:725 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:56:22:728 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:56:23:633 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-14:56:23:636 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:56:23:639 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-14:56:24:668 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-14:56:24:672 ENTER httpresponse.cpp:finish:85
+2018/03/17-14:56:24:675 EXIT  httpresponse.cpp:finish:85
+2018/03/17-14:58:01:835 ENTER main.cpp:main:431
+"2018/03/17-14:58:01:836 DEBUG" "httpserver.cpp:initialize:94" Working directory "/home/paperspace/service/examples/sample"
+"2018/03/17-14:58:01:836 INFO " "httpserver.cpp:initGlobal:213" Processing filepath [ "./config/global.json" ]
+"2018/03/17-14:58:01:836 INFO " "httpserver.cpp:initGlobal:217" QJsonValue(string, "10.64.41.41")
+"2018/03/17-14:58:01:836 INFO " "httpserver.cpp:initGlobal:218" QJsonValue(double, 6969)
+"2018/03/17-14:58:01:836 DEBUG" "httpserver.cpp:initGlobal:306" Did not read headers in config file, using default headers
+"2018/03/17-14:58:01:836 INFO " "httpserver.cpp:initRoutes:360" Processing filepath [ "./config/routes.json" ]
+"2018/03/17-14:58:01:836 DEBUG" "httpserver.cpp:initialize:174" CmdLine meta-data false
+"2018/03/17-14:58:01:836 DEBUG" "httpserver.cpp:initialize:180" CmdLine swagger false
+"2018/03/17-14:58:01:836 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{2ba9b5b9-552c-42b4-985b-3154c8fd5667}" ] path [ "/helloworld" ]
+"2018/03/17-14:58:01:836 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{741d7a70-0e30-46bf-8cf9-8e007d83ec7e}" ] path [ "/echobody" ]
+"2018/03/17-14:58:01:836 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{741d7a70-0e30-46bf-8cf9-8e007d83ec7e}" ] path [ "/echobody2" ]
+"2018/03/17-14:58:01:836 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "{741d7a70-0e30-46bf-8cf9-8e007d83ec7e}" ] path [ "/echobody3" ]
+"2018/03/17-14:58:01:836 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "addImageIntoTrainData" ] path [ "/addImageIntoTrainData/:tag" ]
+"2018/03/17-14:58:01:836 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "queryImageFromTrainData" ] path [ "/queryImageFromTrainData" ]
+"2018/03/17-14:58:01:836 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "queryImageFromTrainData" ] path [ "/queryImageFromTrainData" ]
+"2018/03/17-14:58:01:836 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-14:58:01:836 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-14:58:01:836 DEBUG" "httpserver.cpp:registerRoute:1081" method [ PUT ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-14:58:01:836 DEBUG" "httpserver.cpp:registerRoute:1081" method [ PATCH ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-14:58:01:836 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "another" ] path [ "/another" ]
+"2018/03/17-14:58:01:836 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "another" ] path [ "/another" ]
+"2018/03/17-14:58:01:836 DEBUG" "httpserver.cpp:addDefaultProcessor:1112" Processor not enabled [ options ]
+"2018/03/17-14:58:01:837 INFO " "httpserver.cpp:start:511" Server pid 17471 running at "10.64.41.41" 6969
+"2018/03/17-15:08:46:756 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:08:46:758 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:08:46:758 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:08:47:394 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:08:47:398 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:08:47:400 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:08:53:500 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:08:53:504 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:08:53:506 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:08:53:618 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:08:53:621 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:08:53:623 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:08:54:196 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:08:54:200 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:08:54:202 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:08:54:380 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:08:54:384 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:08:54:386 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:08:55:022 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:08:55:026 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:08:55:028 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:08:55:042 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:08:55:046 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:08:55:047 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:08:55:334 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:08:55:335 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:08:55:335 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:09:00:259 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:09:00:264 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:09:00:267 EXIT  httpresponse.cpp:finish:85
+2018/03/17-15:10:01:669 ENTER main.cpp:main:431
+"2018/03/17-15:10:01:670 DEBUG" "httpserver.cpp:initialize:94" Working directory "/home/paperspace/service/examples/sample"
+"2018/03/17-15:10:01:670 INFO " "httpserver.cpp:initGlobal:213" Processing filepath [ "./config/global.json" ]
+"2018/03/17-15:10:01:670 INFO " "httpserver.cpp:initGlobal:217" QJsonValue(string, "10.64.41.41")
+"2018/03/17-15:10:01:670 INFO " "httpserver.cpp:initGlobal:218" QJsonValue(double, 6969)
+"2018/03/17-15:10:01:670 DEBUG" "httpserver.cpp:initGlobal:306" Did not read headers in config file, using default headers
+"2018/03/17-15:10:01:670 INFO " "httpserver.cpp:initRoutes:360" Processing filepath [ "./config/routes.json" ]
+"2018/03/17-15:10:01:670 DEBUG" "httpserver.cpp:initialize:174" CmdLine meta-data false
+"2018/03/17-15:10:01:670 DEBUG" "httpserver.cpp:initialize:180" CmdLine swagger false
+"2018/03/17-15:10:01:670 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{cf899123-11d7-4396-ae03-d1a763577f58}" ] path [ "/helloworld" ]
+"2018/03/17-15:10:01:670 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{7858ef24-f5e3-4b69-977a-8bf841f19681}" ] path [ "/echobody" ]
+"2018/03/17-15:10:01:670 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{7858ef24-f5e3-4b69-977a-8bf841f19681}" ] path [ "/echobody2" ]
+"2018/03/17-15:10:01:670 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "{7858ef24-f5e3-4b69-977a-8bf841f19681}" ] path [ "/echobody3" ]
+"2018/03/17-15:10:01:670 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "addImageIntoTrainData" ] path [ "/addImageIntoTrainData/:tag" ]
+"2018/03/17-15:10:01:670 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "queryImageFromTrainData" ] path [ "/queryImageFromTrainData" ]
+"2018/03/17-15:10:01:670 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "queryImageFromTrainData" ] path [ "/queryImageFromTrainData" ]
+"2018/03/17-15:10:01:670 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-15:10:01:670 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-15:10:01:670 DEBUG" "httpserver.cpp:registerRoute:1081" method [ PUT ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-15:10:01:670 DEBUG" "httpserver.cpp:registerRoute:1081" method [ PATCH ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-15:10:01:670 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "another" ] path [ "/another" ]
+"2018/03/17-15:10:01:671 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "another" ] path [ "/another" ]
+"2018/03/17-15:10:01:671 DEBUG" "httpserver.cpp:addDefaultProcessor:1112" Processor not enabled [ options ]
+"2018/03/17-15:10:01:671 INFO " "httpserver.cpp:start:511" Server pid 18154 running at "10.64.41.41" 6969
+"2018/03/17-15:15:08:872 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/addImageIntoTrainData/gggo"
+onPost TrainData
+"2018/03/17-15:15:08:872 WARN " "httprequest.cpp:getJson:81" "illegal value"
+TrainData New file Created :  "/home/trainDataImages/17_3_2018_15_15_08_476707713_gggo"
+TrainData New file stored :  "/home/trainDataImages/17_3_2018_15_15_08_476707713_gggo"
+2018/03/17-15:15:08:872 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:15:08:872 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:15:15:453 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:15:15:455 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:15:15:455 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:15:16:158 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:15:16:163 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:15:16:165 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:15:16:986 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:15:16:990 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:15:16:992 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:20:37:243 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/addImageIntoTrainData/hello"
+onPost TrainData
+"2018/03/17-15:20:37:243 WARN " "httprequest.cpp:getJson:81" "illegal value"
+TrainData New file Created :  "/home/trainDataImages/17_3_2018_15_20_37_899065992_hello"
+TrainData New file stored :  "/home/trainDataImages/17_3_2018_15_20_37_899065992_hello"
+2018/03/17-15:20:37:243 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:20:37:243 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:20:40:998 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:20:41:000 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:20:41:000 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:20:41:951 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:20:41:952 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:20:41:952 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:20:42:843 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:20:42:845 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:20:42:847 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:20:43:608 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:20:43:612 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:20:43:613 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:20:46:758 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:20:46:762 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:20:46:765 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:20:55:531 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:20:55:532 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:20:55:532 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:20:56:383 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:20:56:386 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:20:56:388 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:20:57:415 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:20:57:420 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:20:57:422 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:20:58:258 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:20:58:259 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:20:58:259 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:20:59:103 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:20:59:106 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:20:59:108 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:20:59:986 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:20:59:988 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:20:59:988 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:21:00:829 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:21:00:834 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:21:00:837 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:21:01:669 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:21:01:670 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:21:01:670 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:21:02:501 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:21:02:502 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:21:02:502 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:21:03:354 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:21:03:357 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:21:03:358 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:21:04:364 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:21:04:368 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:21:04:370 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:21:05:401 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:21:05:405 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:21:05:408 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:21:06:353 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:21:06:357 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:21:06:359 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:21:26:675 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/addImageIntoTrainData/dddddd"
+onPost TrainData
+"2018/03/17-15:21:26:675 WARN " "httprequest.cpp:getJson:81" "illegal value"
+TrainData New file Created :  "/home/trainDataImages/17_3_2018_15_21_26_1403176131_dddddd"
+TrainData New file stored :  "/home/trainDataImages/17_3_2018_15_21_26_1403176131_dddddd"
+2018/03/17-15:21:26:676 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:21:26:676 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:21:32:340 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:21:32:343 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:21:32:346 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:21:32:473 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:21:32:475 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:21:32:475 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:21:33:237 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:21:33:240 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:21:33:242 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:21:33:885 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:21:33:890 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:21:33:893 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:21:34:850 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:21:34:854 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:21:34:855 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:21:36:867 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:21:36:872 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:21:36:875 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:21:37:915 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:21:37:918 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:21:37:919 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:21:38:528 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:21:38:531 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:21:38:533 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:21:38:885 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:21:38:888 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:21:38:890 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:21:39:969 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:21:39:973 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:21:39:974 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:21:41:113 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:21:41:117 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:21:41:118 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:21:41:944 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:21:41:948 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:21:41:950 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:21:42:474 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:21:42:479 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:21:42:482 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:21:43:118 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:21:43:124 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:21:43:127 EXIT  httpresponse.cpp:finish:85
+2018/03/17-15:22:01:159 ENTER main.cpp:main:431
+"2018/03/17-15:22:01:160 DEBUG" "httpserver.cpp:initialize:94" Working directory "/home/paperspace/service/examples/sample"
+"2018/03/17-15:22:01:160 INFO " "httpserver.cpp:initGlobal:213" Processing filepath [ "./config/global.json" ]
+"2018/03/17-15:22:01:160 INFO " "httpserver.cpp:initGlobal:217" QJsonValue(string, "10.64.41.41")
+"2018/03/17-15:22:01:160 INFO " "httpserver.cpp:initGlobal:218" QJsonValue(double, 6969)
+"2018/03/17-15:22:01:160 DEBUG" "httpserver.cpp:initGlobal:306" Did not read headers in config file, using default headers
+"2018/03/17-15:22:01:160 INFO " "httpserver.cpp:initRoutes:360" Processing filepath [ "./config/routes.json" ]
+"2018/03/17-15:22:01:160 DEBUG" "httpserver.cpp:initialize:174" CmdLine meta-data false
+"2018/03/17-15:22:01:160 DEBUG" "httpserver.cpp:initialize:180" CmdLine swagger false
+"2018/03/17-15:22:01:160 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{8fa5d398-9059-443c-97be-887782bfcb73}" ] path [ "/helloworld" ]
+"2018/03/17-15:22:01:160 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{3963e6bd-48f9-424a-a8e3-4291b6b72386}" ] path [ "/echobody" ]
+"2018/03/17-15:22:01:160 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{3963e6bd-48f9-424a-a8e3-4291b6b72386}" ] path [ "/echobody2" ]
+"2018/03/17-15:22:01:160 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "{3963e6bd-48f9-424a-a8e3-4291b6b72386}" ] path [ "/echobody3" ]
+"2018/03/17-15:22:01:160 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "addImageIntoTrainData" ] path [ "/addImageIntoTrainData/:tag" ]
+"2018/03/17-15:22:01:160 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "queryImageFromTrainData" ] path [ "/queryImageFromTrainData" ]
+"2018/03/17-15:22:01:160 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "queryImageFromTrainData" ] path [ "/queryImageFromTrainData" ]
+"2018/03/17-15:22:01:160 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-15:22:01:160 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-15:22:01:160 DEBUG" "httpserver.cpp:registerRoute:1081" method [ PUT ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-15:22:01:160 DEBUG" "httpserver.cpp:registerRoute:1081" method [ PATCH ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-15:22:01:160 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "another" ] path [ "/another" ]
+"2018/03/17-15:22:01:160 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "another" ] path [ "/another" ]
+"2018/03/17-15:22:01:160 DEBUG" "httpserver.cpp:addDefaultProcessor:1112" Processor not enabled [ options ]
+"2018/03/17-15:22:01:160 INFO " "httpserver.cpp:start:511" Server pid 18753 running at "10.64.41.41" 6969
+"2018/03/17-15:25:40:127 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:25:40:128 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:25:40:128 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:25:41:265 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:25:41:270 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:25:41:272 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:25:42:218 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:25:42:223 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:25:42:227 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:25:42:864 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:25:42:867 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:25:42:869 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:25:44:548 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:25:44:553 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:25:44:555 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:25:45:441 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:25:45:446 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:25:45:449 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:25:47:342 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:25:47:346 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:25:47:349 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:25:50:146 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:25:50:151 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:25:50:154 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:25:50:841 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:25:50:842 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:25:50:842 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:25:53:504 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:25:53:507 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:25:53:510 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:25:55:760 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:25:55:764 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:25:55:767 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:25:56:502 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:25:56:505 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:25:56:505 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:25:58:552 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:25:58:558 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:25:58:561 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:25:59:194 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:25:59:196 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:25:59:196 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:26:03:335 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:26:03:339 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:26:03:340 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:26:03:956 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:26:03:957 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:26:03:957 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:26:04:302 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:26:04:304 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:26:04:304 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:26:05:656 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:26:05:660 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:26:05:663 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:26:06:891 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:26:06:897 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:26:06:900 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:26:08:422 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:26:08:428 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:26:08:431 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:26:09:721 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:26:09:725 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:26:09:727 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:26:10:054 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:26:10:058 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:26:10:061 EXIT  httpresponse.cpp:finish:85
+2018/03/17-15:27:01:155 ENTER main.cpp:main:431
+"2018/03/17-15:27:01:156 DEBUG" "httpserver.cpp:initialize:94" Working directory "/home/paperspace/service/examples/sample"
+"2018/03/17-15:27:01:156 INFO " "httpserver.cpp:initGlobal:213" Processing filepath [ "./config/global.json" ]
+"2018/03/17-15:27:01:156 INFO " "httpserver.cpp:initGlobal:217" QJsonValue(string, "10.64.41.41")
+"2018/03/17-15:27:01:156 INFO " "httpserver.cpp:initGlobal:218" QJsonValue(double, 6969)
+"2018/03/17-15:27:01:156 DEBUG" "httpserver.cpp:initGlobal:306" Did not read headers in config file, using default headers
+"2018/03/17-15:27:01:156 INFO " "httpserver.cpp:initRoutes:360" Processing filepath [ "./config/routes.json" ]
+"2018/03/17-15:27:01:156 DEBUG" "httpserver.cpp:initialize:174" CmdLine meta-data false
+"2018/03/17-15:27:01:156 DEBUG" "httpserver.cpp:initialize:180" CmdLine swagger false
+"2018/03/17-15:27:01:156 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{754df897-6128-4268-abd6-8518343e05ea}" ] path [ "/helloworld" ]
+"2018/03/17-15:27:01:156 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{cbd6648c-8e7d-48aa-86ec-3e902ae24279}" ] path [ "/echobody" ]
+"2018/03/17-15:27:01:156 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{cbd6648c-8e7d-48aa-86ec-3e902ae24279}" ] path [ "/echobody2" ]
+"2018/03/17-15:27:01:156 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "{cbd6648c-8e7d-48aa-86ec-3e902ae24279}" ] path [ "/echobody3" ]
+"2018/03/17-15:27:01:156 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "addImageIntoTrainData" ] path [ "/addImageIntoTrainData/:tag" ]
+"2018/03/17-15:27:01:156 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "queryImageFromTrainData" ] path [ "/queryImageFromTrainData" ]
+"2018/03/17-15:27:01:156 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "queryImageFromTrainData" ] path [ "/queryImageFromTrainData" ]
+"2018/03/17-15:27:01:156 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-15:27:01:156 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-15:27:01:156 DEBUG" "httpserver.cpp:registerRoute:1081" method [ PUT ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-15:27:01:156 DEBUG" "httpserver.cpp:registerRoute:1081" method [ PATCH ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-15:27:01:156 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "another" ] path [ "/another" ]
+"2018/03/17-15:27:01:156 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "another" ] path [ "/another" ]
+"2018/03/17-15:27:01:156 DEBUG" "httpserver.cpp:addDefaultProcessor:1112" Processor not enabled [ options ]
+"2018/03/17-15:27:01:157 INFO " "httpserver.cpp:start:511" Server pid 19004 running at "10.64.41.41" 6969
+"2018/03/17-15:27:02:888 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:27:02:890 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:27:02:891 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:27:03:793 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:27:03:798 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:27:03:801 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:27:04:623 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:27:04:628 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:27:04:630 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:27:07:234 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:27:07:238 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:27:07:240 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:27:08:208 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:27:08:212 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:27:08:214 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:27:11:613 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:27:11:617 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:27:11:620 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:27:12:132 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:27:12:136 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:27:12:137 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:27:13:067 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:27:13:072 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:27:13:074 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:27:16:434 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:27:16:436 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:27:16:436 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:27:17:296 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:27:17:300 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:27:17:301 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:27:18:359 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:27:18:363 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:27:18:365 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:27:20:987 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:27:20:989 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:27:20:989 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:27:21:864 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:27:21:868 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:27:21:869 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:27:23:918 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:27:23:920 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:27:23:921 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:27:24:055 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:27:24:058 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:27:24:060 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:31:49:115 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/addImageIntoTrainData/gggo"
+onPost TrainData
+"2018/03/17-15:31:49:115 WARN " "httprequest.cpp:getJson:81" "illegal value"
+TrainData New file Created :  "/home/trainDataImages/17_3_2018_15_31_49_693749302_gggo"
+TrainData New file stored :  "/home/trainDataImages/17_3_2018_15_31_49_693749302_gggo"
+2018/03/17-15:31:49:115 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:31:49:115 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:31:54:110 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:31:54:111 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:31:54:111 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:31:55:105 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:31:55:108 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:31:55:110 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:31:55:876 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:31:55:879 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:31:55:882 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:35:15:776 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/addImageIntoTrainData/ggv"
+onPost TrainData
+"2018/03/17-15:35:15:776 WARN " "httprequest.cpp:getJson:81" "illegal value"
+TrainData New file Created :  "/home/trainDataImages/17_3_2018_15_35_15_297319475_ggv"
+TrainData New file stored :  "/home/trainDataImages/17_3_2018_15_35_15_297319475_ggv"
+2018/03/17-15:35:15:777 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:35:15:777 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:35:17:716 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:35:17:721 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:35:17:725 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:35:18:315 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:35:18:318 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:35:18:319 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:35:19:254 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:35:19:259 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:35:19:261 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:41:19:039 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:41:19:043 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:41:19:045 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:41:20:381 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:41:20:384 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:41:20:386 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:41:21:955 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:41:21:958 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:41:21:960 EXIT  httpresponse.cpp:finish:85
+2018/03/17-15:42:01:253 ENTER main.cpp:main:431
+"2018/03/17-15:42:01:254 DEBUG" "httpserver.cpp:initialize:94" Working directory "/home/paperspace/service/examples/sample"
+"2018/03/17-15:42:01:254 INFO " "httpserver.cpp:initGlobal:213" Processing filepath [ "./config/global.json" ]
+"2018/03/17-15:42:01:254 INFO " "httpserver.cpp:initGlobal:217" QJsonValue(string, "10.64.41.41")
+"2018/03/17-15:42:01:254 INFO " "httpserver.cpp:initGlobal:218" QJsonValue(double, 6969)
+"2018/03/17-15:42:01:254 DEBUG" "httpserver.cpp:initGlobal:306" Did not read headers in config file, using default headers
+"2018/03/17-15:42:01:254 INFO " "httpserver.cpp:initRoutes:360" Processing filepath [ "./config/routes.json" ]
+"2018/03/17-15:42:01:254 DEBUG" "httpserver.cpp:initialize:174" CmdLine meta-data false
+"2018/03/17-15:42:01:254 DEBUG" "httpserver.cpp:initialize:180" CmdLine swagger false
+"2018/03/17-15:42:01:255 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{ca17603a-8e90-4983-877e-4b36132525dc}" ] path [ "/helloworld" ]
+"2018/03/17-15:42:01:255 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{5f83c6b3-a4c7-4889-aa25-4144b7cbfc99}" ] path [ "/echobody" ]
+"2018/03/17-15:42:01:255 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{5f83c6b3-a4c7-4889-aa25-4144b7cbfc99}" ] path [ "/echobody2" ]
+"2018/03/17-15:42:01:255 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "{5f83c6b3-a4c7-4889-aa25-4144b7cbfc99}" ] path [ "/echobody3" ]
+"2018/03/17-15:42:01:255 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "addImageIntoTrainData" ] path [ "/addImageIntoTrainData/:tag" ]
+"2018/03/17-15:42:01:255 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "queryImageFromTrainData" ] path [ "/queryImageFromTrainData" ]
+"2018/03/17-15:42:01:255 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "queryImageFromTrainData" ] path [ "/queryImageFromTrainData" ]
+"2018/03/17-15:42:01:255 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-15:42:01:255 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-15:42:01:255 DEBUG" "httpserver.cpp:registerRoute:1081" method [ PUT ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-15:42:01:255 DEBUG" "httpserver.cpp:registerRoute:1081" method [ PATCH ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-15:42:01:255 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "another" ] path [ "/another" ]
+"2018/03/17-15:42:01:255 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "another" ] path [ "/another" ]
+"2018/03/17-15:42:01:255 DEBUG" "httpserver.cpp:addDefaultProcessor:1112" Processor not enabled [ options ]
+"2018/03/17-15:42:01:255 INFO " "httpserver.cpp:start:511" Server pid 19738 running at "10.64.41.41" 6969
+"2018/03/17-15:42:21:189 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:42:21:191 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:42:21:191 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:42:21:357 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:42:21:363 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:42:21:366 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:42:22:264 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:42:22:270 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:42:22:272 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:42:24:335 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:42:24:338 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:42:24:340 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:47:10:980 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:47:10:983 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:47:10:984 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:47:11:814 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:47:11:817 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:47:11:820 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:48:28:280 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:48:28:284 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:48:28:285 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:48:29:139 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:48:29:143 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:48:29:145 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:48:34:207 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:48:34:209 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:48:34:209 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:54:48:127 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/addImageIntoTrainData/cccv"
+onPost TrainData
+"2018/03/17-15:54:48:127 WARN " "httprequest.cpp:getJson:81" "illegal value"
+TrainData New file Created :  "/home/trainDataImages/17_3_2018_15_54_48_1223389481_cccv"
+TrainData New file stored :  "/home/trainDataImages/17_3_2018_15_54_48_1223389481_cccv"
+2018/03/17-15:54:48:128 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:54:48:128 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:55:02:059 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:55:02:063 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:55:02:065 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-15:55:03:029 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-15:55:03:032 ENTER httpresponse.cpp:finish:85
+2018/03/17-15:55:03:033 EXIT  httpresponse.cpp:finish:85
+2018/03/17-16:05:02:006 ENTER main.cpp:main:431
+"2018/03/17-16:05:02:007 DEBUG" "httpserver.cpp:initialize:94" Working directory "/home/paperspace/service/examples/sample"
+"2018/03/17-16:05:02:007 INFO " "httpserver.cpp:initGlobal:213" Processing filepath [ "./config/global.json" ]
+"2018/03/17-16:05:02:007 INFO " "httpserver.cpp:initGlobal:217" QJsonValue(string, "10.64.41.41")
+"2018/03/17-16:05:02:007 INFO " "httpserver.cpp:initGlobal:218" QJsonValue(double, 6969)
+"2018/03/17-16:05:02:007 DEBUG" "httpserver.cpp:initGlobal:306" Did not read headers in config file, using default headers
+"2018/03/17-16:05:02:007 INFO " "httpserver.cpp:initRoutes:360" Processing filepath [ "./config/routes.json" ]
+"2018/03/17-16:05:02:007 DEBUG" "httpserver.cpp:initialize:174" CmdLine meta-data false
+"2018/03/17-16:05:02:007 DEBUG" "httpserver.cpp:initialize:180" CmdLine swagger false
+"2018/03/17-16:05:02:007 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{ff370042-1a55-4ebd-b747-3eff5b9a24e1}" ] path [ "/helloworld" ]
+"2018/03/17-16:05:02:007 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{9b15f4f9-8a38-4bef-af3b-8e9b7ba2d54f}" ] path [ "/echobody" ]
+"2018/03/17-16:05:02:007 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{9b15f4f9-8a38-4bef-af3b-8e9b7ba2d54f}" ] path [ "/echobody2" ]
+"2018/03/17-16:05:02:007 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "{9b15f4f9-8a38-4bef-af3b-8e9b7ba2d54f}" ] path [ "/echobody3" ]
+"2018/03/17-16:05:02:007 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "addImageIntoTrainData" ] path [ "/addImageIntoTrainData/:tag" ]
+"2018/03/17-16:05:02:007 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "queryImageFromTrainData" ] path [ "/queryImageFromTrainData" ]
+"2018/03/17-16:05:02:007 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "queryImageFromTrainData" ] path [ "/queryImageFromTrainData" ]
+"2018/03/17-16:05:02:007 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-16:05:02:007 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-16:05:02:007 DEBUG" "httpserver.cpp:registerRoute:1081" method [ PUT ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-16:05:02:007 DEBUG" "httpserver.cpp:registerRoute:1081" method [ PATCH ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-16:05:02:007 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "another" ] path [ "/another" ]
+"2018/03/17-16:05:02:007 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "another" ] path [ "/another" ]
+"2018/03/17-16:05:02:007 DEBUG" "httpserver.cpp:addDefaultProcessor:1112" Processor not enabled [ options ]
+"2018/03/17-16:05:02:007 INFO " "httpserver.cpp:start:511" Server pid 21073 running at "10.64.41.41" 6969
+"2018/03/17-16:12:41:152 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/addImageIntoTrainData/vvv"
+onPost TrainData
+"2018/03/17-16:12:41:152 WARN " "httprequest.cpp:getJson:81" "illegal value"
+TrainData New file Created :  "/home/trainDataImages/17_3_2018_16_12_41_476707713_vvv"
+TrainData New file stored :  "/home/trainDataImages/17_3_2018_16_12_41_476707713_vvv"
+2018/03/17-16:12:41:152 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:12:41:152 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:12:49:688 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-16:12:49:690 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:12:49:690 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:12:52:543 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-16:12:52:546 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:12:52:548 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:12:54:961 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-16:12:54:966 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:12:54:967 EXIT  httpresponse.cpp:finish:85
+2018/03/17-16:14:01:739 ENTER main.cpp:main:431
+"2018/03/17-16:14:01:740 DEBUG" "httpserver.cpp:initialize:94" Working directory "/home/paperspace/service/examples/sample"
+"2018/03/17-16:14:01:740 INFO " "httpserver.cpp:initGlobal:213" Processing filepath [ "./config/global.json" ]
+"2018/03/17-16:14:01:740 INFO " "httpserver.cpp:initGlobal:217" QJsonValue(string, "10.64.41.41")
+"2018/03/17-16:14:01:740 INFO " "httpserver.cpp:initGlobal:218" QJsonValue(double, 6969)
+"2018/03/17-16:14:01:740 DEBUG" "httpserver.cpp:initGlobal:306" Did not read headers in config file, using default headers
+"2018/03/17-16:14:01:740 INFO " "httpserver.cpp:initRoutes:360" Processing filepath [ "./config/routes.json" ]
+"2018/03/17-16:14:01:740 DEBUG" "httpserver.cpp:initialize:174" CmdLine meta-data false
+"2018/03/17-16:14:01:740 DEBUG" "httpserver.cpp:initialize:180" CmdLine swagger false
+"2018/03/17-16:14:01:740 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{1ac2e5da-e570-42d1-aa8d-8514b95e3947}" ] path [ "/helloworld" ]
+"2018/03/17-16:14:01:740 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{792d7e5a-fbef-49e9-a11d-44f22165602c}" ] path [ "/echobody" ]
+"2018/03/17-16:14:01:740 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{792d7e5a-fbef-49e9-a11d-44f22165602c}" ] path [ "/echobody2" ]
+"2018/03/17-16:14:01:740 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "{792d7e5a-fbef-49e9-a11d-44f22165602c}" ] path [ "/echobody3" ]
+"2018/03/17-16:14:01:740 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "addImageIntoTrainData" ] path [ "/addImageIntoTrainData/:tag" ]
+"2018/03/17-16:14:01:740 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "queryImageFromTrainData" ] path [ "/queryImageFromTrainData" ]
+"2018/03/17-16:14:01:740 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "queryImageFromTrainData" ] path [ "/queryImageFromTrainData" ]
+"2018/03/17-16:14:01:740 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-16:14:01:740 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-16:14:01:740 DEBUG" "httpserver.cpp:registerRoute:1081" method [ PUT ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-16:14:01:740 DEBUG" "httpserver.cpp:registerRoute:1081" method [ PATCH ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-16:14:01:740 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "another" ] path [ "/another" ]
+"2018/03/17-16:14:01:740 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "another" ] path [ "/another" ]
+"2018/03/17-16:14:01:740 DEBUG" "httpserver.cpp:addDefaultProcessor:1112" Processor not enabled [ options ]
+"2018/03/17-16:14:01:740 INFO " "httpserver.cpp:start:511" Server pid 21506 running at "10.64.41.41" 6969
+"2018/03/17-16:14:10:931 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-16:14:10:932 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:14:10:932 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:14:12:288 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-16:14:12:294 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:14:12:296 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:14:13:950 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-16:14:13:953 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:14:13:954 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:14:17:928 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-16:14:17:931 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:14:17:932 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:14:20:146 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-16:14:20:148 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:14:20:150 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:14:21:029 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-16:14:21:032 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:14:21:034 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:14:21:328 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-16:14:21:332 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:14:21:334 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:14:22:353 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-16:14:22:357 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:14:22:358 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:16:04:549 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/addImageIntoTrainData/cvb"
+onPost TrainData
+"2018/03/17-16:16:04:549 WARN " "httprequest.cpp:getJson:81" "illegal value"
+TrainData New file Created :  "/home/trainDataImages/17_3_2018_16_16_04_1068432038_cvb"
+TrainData New file stored :  "/home/trainDataImages/17_3_2018_16_16_04_1068432038_cvb"
+2018/03/17-16:16:04:550 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:16:04:550 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:16:13:796 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-16:16:13:801 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:16:13:803 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:16:19:411 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-16:16:19:416 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:16:19:418 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:16:20:524 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-16:16:20:529 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:16:20:530 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:16:32:349 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-16:16:32:353 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:16:32:355 EXIT  httpresponse.cpp:finish:85
+2018/03/17-16:18:01:088 ENTER main.cpp:main:431
+"2018/03/17-16:18:01:088 DEBUG" "httpserver.cpp:initialize:94" Working directory "/home/paperspace/service/examples/sample"
+"2018/03/17-16:18:01:088 INFO " "httpserver.cpp:initGlobal:213" Processing filepath [ "./config/global.json" ]
+"2018/03/17-16:18:01:088 INFO " "httpserver.cpp:initGlobal:217" QJsonValue(string, "10.64.41.41")
+"2018/03/17-16:18:01:088 INFO " "httpserver.cpp:initGlobal:218" QJsonValue(double, 6969)
+"2018/03/17-16:18:01:088 DEBUG" "httpserver.cpp:initGlobal:306" Did not read headers in config file, using default headers
+"2018/03/17-16:18:01:088 INFO " "httpserver.cpp:initRoutes:360" Processing filepath [ "./config/routes.json" ]
+"2018/03/17-16:18:01:088 DEBUG" "httpserver.cpp:initialize:174" CmdLine meta-data false
+"2018/03/17-16:18:01:089 DEBUG" "httpserver.cpp:initialize:180" CmdLine swagger false
+"2018/03/17-16:18:01:089 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{ce63468f-bf66-485e-b5c2-c5a8f81ee27a}" ] path [ "/helloworld" ]
+"2018/03/17-16:18:01:089 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{681e6830-6101-4429-bb34-01f2d0e2484e}" ] path [ "/echobody" ]
+"2018/03/17-16:18:01:089 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{681e6830-6101-4429-bb34-01f2d0e2484e}" ] path [ "/echobody2" ]
+"2018/03/17-16:18:01:089 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "{681e6830-6101-4429-bb34-01f2d0e2484e}" ] path [ "/echobody3" ]
+"2018/03/17-16:18:01:089 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "addImageIntoTrainData" ] path [ "/addImageIntoTrainData/:tag" ]
+"2018/03/17-16:18:01:089 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "queryImageFromTrainData" ] path [ "/queryImageFromTrainData" ]
+"2018/03/17-16:18:01:089 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "queryImageFromTrainData" ] path [ "/queryImageFromTrainData" ]
+"2018/03/17-16:18:01:089 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-16:18:01:089 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-16:18:01:089 DEBUG" "httpserver.cpp:registerRoute:1081" method [ PUT ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-16:18:01:089 DEBUG" "httpserver.cpp:registerRoute:1081" method [ PATCH ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-16:18:01:089 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "another" ] path [ "/another" ]
+"2018/03/17-16:18:01:089 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "another" ] path [ "/another" ]
+"2018/03/17-16:18:01:089 DEBUG" "httpserver.cpp:addDefaultProcessor:1112" Processor not enabled [ options ]
+"2018/03/17-16:18:01:089 INFO " "httpserver.cpp:start:511" Server pid 21724 running at "10.64.41.41" 6969
+"2018/03/17-16:18:22:167 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/addImageIntoTrainData/zxc"
+onPost TrainData
+"2018/03/17-16:18:22:167 WARN " "httprequest.cpp:getJson:81" "illegal value"
+TrainData New file Created :  "/home/trainDataImages/17_3_2018_16_18_22_476707713_zxc"
+TrainData New file stored :  "/home/trainDataImages/17_3_2018_16_18_22_476707713_zxc"
+2018/03/17-16:18:22:168 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:18:22:168 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:18:29:586 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-16:18:29:587 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:18:29:587 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:18:31:731 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-16:18:31:736 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:18:31:739 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:18:34:363 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-16:18:34:367 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:18:34:369 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:18:47:252 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-16:18:47:255 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:18:47:257 EXIT  httpresponse.cpp:finish:85
+2018/03/17-16:20:01:329 ENTER main.cpp:main:431
+"2018/03/17-16:20:01:329 DEBUG" "httpserver.cpp:initialize:94" Working directory "/home/paperspace/service/examples/sample"
+"2018/03/17-16:20:01:329 INFO " "httpserver.cpp:initGlobal:213" Processing filepath [ "./config/global.json" ]
+"2018/03/17-16:20:01:329 INFO " "httpserver.cpp:initGlobal:217" QJsonValue(string, "10.64.41.41")
+"2018/03/17-16:20:01:329 INFO " "httpserver.cpp:initGlobal:218" QJsonValue(double, 6969)
+"2018/03/17-16:20:01:329 DEBUG" "httpserver.cpp:initGlobal:306" Did not read headers in config file, using default headers
+"2018/03/17-16:20:01:329 INFO " "httpserver.cpp:initRoutes:360" Processing filepath [ "./config/routes.json" ]
+"2018/03/17-16:20:01:329 DEBUG" "httpserver.cpp:initialize:174" CmdLine meta-data false
+"2018/03/17-16:20:01:329 DEBUG" "httpserver.cpp:initialize:180" CmdLine swagger false
+"2018/03/17-16:20:01:329 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{a17a4237-12be-444f-b935-3ea00d1e2cca}" ] path [ "/helloworld" ]
+"2018/03/17-16:20:01:329 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{4932084b-39b0-46c3-af55-3bcfad63b37c}" ] path [ "/echobody" ]
+"2018/03/17-16:20:01:329 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{4932084b-39b0-46c3-af55-3bcfad63b37c}" ] path [ "/echobody2" ]
+"2018/03/17-16:20:01:329 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "{4932084b-39b0-46c3-af55-3bcfad63b37c}" ] path [ "/echobody3" ]
+"2018/03/17-16:20:01:329 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "addImageIntoTrainData" ] path [ "/addImageIntoTrainData/:tag" ]
+"2018/03/17-16:20:01:329 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "queryImageFromTrainData" ] path [ "/queryImageFromTrainData" ]
+"2018/03/17-16:20:01:329 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "queryImageFromTrainData" ] path [ "/queryImageFromTrainData" ]
+"2018/03/17-16:20:01:329 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-16:20:01:329 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-16:20:01:329 DEBUG" "httpserver.cpp:registerRoute:1081" method [ PUT ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-16:20:01:329 DEBUG" "httpserver.cpp:registerRoute:1081" method [ PATCH ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-16:20:01:329 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "another" ] path [ "/another" ]
+"2018/03/17-16:20:01:330 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "another" ] path [ "/another" ]
+"2018/03/17-16:20:01:330 DEBUG" "httpserver.cpp:addDefaultProcessor:1112" Processor not enabled [ options ]
+"2018/03/17-16:20:01:330 INFO " "httpserver.cpp:start:511" Server pid 21842 running at "10.64.41.41" 6969
+"2018/03/17-16:20:22:505 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/addImageIntoTrainData/zxc"
+onPost TrainData
+"2018/03/17-16:20:22:505 WARN " "httprequest.cpp:getJson:81" "illegal value"
+TrainData New file Created :  "/home/trainDataImages/17_3_2018_16_20_22_476707713_zxc"
+TrainData New file stored :  "/home/trainDataImages/17_3_2018_16_20_22_476707713_zxc"
+2018/03/17-16:20:22:506 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:20:22:506 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:20:29:884 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-16:20:29:885 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:20:29:885 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:20:31:912 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-16:20:31:916 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:20:31:919 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:20:33:858 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-16:20:33:862 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:20:33:864 EXIT  httpresponse.cpp:finish:85
+2018/03/17-16:21:01:458 ENTER main.cpp:main:431
+"2018/03/17-16:21:01:459 DEBUG" "httpserver.cpp:initialize:94" Working directory "/home/paperspace/service/examples/sample"
+"2018/03/17-16:21:01:459 INFO " "httpserver.cpp:initGlobal:213" Processing filepath [ "./config/global.json" ]
+"2018/03/17-16:21:01:459 INFO " "httpserver.cpp:initGlobal:217" QJsonValue(string, "10.64.41.41")
+"2018/03/17-16:21:01:459 INFO " "httpserver.cpp:initGlobal:218" QJsonValue(double, 6969)
+"2018/03/17-16:21:01:459 DEBUG" "httpserver.cpp:initGlobal:306" Did not read headers in config file, using default headers
+"2018/03/17-16:21:01:459 INFO " "httpserver.cpp:initRoutes:360" Processing filepath [ "./config/routes.json" ]
+"2018/03/17-16:21:01:459 DEBUG" "httpserver.cpp:initialize:174" CmdLine meta-data false
+"2018/03/17-16:21:01:459 DEBUG" "httpserver.cpp:initialize:180" CmdLine swagger false
+"2018/03/17-16:21:01:459 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{b6650c46-d2ba-478d-84d9-988cbc924c16}" ] path [ "/helloworld" ]
+"2018/03/17-16:21:01:459 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{9f3f9504-65f8-415e-9638-a71b2e4a31ef}" ] path [ "/echobody" ]
+"2018/03/17-16:21:01:459 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{9f3f9504-65f8-415e-9638-a71b2e4a31ef}" ] path [ "/echobody2" ]
+"2018/03/17-16:21:01:459 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "{9f3f9504-65f8-415e-9638-a71b2e4a31ef}" ] path [ "/echobody3" ]
+"2018/03/17-16:21:01:459 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "addImageIntoTrainData" ] path [ "/addImageIntoTrainData/:tag" ]
+"2018/03/17-16:21:01:459 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "queryImageFromTrainData" ] path [ "/queryImageFromTrainData" ]
+"2018/03/17-16:21:01:459 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "queryImageFromTrainData" ] path [ "/queryImageFromTrainData" ]
+"2018/03/17-16:21:01:459 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-16:21:01:459 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-16:21:01:459 DEBUG" "httpserver.cpp:registerRoute:1081" method [ PUT ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-16:21:01:459 DEBUG" "httpserver.cpp:registerRoute:1081" method [ PATCH ] action [ "simple" ] path [ "/simple" ]
+"2018/03/17-16:21:01:459 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "another" ] path [ "/another" ]
+"2018/03/17-16:21:01:459 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "another" ] path [ "/another" ]
+"2018/03/17-16:21:01:459 DEBUG" "httpserver.cpp:addDefaultProcessor:1112" Processor not enabled [ options ]
+"2018/03/17-16:21:01:460 INFO " "httpserver.cpp:start:511" Server pid 21900 running at "10.64.41.41" 6969
+"2018/03/17-16:21:55:199 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/addImageIntoTrainData/cb"
+onPost TrainData
+"2018/03/17-16:21:55:199 WARN " "httprequest.cpp:getJson:81" "illegal value"
+TrainData New file Created :  "/home/trainDataImages/17_3_2018_16_21_55_476707713_cb"
+TrainData New file stored :  "/home/trainDataImages/17_3_2018_16_21_55_476707713_cb"
+2018/03/17-16:21:55:199 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:21:55:200 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:22:02:261 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-16:22:02:263 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:22:02:263 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:22:04:187 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-16:22:04:191 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:22:04:194 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:24:47:108 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/addImageIntoTrainData/dfg"
+onPost TrainData
+"2018/03/17-16:24:47:108 WARN " "httprequest.cpp:getJson:81" "illegal value"
+TrainData New file Created :  "/home/trainDataImages/17_3_2018_16_24_47_589265238_dfg"
+TrainData New file stored :  "/home/trainDataImages/17_3_2018_16_24_47_589265238_dfg"
+2018/03/17-16:24:47:108 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:24:47:108 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:24:59:643 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-16:24:59:647 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:24:59:649 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:25:19:738 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-16:25:19:739 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:25:19:739 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:25:20:597 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-16:25:20:599 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:25:20:599 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:25:22:324 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-16:25:22:329 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:25:22:331 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:50:12:211 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/addImageIntoTrainData/fkl"
+onPost TrainData
+"2018/03/17-16:50:12:211 WARN " "httprequest.cpp:getJson:81" "illegal value"
+TrainData New file Created :  "/home/trainDataImages/17_3_2018_16_50_12_964899043_fkl"
+TrainData New file stored :  "/home/trainDataImages/17_3_2018_16_50_12_964899043_fkl"
+2018/03/17-16:50:12:212 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:50:12:212 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:50:20:539 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-16:50:20:543 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:50:20:545 EXIT  httpresponse.cpp:finish:85
+"2018/03/17-16:50:22:986 DEBUG" "httpserver.cpp:matchUrl:798" Found path "/queryImageFromTrainData/"
+onPost
+2018/03/17-16:50:22:988 ENTER httpresponse.cpp:finish:85
+2018/03/17-16:50:22:988 EXIT  httpresponse.cpp:finish:85
+before
+after
+2018/06/02-17:44:35:178 ENTER main.cpp:main:595
+"2018/06/02-17:44:35:179 DEBUG" "httpserver.cpp:initialize:94" Working directory "/home/ubuntu/service/service/examples/sample"
+"2018/06/02-17:44:35:179 INFO " "httpserver.cpp:initGlobal:213" Processing filepath [ "./config/global.json" ]
+"2018/06/02-17:44:35:179 INFO " "httpserver.cpp:initGlobal:217" QJsonValue(string, "172.31.14.235")
+"2018/06/02-17:44:35:179 INFO " "httpserver.cpp:initGlobal:218" QJsonValue(double, 6969)
+"2018/06/02-17:44:35:179 DEBUG" "httpserver.cpp:initGlobal:306" Did not read headers in config file, using default headers
+"2018/06/02-17:44:35:179 INFO " "httpserver.cpp:initRoutes:360" Processing filepath [ "./config/routes.json" ]
+"2018/06/02-17:44:35:179 DEBUG" "httpserver.cpp:initialize:174" CmdLine meta-data false
+"2018/06/02-17:44:35:179 DEBUG" "httpserver.cpp:initialize:180" CmdLine swagger false
+"2018/06/02-17:44:35:179 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{18c6f540-076b-4361-b9ce-7e8000ab5288}" ] path [ "/helloworld" ]
+"2018/06/02-17:44:35:179 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{328cc3be-3ede-4693-a8b2-9aa08dad6c2b}" ] path [ "/echobody" ]
+"2018/06/02-17:44:35:179 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "{328cc3be-3ede-4693-a8b2-9aa08dad6c2b}" ] path [ "/echobody2" ]
+"2018/06/02-17:44:35:179 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "{328cc3be-3ede-4693-a8b2-9aa08dad6c2b}" ] path [ "/echobody3" ]
+"2018/06/02-17:44:35:179 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "addImageIntoTrainData" ] path [ "/addImageIntoTrainData/:tag" ]
+"2018/06/02-17:44:35:179 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "queryImageFromTrainData" ] path [ "/queryImageFromTrainData" ]
+"2018/06/02-17:44:35:179 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "queryImageFromTrainData" ] path [ "/queryImageFromTrainData" ]
+"2018/06/02-17:44:35:179 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "simple" ] path [ "/simple" ]
+"2018/06/02-17:44:35:179 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "simple" ] path [ "/simple" ]
+"2018/06/02-17:44:35:179 DEBUG" "httpserver.cpp:registerRoute:1081" method [ PUT ] action [ "simple" ] path [ "/simple" ]
+"2018/06/02-17:44:35:179 DEBUG" "httpserver.cpp:registerRoute:1081" method [ PATCH ] action [ "simple" ] path [ "/simple" ]
+"2018/06/02-17:44:35:179 DEBUG" "httpserver.cpp:registerRoute:1081" method [ GET ] action [ "another" ] path [ "/another" ]
+"2018/06/02-17:44:35:179 DEBUG" "httpserver.cpp:registerRoute:1081" method [ POST ] action [ "another" ] path [ "/another" ]
+"2018/06/02-17:44:35:179 DEBUG" "httpserver.cpp:addDefaultProcessor:1112" Processor not enabled [ options ]
+"2018/06/02-17:44:35:180 INFO " "httpserver.cpp:start:511" Server pid 62467 running at "172.31.14.235" 6969

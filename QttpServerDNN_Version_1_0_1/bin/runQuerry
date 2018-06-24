@@ -1,0 +1,13 @@
+rname $0`
+
+echo "querry execution started" >> info.txt
+
+
+echo "Querry $1 $2" >> info.txt
+Querry $1 $2 >> error.txt 2>&1
+
+echo `date +"%T"` >> info.txt
+cat $3 >> info.txt
+
+echo "querry execution Finished" >> info.txt
+
